@@ -34,7 +34,8 @@ sesi27_consolidated/
 │   └── opcode_table_004_v2.json
 └── docs/
     ├── SAVE_PROGRESS_SESI26.md    ← detail progress sebelumnya
-    └── SESSION26_HONEST_STATUS.md ← status jujur
+    ├── SESSION26_HONEST_STATUS.md ← status jujur
+    └── OBFUSCATOR_WRITEUP.md      ← analisis teknis 4 obfuscator (NEW)
 ```
 
 ---
@@ -96,6 +97,9 @@ disasm.
 1. Pipeline re-verified pada sample #4 — chunk `22483b9e` (Luraph v14.7 varian baru, 600KB)
 2. 14,649 instruksi + 259 unique strings sample #4 terlift
 3. Konsolidasi semua artifact ke struktur repo yang rapi
+4. **`docs/OBFUSCATOR_WRITEUP.md`** — analisis teknis lengkap untuk 4 obfuscator family:
+   string indirection `v[1][v[3]]`, MoonSec V3 dispatch table, Luarmor V4 key system,
+   Luraph v14.4.2 vs v14.7 comparison, ceiling jujur
 
 ---
 
