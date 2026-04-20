@@ -1,51 +1,70 @@
-# Deobfuscated Modules — sample_#3
+# Deobfuscated Modules — sample_#3 (Max Hub)
 
-Hasil ekstraksi 13 modul Lua bersih dari 24 chunk yang di-`loadstring` di
-`sample3_extracted/marbeg_dumps/`. File-file ini sudah berupa Lua readable
-karena ditangkap *setelah* obfuscator VM men-decode stage-nya sendiri.
+Hasil deobfuscation dari `sample_#3.zip` (24 dump dari `marbeg` loadstring hook).
 
-## Modul
+## 📁 Isi folder
 
-| File | Asal | Deskripsi |
-|------|------|-----------|
-| `nord_notifications.lua` | dump #7 | NordNotifications — sistem toast/notifikasi (ScreenGui `NordNotifications` di CoreGui) |
-| `connection_hook_manager.lua` | dump #12 | ConnectionObj / Hook / Cooldown wrapper (`g._connections`, `g._hooks`) |
-| `ui_library_main.lua` | dump #13 | **Library UI utama** (3175 baris, `rbxassetid://99852798675591`) |
-| `component_dropdown.lua` | dump #14 | Komponen Dropdown |
-| `component_toggle.lua` | dump #15 | Komponen Toggle |
-| `component_slider.lua` | dump #18 | Komponen Slider |
-| `component_keybind.lua` | dump #19 | Komponen Keybind |
-| `component_textbox.lua` | dump #20 | Komponen TextBox |
-| `component_colorpicker.lua` | dump #22 | Komponen ColorPicker |
-| `theme_colors.lua` | dump #23 | Palette tema (light/dark) |
-| `leny_ui_utility.lua` | dump #17 | Utility Leny-UI (di-`HttpGet` dari GitHub) |
-| `leny_ui_popup.lua` | dump #16 | Popup Leny-UI |
-| `leny_ui_navigation.lua` | dump #21 | Navigation Leny-UI |
+### Clear Lua modules (13 file, sudah 100% readable)
 
-## Modul Leny-UI (fetched remote)
+Ditangkap *setelah* obfuscator VM men-decrypt stage-nya. Langsung bisa dibaca/dimodifikasi:
 
-Tiga file terakhir berasal dari:
+| File | Asal dump | Deskripsi |
+|------|-----------|-----------|
+| `nord_notifications.lua` | #7 | Sistem toast notifikasi (`NordNotifications`) |
+| `connection_hook_manager.lua` | #12 | ConnectionObj / Hook / Cooldown wrapper |
+| `ui_library_main.lua` | #13 | **Library UI utama** (3,175 baris) |
+| `component_dropdown.lua` | #14 | Komponen Dropdown |
+| `component_toggle.lua` | #15 | Komponen Toggle |
+| `leny_ui_popup.lua` | #16 | Popup Leny-UI |
+| `leny_ui_utility.lua` | #17 | Utility Leny-UI |
+| `component_slider.lua` | #18 | Komponen Slider |
+| `component_keybind.lua` | #19 | Komponen Keybind |
+| `component_textbox.lua` | #20 | Komponen TextBox |
+| `leny_ui_navigation.lua` | #21 | Navigation Leny-UI |
+| `component_colorpicker.lua` | #22 | Komponen ColorPicker |
+| `theme_colors.lua` | #23 | Palette tema (light/dark) |
 
-```
-https://raw.githubusercontent.com/Grayy12/Leny-UI/refs/heads/main/Modules/…
-https://raw.githubusercontent.com/Grayy12/EXT/main/connections.lua
-```
+### 🎯 `main_logic_recovered.lua` — game logic inti (baru!)
 
-Artinya script menggabungkan library UI komponen-an sendiri (dump #13)
-dengan loader tambahan dari repo Grayy12.
+**345KB, 1,200 fragment** Lua source di-ekstrak dari file #11 (Luraph v14.7, 3.2MB).
 
-## Yang *belum* di-deobf
+Ini adalah fragment source code yang disimpan sebagai **string konstanta** di VM Luraph.
+VM meng-concatenate & `loadstring`-kan mereka saat runtime.
 
-Payload inti masih di dalam VM bytecode:
+**Isi yang sudah teridentifikasi jelas:**
+- 🔴 **Silent Aim** — hook `findpartonraywithwhitelist` + ray redirect
+- 🔴 **Kill Aura / Gun Kill Aura** — `q.Shoot:FireServer` + `q.Hit:FireServer` loop
+- 🟡 **ESP / Chams** — `FadeOutOnDist`, `FillTransparency`, box drawing pakai UDim2
+- 🟡 **FOV visual** — circle + outline + thermal toggle
+- 🟢 **Auto Farm Scourge** — boss farm loop (MaxHub-specific)
+- 🟢 **Auto Skip Shop / Auto Sell / NPC interaction** — dialog automation
+- 🛡️ **Anti-detection**: Kick If Player Nearby, Move Away If Low, Team Check, Friendcheck
+- 🏃 **Movement**: WalkSpeed/JumpPower modifiers, Fly, Bunny Hop
 
-| File | Obfuscator | Status |
-|------|-----------|--------|
-| `002_dbb7b845.lua` | Luarmor V4 VM (602KB) | 🔒 VM-virtualized, butuh lifter |
-| `004_fe7f2e5e.lua` | Luraph v14.4.2 (239KB) | 🔒 VM-virtualized |
-| `011_abd9feca.lua` | Luraph v14.7 (3.2MB) | 🔒 VM-virtualized — payload utama cheat |
-| `024_65002084.lua` | MoonSec V3 (76KB) | 🔒 VM-virtualized |
+**Kualitas:**
+- Logic flow 100% readable ✅
+- Roblox API calls utuh ✅
+- Nama variabel lokal 1-huruf (`i`, `Z`, `t`, `j`) — sisa obfuscation ❌
+- String literal diakses via pattern `v[1][v[3]]` (tabel-indirection) — perlu runtime context untuk resolve ❌
 
-Luraph v14+ dan Luarmor V4 memakai **instruction virtualization** (bytecode
-kustom + VM handler di-obfuscate) — deobfuscate penuh tanpa lifter khusus
-tidak realistis. Analisis statis (string, fitur) tersedia di
-`../analysis/` kalau sudah dibuat.
+## 🔒 Yang *tidak* ada di folder ini (alasan teknis)
+
+| File | Obfuscator | Kenapa tidak di-extract ke deobfuscated |
+|------|-----------|----------------------------------------|
+| `002_dbb7b845.lua` | Luarmor V4 VM (602KB) | Isi = VM handler code obfuscator sendiri, bukan game logic |
+| `004_fe7f2e5e.lua` | Luraph v14.4.2 (239KB) | Payload di-encode base85 di dalam bytecode — butuh lifter |
+| `024_65002084.lua` | MoonSec V3 (76KB) | Payload di custom-base85 bytecode — butuh Lua runtime |
+
+Analisis statis ketiga file ada di `../analysis/`.
+
+## 🚀 Untuk jalankan di Delta
+
+Cara paling cepat: **jalankan `001_ee576e08.lua` apa adanya di Delta**. Ia
+akan:
+1. Cek cache `static_content_130525/init-74c74f95fd0-marbeg.lua`
+2. Kalau tidak ada, download dari `https://cdn.luarmor.net/v4_init_marbeg.lua`
+3. Setup `script_key` dari `getgenv().script_key`
+4. Auto-bootstrap sisanya
+
+`main_logic_recovered.lua` di folder ini **bukan** stand-alone executable —
+ini referensi untuk membaca/memahami logic.
