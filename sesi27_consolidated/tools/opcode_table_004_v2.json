@@ -1,0 +1,184 @@
+{
+  "9": {
+    "op": "CALL_MULTI",
+    "template": "R[C] = R[C](R[C+1..u]) -- multi-ret call",
+    "confidence": "high",
+    "body_size": 63,
+    "body_excerpt": "local z=D[g];u=z+M[g]-1.0;U[z]=U[z](O[1][10](z+1.0,u,U));u=(z);"
+  },
+  "20": {
+    "op": "MOVE_f_C",
+    "template": "R[C] = f (local state)",
+    "confidence": "medium",
+    "body_size": 12,
+    "body_excerpt": "(U)[D[g]]=f;"
+  },
+  "22": {
+    "op": "RETURN",
+    "template": "return (details in body)",
+    "confidence": "low",
+    "body_size": 172,
+    "body_excerpt": "if O[1][0X9]~=O[1][14]then else while O[0X1][14]do O[1][0X23],O[0X1][0X20]=O[0X1][0X9],(O[0x1][0X21]*0Xa3);end;if not(O["
+  },
+  "24": {
+    "op": "RETURN",
+    "template": "return (details in body)",
+    "confidence": "low",
+    "body_size": 368,
+    "body_excerpt": "local f=M[g];local Z,C,W=N();if O[0X1][26]~=O[1][35]then else while-O[0X1][2]do O[1][29],O[0X1][0X2]=O[0x1][0X10],O[0X1]"
+  },
+  "26": {
+    "op": "CONCAT_RR",
+    "template": "R[C] = R[A] .. R[B]",
+    "confidence": "high",
+    "body_size": 27,
+    "body_excerpt": "(U)[D[g]]=U[M[g]]..U[s[g]];"
+  },
+  "30": {
+    "op": "NEWTABLE_C",
+    "template": "R[C] = {}",
+    "confidence": "high",
+    "body_size": 15,
+    "body_excerpt": "(U)[D[g]]=({});"
+  },
+  "33": {
+    "op": "NEQ_KK",
+    "template": "R[C] = K_E ~= K_Q",
+    "confidence": "high",
+    "body_size": 21,
+    "body_excerpt": "(U)[D[g]]=E[g]~=Q[g];"
+  },
+  "37": {
+    "op": "LOADK_LONG",
+    "template": "R[?] = <decoded long constant>",
+    "confidence": "medium",
+    "body_size": 4477,
+    "body_excerpt": "local f,Z,C,W,r,K,N,b=l[g],(36);while true do if Z==36.0 then N=98.0;Z=-0X12A9+((O[0x1][35][21.0](v-Z+v,(O[0X1][35][15.0"
+  },
+  "50": {
+    "op": "EQ_KK",
+    "template": "R[C] = K_Q == K_E",
+    "confidence": "high",
+    "body_size": 23,
+    "body_excerpt": "(U)[D[g]]=(Q[g]==E[g]);"
+  },
+  "56": {
+    "op": "EQ_K_JMP",
+    "template": "if R[C]==K[E] then PC=s[g]",
+    "confidence": "high",
+    "body_size": 37,
+    "body_excerpt": "if U[D[g]]~=E[g]then else g=s[g];end;"
+  },
+  "58": {
+    "op": "SETTABLE_RRBx",
+    "template": "R[B][R[A]] = Bx",
+    "confidence": "high",
+    "body_size": 22,
+    "body_excerpt": "U[s[g]][U[M[g]]]=L[g];"
+  },
+  "64": {
+    "op": "LE_RBx",
+    "template": "R[B] = R[A] <= Bx",
+    "confidence": "high",
+    "body_size": 26,
+    "body_excerpt": "(U)[s[g]]=(U[M[g]]<=L[g]);"
+  },
+  "69": {
+    "op": "SETTABLE_RBxK",
+    "template": "R[A][Bx] = K_Q",
+    "confidence": "high",
+    "body_size": 23,
+    "body_excerpt": "(R[M[g]])[L[g]]=(Q[g]);"
+  },
+  "73": {
+    "op": "GE_BxR",
+    "template": "R[A] = Bx >= R[B]",
+    "confidence": "high",
+    "body_size": 24,
+    "body_excerpt": "U[M[g]]=(L[g]>=U[s[g]]);"
+  },
+  "75": {
+    "op": "SETGLOBAL",
+    "template": "_G[B] = R[C]",
+    "confidence": "high",
+    "body_size": 29,
+    "body_excerpt": "(O[1][0X23])[s[g]]=(U[D[g]]);"
+  },
+  "79": {
+    "op": "ADD_BxK",
+    "template": "R[B] = Bx + K_E",
+    "confidence": "high",
+    "body_size": 20,
+    "body_excerpt": "(U)[s[g]]=L[g]+E[g];"
+  },
+  "81": {
+    "op": "CALL_1",
+    "template": "R[A](R[A+1]) -- 1-arg 0-return call",
+    "confidence": "high",
+    "body_size": 38,
+    "body_excerpt": "local z=(M[g]);U[z](U[z+1.0]);u=z-1.0;"
+  },
+  "84": {
+    "op": "SETUPVAL_K",
+    "template": "p[K_E] = R[B] (upvalue/param table)",
+    "confidence": "medium",
+    "body_size": 18,
+    "body_excerpt": "(p)[E[g]]=U[s[g]];"
+  },
+  "86": {
+    "op": "GETTABLE_RBx",
+    "template": "R[B] = R[A][Bx]",
+    "confidence": "high",
+    "body_size": 24,
+    "body_excerpt": "(U)[s[g]]=U[M[g]][L[g]];"
+  },
+  "88": {
+    "op": "NOT",
+    "template": "R[A] = not R[B]",
+    "confidence": "high",
+    "body_size": 22,
+    "body_excerpt": "(U)[M[g]]=not U[s[g]];"
+  },
+  "101": {
+    "op": "RETURN_CALL_C",
+    "template": "return R[C]()",
+    "confidence": "high",
+    "body_size": 524,
+    "body_excerpt": "if O[1][0X20]~=O[1][6]then else if O[1][6]then O[1][0X5]=O[0X1][29];(O[0X1])[0Xe],O[0X1][0X26]=-(0X84/17),O[0X1][28]*(0x"
+  },
+  "111": {
+    "op": "RETURN",
+    "template": "return (details in body)",
+    "confidence": "low",
+    "body_size": 250,
+    "body_excerpt": "if d then for z,V in d do if O[0x1][0X23]==O[1][33]then while-O[0x1][0XB]do(O[1])[0x10]=(O[0x1][0x23]);O[0X1][0X10]=O[0X"
+  },
+  "115": {
+    "op": "GETUPVAL",
+    "template": "R[A] = Up[C]",
+    "confidence": "medium",
+    "body_size": 20,
+    "body_excerpt": "(U)[M[g]]=(R[D[g]]);"
+  },
+  "120": {
+    "op": "LT_RR_JMP",
+    "template": "if R[A]<R[C] then <noop> else PC=B",
+    "confidence": "high",
+    "body_size": 51,
+    "body_excerpt": "if not(not(U[M[g]]<U[D[g]]))then else g=(s[g]);end;"
+  },
+  "127": {
+    "op": "LOADNIL",
+    "template": "for R[B..C]=nil",
+    "confidence": "high",
+    "body_size": 35,
+    "body_excerpt": "for z=s[g],D[g],1 do(U)[z]=nil;end;"
+  },
+  "129": {
+    "op": "SELF",
+    "template": "R[A+1]=R[B]; R[A]=R[B][Bx]",
+    "confidence": "high",
+    "body_size": 49,
+    "body_excerpt": "local z,V=s[g],U[M[g]];U[z+1.0]=(V);U[z]=V[L[g]];"
+  }
+}

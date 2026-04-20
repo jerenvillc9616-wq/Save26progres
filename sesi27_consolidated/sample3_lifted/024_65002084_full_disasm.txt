@@ -1,0 +1,4186 @@
+=== Proto main (0-0) ===
+  params=0 vararg=True maxstack=5
+  upvalues(1): _ENV(stk0)
+  constants (37):
+    K0: 'rawget'
+    K1: '_G'
+    K2: 'bit32'
+    K3: 'rawset'
+    K4: 'band'
+    K5: 'bor'
+    K6: 'bxor'
+    K7: 'bnot'
+    K8: 'lshift'
+    K9: 'rshift'
+    K10: 'arshift'
+    K11: 'lrotate'
+    K12: 'rrotate'
+    K13: 'countlz'
+    K14: 'countrz'
+    K15: 'byteswap'
+    K16: 'extract'
+    K17: 'replace'
+    K18: 'btest'
+    K19: 'table'
+    K20: 'unpack'
+    K21: 'buffer'
+    K22: 'create'
+    K23: 'fromstring'
+    K24: 'tostring'
+    K25: 'len'
+    K26: 'readu8'
+    K27: 'writeu8'
+    K28: 'readu16'
+    K29: 'readu32'
+    K30: 'writeu16'
+    K31: 'writeu32'
+    K32: 'copy'
+    K33: 'fill'
+    K34: 'This file was protected with MoonSec V3'
+    K35: 'gsub'
+    K36: '.+'
+  code (142 instr):
+        0 GETTABUP   A=0 B=R0 C=K0
+        1 GETTABUP   A=1 B=R0 C=K1
+        2 LOADK      A=2 Bx=2 ; 'bit32'
+        3 CALL       A=0 B=R3 C=R2
+        4 TEST       A=0 B=R0 C=R1
+        5 JMP        A=0 sBx=1 (-> 7)
+        6 NEWTABLE   A=0 B=R0 C=R0
+        7 GETTABUP   A=1 B=R0 C=K3
+        8 GETTABUP   A=2 B=R0 C=K1
+        9 LOADK      A=3 Bx=2 ; 'bit32'
+       10 MOVE       A=4 B=R0 C=R0
+       11 CALL       A=1 B=R4 C=R1
+       12 CLOSURE    A=1 Bx=0 ; proto[0]
+       13 GETTABLE   A=2 B=R0 C=K4
+       14 TEST       A=2 B=R0 C=R1
+       15 JMP        A=0 sBx=2 (-> 18)
+       16 CLOSURE    A=2 Bx=1 ; proto[1]
+       17 SETTABLE   A=0 B=K4 C=R2
+       18 GETTABLE   A=2 B=R0 C=K5
+       19 TEST       A=2 B=R0 C=R1
+       20 JMP        A=0 sBx=2 (-> 23)
+       21 CLOSURE    A=2 Bx=2 ; proto[2]
+       22 SETTABLE   A=0 B=K5 C=R2
+       23 GETTABLE   A=2 B=R0 C=K6
+       24 TEST       A=2 B=R0 C=R1
+       25 JMP        A=0 sBx=2 (-> 28)
+       26 CLOSURE    A=2 Bx=3 ; proto[3]
+       27 SETTABLE   A=0 B=K6 C=R2
+       28 GETTABLE   A=2 B=R0 C=K7
+       29 TEST       A=2 B=R0 C=R1
+       30 JMP        A=0 sBx=2 (-> 33)
+       31 CLOSURE    A=2 Bx=4 ; proto[4]
+       32 SETTABLE   A=0 B=K7 C=R2
+       33 GETTABLE   A=2 B=R0 C=K8
+       34 TEST       A=2 B=R0 C=R1
+       35 JMP        A=0 sBx=2 (-> 38)
+       36 CLOSURE    A=2 Bx=5 ; proto[5]
+       37 SETTABLE   A=0 B=K8 C=R2
+       38 GETTABLE   A=2 B=R0 C=K9
+       39 TEST       A=2 B=R0 C=R1
+       40 JMP        A=0 sBx=2 (-> 43)
+       41 CLOSURE    A=2 Bx=6 ; proto[6]
+       42 SETTABLE   A=0 B=K9 C=R2
+       43 GETTABLE   A=2 B=R0 C=K10
+       44 TEST       A=2 B=R0 C=R1
+       45 JMP        A=0 sBx=2 (-> 48)
+       46 CLOSURE    A=2 Bx=7 ; proto[7]
+       47 SETTABLE   A=0 B=K10 C=R2
+       48 GETTABLE   A=2 B=R0 C=K11
+       49 TEST       A=2 B=R0 C=R1
+       50 JMP        A=0 sBx=2 (-> 53)
+       51 CLOSURE    A=2 Bx=8 ; proto[8]
+       52 SETTABLE   A=0 B=K11 C=R2
+       53 GETTABLE   A=2 B=R0 C=K12
+       54 TEST       A=2 B=R0 C=R1
+       55 JMP        A=0 sBx=2 (-> 58)
+       56 CLOSURE    A=2 Bx=9 ; proto[9]
+       57 SETTABLE   A=0 B=K12 C=R2
+       58 GETTABLE   A=2 B=R0 C=K13
+       59 TEST       A=2 B=R0 C=R1
+       60 JMP        A=0 sBx=2 (-> 63)
+       61 CLOSURE    A=2 Bx=10 ; proto[10]
+       62 SETTABLE   A=0 B=K13 C=R2
+       63 GETTABLE   A=2 B=R0 C=K14
+       64 TEST       A=2 B=R0 C=R1
+       65 JMP        A=0 sBx=2 (-> 68)
+       66 CLOSURE    A=2 Bx=11 ; proto[11]
+       67 SETTABLE   A=0 B=K14 C=R2
+       68 GETTABLE   A=2 B=R0 C=K15
+       69 TEST       A=2 B=R0 C=R1
+       70 JMP        A=0 sBx=2 (-> 73)
+       71 CLOSURE    A=2 Bx=12 ; proto[12]
+       72 SETTABLE   A=0 B=K15 C=R2
+       73 GETTABLE   A=2 B=R0 C=K16
+       74 TEST       A=2 B=R0 C=R1
+       75 JMP        A=0 sBx=2 (-> 78)
+       76 CLOSURE    A=2 Bx=13 ; proto[13]
+       77 SETTABLE   A=0 B=K16 C=R2
+       78 GETTABLE   A=2 B=R0 C=K17
+       79 TEST       A=2 B=R0 C=R1
+       80 JMP        A=0 sBx=2 (-> 83)
+       81 CLOSURE    A=2 Bx=14 ; proto[14]
+       82 SETTABLE   A=0 B=K17 C=R2
+       83 GETTABLE   A=2 B=R0 C=K18
+       84 TEST       A=2 B=R0 C=R1
+       85 JMP        A=1 sBx=3 (-> 89)
+       86 CLOSURE    A=2 Bx=15 ; proto[15]
+       87 SETTABLE   A=0 B=K18 C=R2
+       88 JMP        A=1 sBx=0 (-> 89)
+       89 GETTABUP   A=0 B=R0 C=K19
+       90 GETTABLE   A=0 B=R0 C=K20
+       91 TEST       A=0 B=R0 C=R1
+       92 JMP        A=0 sBx=3 (-> 96)
+       93 GETTABUP   A=0 B=R0 C=K19
+       94 GETTABUP   A=1 B=R0 C=K20
+       95 SETTABLE   A=0 B=K20 C=R1
+       96 GETTABUP   A=0 B=R0 C=K20
+       97 TEST       A=0 B=R0 C=R1
+       98 JMP        A=0 sBx=3 (-> 102)
+       99 GETTABUP   A=0 B=R0 C=K19
+      100 GETTABLE   A=0 B=R0 C=K20
+      101 SETTABUP   A=0 B=K20 C=R0
+      102 GETTABUP   A=0 B=R0 C=K21
+      103 TEST       A=0 B=R0 C=R1
+      104 JMP        A=0 sBx=26 (-> 131)
+      105 NEWTABLE   A=0 B=R0 C=R12
+      106 CLOSURE    A=1 Bx=16 ; proto[16]
+      107 SETTABLE   A=0 B=K22 C=R1
+      108 CLOSURE    A=1 Bx=17 ; proto[17]
+      109 SETTABLE   A=0 B=K23 C=R1
+      110 CLOSURE    A=1 Bx=18 ; proto[18]
+      111 SETTABLE   A=0 B=K24 C=R1
+      112 CLOSURE    A=1 Bx=19 ; proto[19]
+      113 SETTABLE   A=0 B=K25 C=R1
+      114 CLOSURE    A=1 Bx=20 ; proto[20]
+      115 SETTABLE   A=0 B=K26 C=R1
+      116 CLOSURE    A=1 Bx=21 ; proto[21]
+      117 SETTABLE   A=0 B=K27 C=R1
+      118 CLOSURE    A=1 Bx=22 ; proto[22]
+      119 SETTABLE   A=0 B=K28 C=R1
+      120 CLOSURE    A=1 Bx=23 ; proto[23]
+      121 SETTABLE   A=0 B=K29 C=R1
+      122 CLOSURE    A=1 Bx=24 ; proto[24]
+      123 SETTABLE   A=0 B=K30 C=R1
+      124 CLOSURE    A=1 Bx=25 ; proto[25]
+      125 SETTABLE   A=0 B=K31 C=R1
+      126 CLOSURE    A=1 Bx=26 ; proto[26]
+      127 SETTABLE   A=0 B=K32 C=R1
+      128 CLOSURE    A=1 Bx=27 ; proto[27]
+      129 SETTABLE   A=0 B=K33 C=R1
+      130 SETTABUP   A=0 B=K21 C=R0
+      131 LOADK      A=0 Bx=34 ; 'This file was protected with MoonSec V3'
+      132 SELF       A=0 B=R0 C=K35
+      133 LOADK      A=2 Bx=36 ; '.+'
+      134 CLOSURE    A=3 Bx=28 ; proto[28]
+      135 CALL       A=0 B=R4 C=R1
+      136 CLOSURE    A=0 Bx=29 ; proto[29]
+      137 CLOSURE    A=1 Bx=30 ; proto[30]
+      138 VARARG     A=2 B=R0 C=R0
+      139 TAILCALL   A=0 B=R0 C=R0
+      140 RETURN     A=0 B=R0 C=R0
+      141 RETURN     A=0 B=R1 C=R0
+  sub-protos: 31
+
+  === Proto main.0 (5-5) ===
+    params=1 vararg=False maxstack=2
+    upvalues(0): 
+    constants (1):
+      K0: 4294967295
+    code (3 instr):
+          0 BAND       A=1 B=R0 C=K0
+          1 RETURN     A=1 B=R2 C=R0
+          2 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.1 (6-6) ===
+    params=0 vararg=True maxstack=7
+    upvalues(2): _ENV(upv0), _to_u32(stk1)
+    constants (2):
+      K0: 4294967295
+      K1: 'ipairs'
+    code (18 instr):
+          0 LOADK      A=0 Bx=0 ; 4294967295
+          1 GETTABUP   A=1 B=R0 C=K1
+          2 NEWTABLE   A=2 B=R0 C=R0
+          3 VARARG     A=3 B=R0 C=R0
+          4 SETLIST    A=2 B=R0 C=R1
+          5 CALL       A=1 B=R2 C=R4
+          6 JMP        A=0 sBx=4 (-> 11)
+          7 TESTSET    A=6 B=R5 C=R1
+          8 JMP        A=0 sBx=1 (-> 10)
+          9 LOADK      A=6 Bx=0 ; 4294967295
+         10 BAND       A=0 B=R0 C=R6
+         11 TFORCALL   A=1 B=R0 C=R2
+         12 TFORLOOP   A=3 sBx=-6 (-> 7)
+         13 GETUPVAL   A=1 B=R1 C=R0
+         14 MOVE       A=2 B=R0 C=R0
+         15 TAILCALL   A=1 B=R2 C=R0
+         16 RETURN     A=1 B=R0 C=R0
+         17 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.2 (7-7) ===
+    params=0 vararg=True maxstack=7
+    upvalues(2): _ENV(upv0), _to_u32(stk1)
+    constants (2):
+      K0: 0
+      K1: 'ipairs'
+    code (18 instr):
+          0 LOADK      A=0 Bx=0 ; 0
+          1 GETTABUP   A=1 B=R0 C=K1
+          2 NEWTABLE   A=2 B=R0 C=R0
+          3 VARARG     A=3 B=R0 C=R0
+          4 SETLIST    A=2 B=R0 C=R1
+          5 CALL       A=1 B=R2 C=R4
+          6 JMP        A=0 sBx=4 (-> 11)
+          7 TESTSET    A=6 B=R5 C=R1
+          8 JMP        A=0 sBx=1 (-> 10)
+          9 LOADK      A=6 Bx=0 ; 0
+         10 BOR        A=0 B=R0 C=R6
+         11 TFORCALL   A=1 B=R0 C=R2
+         12 TFORLOOP   A=3 sBx=-6 (-> 7)
+         13 GETUPVAL   A=1 B=R1 C=R0
+         14 MOVE       A=2 B=R0 C=R0
+         15 TAILCALL   A=1 B=R2 C=R0
+         16 RETURN     A=1 B=R0 C=R0
+         17 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.3 (8-8) ===
+    params=0 vararg=True maxstack=7
+    upvalues(2): _ENV(upv0), _to_u32(stk1)
+    constants (2):
+      K0: 0
+      K1: 'ipairs'
+    code (18 instr):
+          0 LOADK      A=0 Bx=0 ; 0
+          1 GETTABUP   A=1 B=R0 C=K1
+          2 NEWTABLE   A=2 B=R0 C=R0
+          3 VARARG     A=3 B=R0 C=R0
+          4 SETLIST    A=2 B=R0 C=R1
+          5 CALL       A=1 B=R2 C=R4
+          6 JMP        A=0 sBx=4 (-> 11)
+          7 TESTSET    A=6 B=R5 C=R1
+          8 JMP        A=0 sBx=1 (-> 10)
+          9 LOADK      A=6 Bx=0 ; 0
+         10 BXOR       A=0 B=R0 C=R6
+         11 TFORCALL   A=1 B=R0 C=R2
+         12 TFORLOOP   A=3 sBx=-6 (-> 7)
+         13 GETUPVAL   A=1 B=R1 C=R0
+         14 MOVE       A=2 B=R0 C=R0
+         15 TAILCALL   A=1 B=R2 C=R0
+         16 RETURN     A=1 B=R0 C=R0
+         17 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.4 (9-9) ===
+    params=1 vararg=False maxstack=3
+    upvalues(1): _to_u32(stk1)
+    constants (0):
+    code (5 instr):
+          0 GETUPVAL   A=1 B=R0 C=R0
+          1 BNOT       A=2 B=R0 C=R0
+          2 TAILCALL   A=1 B=R2 C=R0
+          3 RETURN     A=1 B=R0 C=R0
+          4 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.5 (10-10) ===
+    params=2 vararg=False maxstack=5
+    upvalues(1): _to_u32(stk1)
+    constants (2):
+      K0: 4294967295
+      K1: 31
+    code (7 instr):
+          0 GETUPVAL   A=2 B=R0 C=R0
+          1 BAND       A=3 B=R0 C=K0
+          2 BAND       A=4 B=R1 C=K1
+          3 SHL        A=3 B=R3 C=R4
+          4 TAILCALL   A=2 B=R2 C=R0
+          5 RETURN     A=2 B=R0 C=R0
+          6 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.6 (11-11) ===
+    params=2 vararg=False maxstack=5
+    upvalues(1): _to_u32(stk1)
+    constants (2):
+      K0: 4294967295
+      K1: 31
+    code (7 instr):
+          0 GETUPVAL   A=2 B=R0 C=R0
+          1 BAND       A=3 B=R0 C=K0
+          2 BAND       A=4 B=R1 C=K1
+          3 SHR        A=3 B=R3 C=R4
+          4 TAILCALL   A=2 B=R2 C=R0
+          5 RETURN     A=2 B=R0 C=R0
+          6 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.7 (12-19) ===
+    params=2 vararg=False maxstack=5
+    upvalues(1): _to_u32(stk1)
+    constants (5):
+      K0: 4294967295
+      K1: 31
+      K2: 2147483648
+      K3: 1
+      K4: 32
+    code (17 instr):
+          0 BAND       A=0 B=R0 C=K0
+          1 BAND       A=1 B=R1 C=K1
+          2 LT         A=0 B=R0 C=K2
+          3 JMP        A=0 sBx=2 (-> 6)
+          4 SHR        A=2 B=R0 C=R1
+          5 RETURN     A=2 B=R2 C=R0
+          6 SHR        A=2 B=R0 C=R1
+          7 SHL        A=3 B=K3 C=R1
+          8 SUB        A=3 B=R3 C=K3
+          9 SUB        A=4 B=K4 C=R1
+         10 SHL        A=3 B=R3 C=R4
+         11 BOR        A=2 B=R2 C=R3
+         12 GETUPVAL   A=3 B=R0 C=R0
+         13 MOVE       A=4 B=R2 C=R0
+         14 TAILCALL   A=3 B=R2 C=R0
+         15 RETURN     A=3 B=R0 C=R0
+         16 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.8 (21-21) ===
+    params=2 vararg=False maxstack=5
+    upvalues(1): _to_u32(stk1)
+    constants (3):
+      K0: 4294967295
+      K1: 31
+      K2: 32
+    code (10 instr):
+          0 BAND       A=0 B=R0 C=K0
+          1 BAND       A=1 B=R1 C=K1
+          2 GETUPVAL   A=2 B=R0 C=R0
+          3 SHL        A=3 B=R0 C=R1
+          4 SUB        A=4 B=K2 C=R1
+          5 SHR        A=4 B=R0 C=R4
+          6 BOR        A=3 B=R3 C=R4
+          7 TAILCALL   A=2 B=R2 C=R0
+          8 RETURN     A=2 B=R0 C=R0
+          9 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.9 (22-22) ===
+    params=2 vararg=False maxstack=5
+    upvalues(1): _to_u32(stk1)
+    constants (3):
+      K0: 4294967295
+      K1: 31
+      K2: 32
+    code (10 instr):
+          0 BAND       A=0 B=R0 C=K0
+          1 BAND       A=1 B=R1 C=K1
+          2 GETUPVAL   A=2 B=R0 C=R0
+          3 SHR        A=3 B=R0 C=R1
+          4 SUB        A=4 B=K2 C=R1
+          5 SHL        A=4 B=R0 C=R4
+          6 BOR        A=3 B=R3 C=R4
+          7 TAILCALL   A=2 B=R2 C=R0
+          8 RETURN     A=2 B=R0 C=R0
+          9 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.10 (23-23) ===
+    params=1 vararg=False maxstack=3
+    upvalues(0): 
+    constants (5):
+      K0: 4294967295
+      K1: 0
+      K2: 32
+      K3: 2147483648
+      K4: 1
+    code (14 instr):
+          0 BAND       A=0 B=R0 C=K0
+          1 EQ         A=0 B=R0 C=K1
+          2 JMP        A=0 sBx=2 (-> 5)
+          3 LOADK      A=1 Bx=2 ; 32
+          4 RETURN     A=1 B=R2 C=R0
+          5 LOADK      A=1 Bx=1 ; 0
+          6 BAND       A=2 B=R0 C=K3
+          7 EQ         A=0 B=R2 C=K1
+          8 JMP        A=0 sBx=3 (-> 12)
+          9 ADD        A=1 B=R1 C=K4
+         10 SHL        A=0 B=R0 C=K4
+         11 JMP        A=0 sBx=-6 (-> 6)
+         12 RETURN     A=1 B=R2 C=R0
+         13 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.11 (24-24) ===
+    params=1 vararg=False maxstack=3
+    upvalues(0): 
+    constants (4):
+      K0: 4294967295
+      K1: 0
+      K2: 32
+      K3: 1
+    code (14 instr):
+          0 BAND       A=0 B=R0 C=K0
+          1 EQ         A=0 B=R0 C=K1
+          2 JMP        A=0 sBx=2 (-> 5)
+          3 LOADK      A=1 Bx=2 ; 32
+          4 RETURN     A=1 B=R2 C=R0
+          5 LOADK      A=1 Bx=1 ; 0
+          6 BAND       A=2 B=R0 C=K3
+          7 EQ         A=0 B=R2 C=K1
+          8 JMP        A=0 sBx=3 (-> 12)
+          9 ADD        A=1 B=R1 C=K3
+         10 SHR        A=0 B=R0 C=K3
+         11 JMP        A=0 sBx=-6 (-> 6)
+         12 RETURN     A=1 B=R2 C=R0
+         13 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.12 (25-25) ===
+    params=1 vararg=False maxstack=4
+    upvalues(1): _to_u32(stk1)
+    constants (5):
+      K0: 4294967295
+      K1: 255
+      K2: 24
+      K3: 65280
+      K4: 8
+    code (16 instr):
+          0 BAND       A=0 B=R0 C=K0
+          1 GETUPVAL   A=1 B=R0 C=R0
+          2 BAND       A=2 B=R0 C=K1
+          3 SHL        A=2 B=R2 C=K2
+          4 BAND       A=3 B=R0 C=K3
+          5 SHL        A=3 B=R3 C=K4
+          6 BOR        A=2 B=R2 C=R3
+          7 SHR        A=3 B=R0 C=K4
+          8 BAND       A=3 B=R3 C=K3
+          9 BOR        A=2 B=R2 C=R3
+         10 SHR        A=3 B=R0 C=K2
+         11 BAND       A=3 B=R3 C=K1
+         12 BOR        A=2 B=R2 C=R3
+         13 TAILCALL   A=1 B=R2 C=R0
+         14 RETURN     A=1 B=R0 C=R0
+         15 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.13 (26-26) ===
+    params=3 vararg=False maxstack=5
+    upvalues(0): 
+    constants (1):
+      K0: 1
+    code (9 instr):
+          0 TEST       A=2 B=R0 C=R1
+          1 JMP        A=0 sBx=1 (-> 3)
+          2 LOADK      A=2 Bx=0 ; 1
+          3 SHR        A=3 B=R0 C=R1
+          4 SHL        A=4 B=K0 C=R2
+          5 SUB        A=4 B=R4 C=K0
+          6 BAND       A=3 B=R3 C=R4
+          7 RETURN     A=3 B=R2 C=R0
+          8 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.14 (27-27) ===
+    params=4 vararg=False maxstack=8
+    upvalues(1): _to_u32(stk1)
+    constants (1):
+      K0: 1
+    code (15 instr):
+          0 TEST       A=3 B=R0 C=R1
+          1 JMP        A=0 sBx=1 (-> 3)
+          2 LOADK      A=3 Bx=0 ; 1
+          3 SHL        A=4 B=K0 C=R3
+          4 SUB        A=4 B=R4 C=K0
+          5 SHL        A=4 B=R4 C=R2
+          6 GETUPVAL   A=5 B=R0 C=R0
+          7 BNOT       A=6 B=R4 C=R0
+          8 BAND       A=6 B=R0 C=R6
+          9 SHL        A=7 B=R1 C=R2
+         10 BAND       A=7 B=R7 C=R4
+         11 BOR        A=6 B=R6 C=R7
+         12 TAILCALL   A=5 B=R2 C=R0
+         13 RETURN     A=5 B=R0 C=R0
+         14 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.15 (28-28) ===
+    params=2 vararg=False maxstack=3
+    upvalues(0): 
+    constants (1):
+      K0: 0
+    code (7 instr):
+          0 BAND       A=2 B=R0 C=R1
+          1 EQ         A=0 B=R2 C=K0
+          2 JMP        A=0 sBx=1 (-> 4)
+          3 LOADBOOL   A=2 B=R0 C=R1
+          4 LOADBOOL   A=2 B=R1 C=R0
+          5 RETURN     A=2 B=R2 C=R0
+          6 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.16 (35-35) ===
+    params=1 vararg=False maxstack=7
+    upvalues(0): 
+    constants (4):
+      K0: 'n'
+      K1: 'd'
+      K2: 0
+      K3: 1
+    code (13 instr):
+          0 NEWTABLE   A=1 B=R0 C=R2
+          1 SETTABLE   A=1 B=K0 C=R0
+          2 NEWTABLE   A=2 B=R0 C=R0
+          3 SETTABLE   A=1 B=K1 C=R2
+          4 LOADK      A=2 Bx=2 ; 0
+          5 SUB        A=3 B=R0 C=K3
+          6 LOADK      A=4 Bx=3 ; 1
+          7 FORPREP    A=2 sBx=2 (-> 10)
+          8 GETTABLE   A=6 B=R1 C=K1
+          9 SETTABLE   A=6 B=R5 C=K2
+         10 FORLOOP    A=2 sBx=-3 (-> 8)
+         11 RETURN     A=1 B=R2 C=R0
+         12 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.17 (36-36) ===
+    params=1 vararg=False maxstack=11
+    upvalues(1): _ENV(upv0)
+    constants (5):
+      K0: 'n'
+      K1: 'd'
+      K2: 1
+      K3: 'string'
+      K4: 'byte'
+    code (20 instr):
+          0 NEWTABLE   A=1 B=R0 C=R2
+          1 LEN        A=2 B=R0 C=R0
+          2 SETTABLE   A=1 B=K0 C=R2
+          3 NEWTABLE   A=2 B=R0 C=R0
+          4 SETTABLE   A=1 B=K1 C=R2
+          5 LOADK      A=2 Bx=2 ; 1
+          6 LEN        A=3 B=R0 C=R0
+          7 LOADK      A=4 Bx=2 ; 1
+          8 FORPREP    A=2 sBx=8 (-> 17)
+          9 GETTABLE   A=6 B=R1 C=K1
+         10 SUB        A=7 B=R5 C=K2
+         11 GETTABUP   A=8 B=R0 C=K3
+         12 GETTABLE   A=8 B=R8 C=K4
+         13 MOVE       A=9 B=R0 C=R0
+         14 MOVE       A=10 B=R5 C=R0
+         15 CALL       A=8 B=R3 C=R2
+         16 SETTABLE   A=6 B=R7 C=R8
+         17 FORLOOP    A=2 sBx=-9 (-> 9)
+         18 RETURN     A=1 B=R2 C=R0
+         19 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.18 (37-37) ===
+    params=1 vararg=False maxstack=9
+    upvalues(1): _ENV(upv0)
+    constants (8):
+      K0: 0
+      K1: 'n'
+      K2: 1
+      K3: 'string'
+      K4: 'char'
+      K5: 'd'
+      K6: 'table'
+      K7: 'concat'
+    code (24 instr):
+          0 NEWTABLE   A=1 B=R0 C=R0
+          1 LOADK      A=2 Bx=0 ; 0
+          2 GETTABLE   A=3 B=R0 C=K1
+          3 SUB        A=3 B=R3 C=K2
+          4 LOADK      A=4 Bx=2 ; 1
+          5 FORPREP    A=2 sBx=11 (-> 17)
+          6 LEN        A=6 B=R1 C=R0
+          7 ADD        A=6 B=R6 C=K2
+          8 GETTABUP   A=7 B=R0 C=K3
+          9 GETTABLE   A=7 B=R7 C=K4
+         10 GETTABLE   A=8 B=R0 C=K5
+         11 GETTABLE   A=8 B=R8 C=R5
+         12 TEST       A=8 B=R0 C=R1
+         13 JMP        A=0 sBx=1 (-> 15)
+         14 LOADK      A=8 Bx=0 ; 0
+         15 CALL       A=7 B=R2 C=R2
+         16 SETTABLE   A=1 B=R6 C=R7
+         17 FORLOOP    A=2 sBx=-12 (-> 6)
+         18 GETTABUP   A=2 B=R0 C=K6
+         19 GETTABLE   A=2 B=R2 C=K7
+         20 MOVE       A=3 B=R1 C=R0
+         21 TAILCALL   A=2 B=R2 C=R0
+         22 RETURN     A=2 B=R0 C=R0
+         23 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.19 (38-38) ===
+    params=1 vararg=False maxstack=2
+    upvalues(0): 
+    constants (1):
+      K0: 'n'
+    code (3 instr):
+          0 GETTABLE   A=1 B=R0 C=K0
+          1 RETURN     A=1 B=R2 C=R0
+          2 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.20 (39-39) ===
+    params=2 vararg=False maxstack=3
+    upvalues(0): 
+    constants (2):
+      K0: 'd'
+      K1: 0
+    code (7 instr):
+          0 GETTABLE   A=2 B=R0 C=K0
+          1 GETTABLE   A=2 B=R2 C=R1
+          2 TEST       A=2 B=R0 C=R1
+          3 JMP        A=0 sBx=1 (-> 5)
+          4 LOADK      A=2 Bx=1 ; 0
+          5 RETURN     A=2 B=R2 C=R0
+          6 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.21 (40-40) ===
+    params=3 vararg=False maxstack=5
+    upvalues(0): 
+    constants (2):
+      K0: 'd'
+      K1: 255
+    code (4 instr):
+          0 GETTABLE   A=3 B=R0 C=K0
+          1 BAND       A=4 B=R2 C=K1
+          2 SETTABLE   A=3 B=R1 C=R4
+          3 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.22 (41-41) ===
+    params=2 vararg=False maxstack=5
+    upvalues(0): 
+    constants (4):
+      K0: 'd'
+      K1: 0
+      K2: 1
+      K3: 8
+    code (15 instr):
+          0 GETTABLE   A=2 B=R0 C=K0
+          1 GETTABLE   A=2 B=R2 C=R1
+          2 TEST       A=2 B=R0 C=R1
+          3 JMP        A=0 sBx=1 (-> 5)
+          4 LOADK      A=2 Bx=1 ; 0
+          5 GETTABLE   A=3 B=R0 C=K0
+          6 ADD        A=4 B=R1 C=K2
+          7 GETTABLE   A=3 B=R3 C=R4
+          8 TEST       A=3 B=R0 C=R1
+          9 JMP        A=0 sBx=1 (-> 11)
+         10 LOADK      A=3 Bx=1 ; 0
+         11 SHL        A=3 B=R3 C=K3
+         12 BOR        A=2 B=R2 C=R3
+         13 RETURN     A=2 B=R2 C=R0
+         14 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.23 (42-42) ===
+    params=2 vararg=False maxstack=5
+    upvalues(0): 
+    constants (8):
+      K0: 'd'
+      K1: 0
+      K2: 1
+      K3: 8
+      K4: 2
+      K5: 16
+      K6: 3
+      K7: 24
+    code (31 instr):
+          0 GETTABLE   A=2 B=R0 C=K0
+          1 GETTABLE   A=2 B=R2 C=R1
+          2 TEST       A=2 B=R0 C=R1
+          3 JMP        A=0 sBx=1 (-> 5)
+          4 LOADK      A=2 Bx=1 ; 0
+          5 GETTABLE   A=3 B=R0 C=K0
+          6 ADD        A=4 B=R1 C=K2
+          7 GETTABLE   A=3 B=R3 C=R4
+          8 TEST       A=3 B=R0 C=R1
+          9 JMP        A=0 sBx=1 (-> 11)
+         10 LOADK      A=3 Bx=1 ; 0
+         11 SHL        A=3 B=R3 C=K3
+         12 BOR        A=2 B=R2 C=R3
+         13 GETTABLE   A=3 B=R0 C=K0
+         14 ADD        A=4 B=R1 C=K4
+         15 GETTABLE   A=3 B=R3 C=R4
+         16 TEST       A=3 B=R0 C=R1
+         17 JMP        A=0 sBx=1 (-> 19)
+         18 LOADK      A=3 Bx=1 ; 0
+         19 SHL        A=3 B=R3 C=K5
+         20 BOR        A=2 B=R2 C=R3
+         21 GETTABLE   A=3 B=R0 C=K0
+         22 ADD        A=4 B=R1 C=K6
+         23 GETTABLE   A=3 B=R3 C=R4
+         24 TEST       A=3 B=R0 C=R1
+         25 JMP        A=0 sBx=1 (-> 27)
+         26 LOADK      A=3 Bx=1 ; 0
+         27 SHL        A=3 B=R3 C=K7
+         28 BOR        A=2 B=R2 C=R3
+         29 RETURN     A=2 B=R2 C=R0
+         30 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.24 (43-43) ===
+    params=3 vararg=False maxstack=6
+    upvalues(0): 
+    constants (4):
+      K0: 'd'
+      K1: 255
+      K2: 1
+      K3: 8
+    code (9 instr):
+          0 GETTABLE   A=3 B=R0 C=K0
+          1 BAND       A=4 B=R2 C=K1
+          2 SETTABLE   A=3 B=R1 C=R4
+          3 GETTABLE   A=3 B=R0 C=K0
+          4 ADD        A=4 B=R1 C=K2
+          5 SHR        A=5 B=R2 C=K3
+          6 BAND       A=5 B=R5 C=K1
+          7 SETTABLE   A=3 B=R4 C=R5
+          8 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.25 (44-44) ===
+    params=3 vararg=False maxstack=6
+    upvalues(0): 
+    constants (8):
+      K0: 'd'
+      K1: 255
+      K2: 1
+      K3: 8
+      K4: 2
+      K5: 16
+      K6: 3
+      K7: 24
+    code (19 instr):
+          0 GETTABLE   A=3 B=R0 C=K0
+          1 BAND       A=4 B=R2 C=K1
+          2 SETTABLE   A=3 B=R1 C=R4
+          3 GETTABLE   A=3 B=R0 C=K0
+          4 ADD        A=4 B=R1 C=K2
+          5 SHR        A=5 B=R2 C=K3
+          6 BAND       A=5 B=R5 C=K1
+          7 SETTABLE   A=3 B=R4 C=R5
+          8 GETTABLE   A=3 B=R0 C=K0
+          9 ADD        A=4 B=R1 C=K4
+         10 SHR        A=5 B=R2 C=K5
+         11 BAND       A=5 B=R5 C=K1
+         12 SETTABLE   A=3 B=R4 C=R5
+         13 GETTABLE   A=3 B=R0 C=K0
+         14 ADD        A=4 B=R1 C=K6
+         15 SHR        A=5 B=R2 C=K7
+         16 BAND       A=5 B=R5 C=K1
+         17 SETTABLE   A=3 B=R4 C=R5
+         18 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.26 (45-45) ===
+    params=5 vararg=False maxstack=13
+    upvalues(0): 
+    constants (4):
+      K0: 0
+      K1: 'n'
+      K2: 1
+      K3: 'd'
+    code (18 instr):
+          0 LOADK      A=5 Bx=0 ; 0
+          1 TESTSET    A=6 B=R4 C=R1
+          2 JMP        A=0 sBx=1 (-> 4)
+          3 GETTABLE   A=6 B=R2 C=K1
+          4 SUB        A=6 B=R6 C=K2
+          5 LOADK      A=7 Bx=2 ; 1
+          6 FORPREP    A=5 sBx=9 (-> 16)
+          7 GETTABLE   A=9 B=R0 C=K3
+          8 ADD        A=10 B=R1 C=R8
+          9 GETTABLE   A=11 B=R2 C=K3
+         10 TESTSET    A=12 B=R3 C=R1
+         11 JMP        A=0 sBx=1 (-> 13)
+         12 LOADK      A=12 Bx=0 ; 0
+         13 ADD        A=12 B=R12 C=R8
+         14 GETTABLE   A=11 B=R11 C=R12
+         15 SETTABLE   A=9 B=R10 C=R11
+         16 FORLOOP    A=5 sBx=-10 (-> 7)
+         17 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.27 (46-46) ===
+    params=4 vararg=False maxstack=10
+    upvalues(0): 
+    constants (4):
+      K0: 0
+      K1: 'n'
+      K2: 1
+      K3: 'd'
+    code (12 instr):
+          0 LOADK      A=4 Bx=0 ; 0
+          1 TESTSET    A=5 B=R3 C=R1
+          2 JMP        A=0 sBx=1 (-> 4)
+          3 GETTABLE   A=5 B=R0 C=K1
+          4 SUB        A=5 B=R5 C=K2
+          5 LOADK      A=6 Bx=2 ; 1
+          6 FORPREP    A=4 sBx=3 (-> 10)
+          7 GETTABLE   A=8 B=R0 C=K3
+          8 ADD        A=9 B=R1 C=R7
+          9 SETTABLE   A=8 B=R9 C=R2
+         10 FORLOOP    A=4 sBx=-4 (-> 7)
+         11 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.28 (49-49) ===
+    params=1 vararg=False maxstack=2
+    upvalues(1): _ENV(upv0)
+    constants (1):
+      K0: '_yTJuHBMtehfa'
+    code (2 instr):
+          0 SETTABUP   A=0 B=K0 C=R0
+          1 RETURN     A=0 B=R1 C=R0
+    sub-protos: 0
+
+  === Proto main.29 (49-49) ===
+    params=1 vararg=True maxstack=24
+    upvalues(1): _ENV(upv0)
+    constants (90):
+      K0: 24915
+      K1: 0
+      K2: 506
+      K3: 1
+      K4: 522
+      K5: 3558
+      K6: 1779
+      K7: 867
+      K8: 34668
+      K9: 6622
+      K10: 3311
+      K11: 885
+      K12: 27338
+      K13: 951
+      K14: 5138
+      K15: 2569
+      K16: 777
+      K17: 46336
+      K18: 2694
+      K19: 1347
+      K20: 172
+      K21: 44246
+      K22: 97919
+      K23: 2
+      K24: 556
+      K25: 46426
+      K26: 58302
+      K27: 1
+      K28: 'tonumber'
+      K29: 41
+      K30: 10245
+      K31: 86660
+      K32: 22
+      K33: 20426
+      K34: 535
+      K35: 9384
+      K36: 4692
+      K37: 213
+      K38: 9031
+      K39: 5656
+      K40: 2828
+      K41: 589
+      K42: 33277
+      K43: 65597
+      K44: 1018
+      K45: 39233
+      K46: 86441
+      K47: 'string'
+      K48: 972
+      K49: 46919
+      K50: 91098
+      K51: 'getfenv'
+      K52: 809
+      K53: 17267
+      K54: 289
+      K55: 5796
+      K56: 2898
+      K57: 404
+      K58: 8207
+      K59: 6892
+      K60: 3446
+      K61: 343
+      K62: 1803
+      K63: 53748
+      K64: '\x04\x08tonumberrvwScOhk\x00\x06string\x04charGtHyR_mw\x00\x06string\x03subdSrDYsTB\x00\x06string\x04bytegjeX_bzq\x00\x...[+61]
+      K65: 661
+      K66: 43078
+      K67: 5327
+      K68: 528
+      K69: 22706
+      K70: 10722
+      K71: 709
+      K72: 45446
+      K73: 255
+      K74: 'GtHyR_mw'
+      K75: 32
+      K76: 'zo3%j1Or:(,{y-&;&1'
+      K77: 210
+      K78: 'J9Ce;>WRT,sp{=}LC}WCL=C{>TR=pF=RsCeIWL,>{W}=9,;>W9p;pWdR9}LTCR{+}91=;WR;sL={=,e>e;WCsf},sR=,RCsC{RLsC};{Ws,!}SL99>RW,W>...[+494]
+      K79: 'TUogrWqDedRuiCz'
+      K80: 'zCiuRdeDqWrgoUT'
+      K81: 'Hx_mYSzf'
+      K82: 'EiqfqVrY'
+      K83: -7788
+      K84: 'OJmphWrn'
+      K85: 'hiyaeZuR'
+      K86: 4
+      K87: 3
+      K88: 1
+      K89: 2
+    code (231 instr):
+          0 LOADNIL    A=1 B=R5 C=R0
+          1 LOADK      A=7 Bx=0 ; 24915
+          2 LOADK      A=8 Bx=1 ; 0
+          3 NEWTABLE   A=9 B=R0 C=R0
+          4 LT         A=0 B=R8 C=K2
+          5 JMP        A=0 sBx=167 (-> 173)
+          6 ADD        A=8 B=R8 C=K3
+          7 LT         A=0 B=R8 C=K4
+          8 JMP        A=0 sBx=161 (-> 170)
+          9 MOD        A=10 B=R7 C=K5
+         10 LT         A=0 B=R10 C=K6
+         11 JMP        A=0 sBx=158 (-> 170)
+         12 ADD        A=8 B=R8 C=K3
+         13 ADD        A=10 B=R7 C=K7
+         14 MOD        A=7 B=R10 C=K8
+         15 ADD        A=10 B=R8 C=R7
+         16 MOD        A=11 B=R7 C=K9
+         17 LT         A=0 B=R11 C=K10
+         18 JMP        A=0 sBx=46 (-> 65)
+         19 MUL        A=11 B=R7 C=K11
+         20 MOD        A=7 B=R11 C=K12
+         21 LT         A=0 B=R8 C=K13
+         22 JMP        A=0 sBx=-16 (-> 7)
+         23 MOD        A=11 B=R7 C=K14
+         24 LT         A=0 B=R11 C=K15
+         25 JMP        A=0 sBx=-19 (-> 7)
+         26 ADD        A=8 B=R8 C=K3
+         27 MUL        A=11 B=R7 C=K16
+         28 MOD        A=7 B=R11 C=K17
+         29 ADD        A=11 B=R8 C=R7
+         30 MOD        A=12 B=R7 C=K18
+         31 LT         A=0 B=R12 C=K19
+         32 JMP        A=0 sBx=10 (-> 43)
+         33 MUL        A=12 B=R7 C=K20
+         34 MOD        A=7 B=R12 C=K21
+         35 LOADK      A=12 Bx=22 ; 97919
+         36 GETTABLE   A=13 B=R9 C=R12
+         37 TEST       A=13 B=R0 C=R1
+         38 JMP        A=0 sBx=-18 (-> 21)
+         39 SETTABLE   A=9 B=R12 C=K3
+         40 CLOSURE    A=13 Bx=0 ; proto[0]
+         41 MOVE       A=3 B=R13 C=R0
+         42 JMP        A=0 sBx=-22 (-> 21)
+         43 MOD        A=12 B=R7 C=K23
+         44 EQ         A=1 B=R12 C=K1
+         45 JMP        A=0 sBx=9 (-> 55)
+         46 MUL        A=12 B=R7 C=K24
+         47 MOD        A=7 B=R12 C=K25
+         48 LOADK      A=12 Bx=26 ; 58302
+         49 GETTABLE   A=13 B=R9 C=R12
+         50 TEST       A=13 B=R0 C=R1
+         51 JMP        A=0 sBx=-31 (-> 21)
+         52 SETTABLE   A=9 B=R12 C=K27
+         53 GETTABUP   A=4 B=R0 C=K28
+         54 JMP        A=0 sBx=-34 (-> 21)
+         55 ADD        A=12 B=R7 C=K29
+         56 MOD        A=7 B=R12 C=K30
+         57 ADD        A=8 B=R8 C=K27
+         58 LOADK      A=12 Bx=31 ; 86660
+         59 GETTABLE   A=13 B=R9 C=R12
+         60 TEST       A=13 B=R0 C=R1
+         61 JMP        A=0 sBx=-41 (-> 21)
+         62 SETTABLE   A=9 B=R12 C=K27
+         63 JMP        A=0 sBx=-43 (-> 21)
+         64 JMP        A=0 sBx=-58 (-> 7)
+         65 MOD        A=11 B=R7 C=K23
+         66 EQ         A=1 B=R11 C=K1
+         67 JMP        A=0 sBx=55 (-> 123)
+         68 MUL        A=11 B=R7 C=K32
+         69 MOD        A=7 B=R11 C=K33
+         70 LT         A=0 B=R8 C=K34
+         71 JMP        A=0 sBx=-65 (-> 7)
+         72 MOD        A=11 B=R7 C=K35
+         73 LT         A=0 B=R11 C=K36
+         74 JMP        A=0 sBx=-68 (-> 7)
+         75 ADD        A=8 B=R8 C=K27
+         76 SUB        A=11 B=R7 C=K37
+         77 MOD        A=7 B=R11 C=K38
+         78 ADD        A=11 B=R8 C=R7
+         79 MOD        A=12 B=R7 C=K39
+         80 LT         A=0 B=K40 C=R12
+         81 JMP        A=0 sBx=13 (-> 95)
+         82 MUL        A=12 B=R7 C=K41
+         83 MOD        A=7 B=R12 C=K42
+         84 LOADK      A=12 Bx=43 ; 65597
+         85 GETTABLE   A=13 B=R9 C=R12
+         86 TEST       A=13 B=R0 C=R1
+         87 JMP        A=0 sBx=-18 (-> 70)
+         88 SETTABLE   A=9 B=R12 C=K27
+         89 TEST       A=1 B=R0 C=R1
+         90 JMP        A=0 sBx=-21 (-> 70)
+         91 GETUPVAL   A=13 B=R0 C=R0
+         92 TESTSET    A=1 B=R13 C=R1
+         93 JMP        A=0 sBx=0 (-> 94)
+         94 JMP        A=0 sBx=-25 (-> 70)
+         95 MOD        A=12 B=R7 C=K23
+         96 EQ         A=1 B=R12 C=K1
+         97 JMP        A=0 sBx=9 (-> 107)
+         98 SUB        A=12 B=R7 C=K44
+         99 MOD        A=7 B=R12 C=K45
+        100 LOADK      A=12 Bx=46 ; 86441
+        101 GETTABLE   A=13 B=R9 C=R12
+        102 TEST       A=13 B=R0 C=R1
+        103 JMP        A=0 sBx=-34 (-> 70)
+        104 SETTABLE   A=9 B=R12 C=K27
+        105 GETTABUP   A=5 B=R0 C=K47
+        106 JMP        A=0 sBx=-37 (-> 70)
+        107 ADD        A=12 B=R7 C=K48
+        108 MOD        A=7 B=R12 C=K49
+        109 ADD        A=8 B=R8 C=K27
+        110 LOADK      A=12 Bx=50 ; 91098
+        111 GETTABLE   A=13 B=R9 C=R12
+        112 TEST       A=13 B=R0 C=R1
+        113 JMP        A=0 sBx=-44 (-> 70)
+        114 SETTABLE   A=9 B=R12 C=K27
+        115 GETTABUP   A=13 B=R0 C=K51
+        116 TESTSET    A=1 B=R13 C=R0
+        117 JMP        A=0 sBx=3 (-> 121)
+        118 GETTABUP   A=13 B=R0 C=K51
+        119 CALL       A=13 B=R1 C=R2
+        120 MOVE       A=1 B=R13 C=R0
+        121 JMP        A=0 sBx=-52 (-> 70)
+        122 JMP        A=0 sBx=-116 (-> 7)
+        123 MUL        A=11 B=R7 C=K52
+        124 MOD        A=7 B=R11 C=K53
+        125 ADD        A=8 B=R8 C=K27
+        126 LT         A=0 B=R8 C=K54
+        127 JMP        A=0 sBx=-121 (-> 7)
+        128 MOD        A=11 B=R7 C=K55
+        129 LT         A=0 B=R11 C=K56
+        130 JMP        A=0 sBx=-124 (-> 7)
+        131 ADD        A=8 B=R8 C=K27
+        132 MUL        A=11 B=R7 C=K57
+        133 MOD        A=7 B=R11 C=K58
+        134 ADD        A=11 B=R8 C=R7
+        135 MOD        A=12 B=R7 C=K59
+        136 LE         A=0 B=R12 C=K60
+        137 JMP        A=0 sBx=9 (-> 147)
+        138 ADD        A=12 B=R7 C=K61
+        139 MOD        A=7 B=R12 C=K62
+        140 LOADK      A=12 Bx=63 ; 53748
+        141 GETTABLE   A=13 B=R9 C=R12
+        142 TEST       A=13 B=R0 C=R1
+        143 JMP        A=0 sBx=-18 (-> 126)
+        144 SETTABLE   A=9 B=R12 C=K27
+        145 LOADK      A=2 Bx=64 ; '\x04\x08tonumberrvwScOhk\x00\x06string\x04charGtHyR_mw\x00\x06string\x03subdSrDYsTB\x00\x06string\x04bytegjeX_bzq\x00\x...[+61]
+        146 JMP        A=0 sBx=-21 (-> 126)
+        147 MOD        A=12 B=R7 C=K23
+        148 EQ         A=1 B=R12 C=K1
+        149 JMP        A=0 sBx=8 (-> 158)
+        150 ADD        A=12 B=R7 C=K65
+        151 MOD        A=7 B=R12 C=K66
+        152 LOADK      A=12 Bx=67 ; 5327
+        153 GETTABLE   A=13 B=R9 C=R12
+        154 TEST       A=13 B=R0 C=R1
+        155 JMP        A=0 sBx=-30 (-> 126)
+        156 SETTABLE   A=9 B=R12 C=K27
+        157 JMP        A=0 sBx=-32 (-> 126)
+        158 ADD        A=12 B=R7 C=K68
+        159 MOD        A=7 B=R12 C=K69
+        160 ADD        A=8 B=R8 C=K27
+        161 LOADK      A=12 Bx=70 ; 10722
+        162 GETTABLE   A=13 B=R9 C=R12
+        163 TEST       A=13 B=R0 C=R1
+        164 JMP        A=0 sBx=-39 (-> 126)
+        165 SETTABLE   A=9 B=R12 C=K27
+        166 NEWTABLE   A=13 B=R0 C=R0
+        167 MOVE       A=6 B=R13 C=R0
+        168 JMP        A=0 sBx=-43 (-> 126)
+        169 JMP        A=0 sBx=-163 (-> 7)
+        170 ADD        A=10 B=R7 C=K71
+        171 MOD        A=7 B=R10 C=K72
+        172 JMP        A=0 sBx=-169 (-> 4)
+        173 MOVE       A=10 B=R3 C=R0
+        174 MOVE       A=11 B=R2 C=R0
+        175 CALL       A=10 B=R2 C=R1
+        176 NEWTABLE   A=10 B=R0 C=R0
+        177 LOADK      A=11 Bx=1 ; 0
+        178 LOADK      A=12 Bx=73 ; 255
+        179 LOADK      A=13 Bx=27 ; 1
+        180 FORPREP    A=11 sBx=5 (-> 186)
+        181 GETTABLE   A=15 B=R6 C=K74
+        182 MOVE       A=16 B=R14 C=R0
+        183 CALL       A=15 B=R2 C=R2
+        184 SETTABLE   A=10 B=R14 C=R15
+        185 SETTABLE   A=10 B=R15 C=R14
+        186 FORLOOP    A=11 sBx=-6 (-> 181)
+        187 CLOSURE    A=11 Bx=1 ; proto[1]
+        188 CLOSURE    A=12 Bx=2 ; proto[2]
+        189 MOVE       A=13 B=R3 C=R0
+        190 MOVE       A=14 B=R12 C=R0
+        191 LOADK      A=15 Bx=75 ; 32
+        192 LOADK      A=16 Bx=76 ; 'zo3%j1Or:(,{y-&;&1'
+        193 CALL       A=14 B=R3 C=R0
+        194 CALL       A=13 B=R0 C=R1
+        195 MOVE       A=13 B=R3 C=R0
+        196 MOVE       A=14 B=R12 C=R0
+        197 LOADK      A=15 Bx=77 ; 210
+        198 LOADK      A=16 Bx=78 ; 'J9Ce;>WRT,sp{=}LC}WCL=C{>TR=pF=RsCeIWL,>{W}=9,;>W9p;pWdR9}LTCR{+}91=;WR;sL={=,e>e;WCsf},sR=,RCsC{RLsC};{Ws,!}SL99>RW,W>...[+494]
+        199 CALL       A=14 B=R3 C=R0
+        200 CALL       A=13 B=R0 C=R1
+        201 CLOSURE    A=13 Bx=3 ; proto[3]
+        202 SETTABUP   A=0 B=K79 C=R13
+        203 NEWTABLE   A=13 B=R2 C=R0
+        204 GETTABLE   A=14 B=R6 C=K81
+        205 GETTABLE   A=15 B=R6 C=K82
+        206 SETLIST    A=13 B=R2 C=R1
+        207 SETTABUP   A=0 B=K80 C=R13
+        208 CLOSURE    A=13 Bx=4 ; proto[4]
+        209 CALL       A=13 B=R1 C=R2
+        210 ADD        A=13 B=K83 C=R13
+        211 GETTABUP   A=14 B=R0 C=K51
+        212 TEST       A=14 B=R0 C=R1
+        213 JMP        A=0 sBx=1 (-> 215)
+        214 CLOSURE    A=14 Bx=5 ; proto[5]
+        215 GETTABLE   A=15 B=R6 C=K84
+        216 TEST       A=15 B=R0 C=R1
+        217 JMP        A=0 sBx=1 (-> 219)
+        218 GETTABLE   A=15 B=R6 C=K85
+        219 LOADK      A=16 Bx=86 ; 4
+        220 LOADK      A=17 Bx=87 ; 3
+        221 LOADK      A=18 Bx=88 ; 1
+        222 LOADK      A=19 Bx=89 ; 2
+        223 CLOSURE    A=20 Bx=6 ; proto[6]
+        224 MOVE       A=21 B=R20 C=R0
+        225 CLOSURE    A=22 Bx=7 ; proto[7]
+        226 CALL       A=22 B=R1 C=R2
+        227 VARARG     A=23 B=R0 C=R0
+        228 TAILCALL   A=21 B=R0 C=R0
+        229 RETURN     A=21 B=R0 C=R0
+        230 RETURN     A=0 B=R1 C=R0
+    sub-protos: 8
+
+    === Proto main.29.0 (49-49) ===
+      params=1 vararg=False maxstack=11
+      upvalues(4): t(stk5), s(stk6), n(stk1), f(stk0)
+      constants (11):
+        K0: 1
+        K1: 1
+        K2: '\x05'
+        K3: 'byte'
+        K4: '\x02'
+        K5: 'rvwScOhk'
+        K6: '\x03'
+        K7: '\x00'
+        K8: '\x06'
+        K9: '\x04'
+        K10: 8
+      code (55 instr):
+            0 LOADK      A=1 Bx=0 ; 1
+            1 CLOSURE    A=2 Bx=0 ; proto[0]
+            2 MOVE       A=3 B=R2 C=R0
+            3 LOADK      A=4 Bx=1 ; 1
+            4 CALL       A=3 B=R2 C=R2
+            5 EQ         A=1 B=R3 C=K2
+            6 JMP        A=0 sBx=47 (-> 54)
+            7 GETTABUP   A=4 B=R0 C=K3
+            8 MOVE       A=5 B=R2 C=R0
+            9 LOADK      A=6 Bx=1 ; 1
+           10 CALL       A=5 B=R2 C=R0
+           11 CALL       A=4 B=R0 C=R2
+           12 MOVE       A=5 B=R2 C=R0
+           13 MOVE       A=6 B=R4 C=R0
+           14 CALL       A=5 B=R2 C=R2
+           15 EQ         A=0 B=R3 C=K4
+           16 JMP        A=0 sBx=5 (-> 22)
+           17 GETTABUP   A=6 B=R1 C=K5
+           18 MOVE       A=7 B=R5 C=R0
+           19 CALL       A=6 B=R2 C=R2
+           20 MOVE       A=5 B=R6 C=R0
+           21 JMP        A=0 sBx=27 (-> 49)
+           22 EQ         A=0 B=R3 C=K6
+           23 JMP        A=0 sBx=5 (-> 29)
+           24 EQ         A=0 B=R5 C=K7
+           25 JMP        A=0 sBx=1 (-> 27)
+           26 LOADBOOL   A=5 B=R0 C=R1
+           27 LOADBOOL   A=5 B=R1 C=R0
+           28 JMP        A=0 sBx=20 (-> 49)
+           29 EQ         A=0 B=R3 C=K8
+           30 JMP        A=0 sBx=3 (-> 34)
+           31 CLOSURE    A=6 Bx=1 ; proto[1]
+           32 SETTABUP   A=2 B=R5 C=R6
+           33 JMP        A=0 sBx=15 (-> 49)
+           34 EQ         A=0 B=R3 C=K9
+           35 JMP        A=0 sBx=2 (-> 38)
+           36 GETTABUP   A=5 B=R2 C=R5
+           37 JMP        A=0 sBx=11 (-> 49)
+           38 EQ         A=0 B=R3 C=K7
+           39 JMP        A=0 sBx=9 (-> 49)
+           40 GETTABUP   A=6 B=R2 C=R5
+           41 MOVE       A=7 B=R2 C=R0
+           42 GETTABUP   A=8 B=R0 C=K3
+           43 MOVE       A=9 B=R2 C=R0
+           44 LOADK      A=10 Bx=1 ; 1
+           45 CALL       A=9 B=R2 C=R0
+           46 CALL       A=8 B=R0 C=R0
+           47 CALL       A=7 B=R0 C=R2
+           48 GETTABLE   A=5 B=R6 C=R7
+           49 MOVE       A=6 B=R2 C=R0
+           50 LOADK      A=7 Bx=10 ; 8
+           51 CALL       A=6 B=R2 C=R2
+           52 SETTABUP   A=1 B=R6 C=R5
+           53 JMP        A=0 sBx=-52 (-> 2)
+           54 RETURN     A=0 B=R1 C=R0
+      sub-protos: 2
+
+      === Proto main.29.0.0 (49-49) ===
+        params=1 vararg=False maxstack=5
+        upvalues(2): z(stk1), d(stk0)
+        constants (2):
+          K0: 'sub'
+          K1: 1
+        code (12 instr):
+              0 GETUPVAL   A=1 B=R0 C=R0
+              1 ADD        A=1 B=R1 C=R0
+              2 SETUPVAL   A=1 B=R0 C=R0
+              3 GETUPVAL   A=1 B=R1 C=R0
+              4 SELF       A=1 B=R1 C=K0
+              5 GETUPVAL   A=3 B=R0 C=R0
+              6 SUB        A=3 B=R3 C=R0
+              7 GETUPVAL   A=4 B=R0 C=R0
+              8 SUB        A=4 B=R4 C=K1
+              9 TAILCALL   A=1 B=R4 C=R0
+             10 RETURN     A=1 B=R0 C=R0
+             11 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.0.1 (49-49) ===
+        params=2 vararg=False maxstack=8
+        upvalues(1): f(upv3)
+        constants (1):
+          K0: 8
+        code (9 instr):
+              0 GETUPVAL   A=2 B=R0 C=R0
+              1 LOADK      A=3 Bx=0 ; 8
+              2 LOADNIL    A=4 B=R0 C=R0
+              3 GETUPVAL   A=5 B=R0 C=R0
+              4 MOVE       A=6 B=R1 C=R0
+              5 MOVE       A=7 B=R0 C=R0
+              6 TAILCALL   A=2 B=R6 C=R0
+              7 RETURN     A=2 B=R0 C=R0
+              8 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+    === Proto main.29.1 (49-49) ===
+      params=1 vararg=False maxstack=2
+      upvalues(1): e(stk10)
+      constants (0):
+      code (3 instr):
+            0 GETTABUP   A=1 B=R0 C=R0
+            1 RETURN     A=1 B=R2 C=R0
+            2 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+    === Proto main.29.2 (49-49) ===
+      params=2 vararg=False maxstack=15
+      upvalues(2): s(stk6), j(stk11)
+      constants (12):
+        K0: 1
+        K1: 16
+        K2: -1
+        K3: 3
+        K4: 'dSrDYsTB'
+        K5: 15
+        K6: ''
+        K7: 0
+        K8: 2
+        K9: 'ZKyD_Bgp'
+        K10: 256
+        K11: 'rZFaKTvv'
+      code (73 instr):
+            0 LOADK      A=2 Bx=0 ; 1
+            1 LOADK      A=3 Bx=1 ; 16
+            2 NEWTABLE   A=4 B=R3 C=R0
+            3 NEWTABLE   A=5 B=R0 C=R0
+            4 NEWTABLE   A=6 B=R0 C=R0
+            5 NEWTABLE   A=7 B=R0 C=R0
+            6 SETLIST    A=4 B=R3 C=R1
+            7 LOADK      A=5 Bx=2 ; -1
+            8 LOADK      A=6 Bx=0 ; 1
+            9 MOVE       A=7 B=R0 C=R0
+           10 GETTABLE   A=8 B=R4 C=K3
+           11 GETTABUP   A=9 B=R0 C=K4
+           12 MOVE       A=10 B=R1 C=R0
+           13 MOVE       A=11 B=R6 C=R0
+           14 CLOSURE    A=12 Bx=0 ; proto[0]
+           15 CALL       A=12 B=R1 C=R0
+           16 CALL       A=9 B=R0 C=R2
+           17 CLOSURE    A=10 Bx=1 ; proto[1]
+           18 CALL       A=10 B=R1 C=R2
+           19 SETTABLE   A=8 B=R9 C=R10
+           20 EQ         A=0 B=R5 C=K5
+           21 JMP        A=0 sBx=-12 (-> 10)
+           22 LOADK      A=5 Bx=6 ; ''
+           23 LOADK      A=3 Bx=7 ; 0
+           24 JMP        A=0 sBx=1 (-> 26)
+           25 JMP        A=0 sBx=-16 (-> 10)
+           26 LEN        A=8 B=R1 C=R0
+           27 ADD        A=9 B=R8 C=K0
+           28 LT         A=0 B=R6 C=R9
+           29 JMP        A=0 sBx=38 (-> 68)
+           30 GETTABLE   A=9 B=R4 C=K8
+           31 GETTABUP   A=10 B=R0 C=K4
+           32 MOVE       A=11 B=R1 C=R0
+           33 MOVE       A=12 B=R6 C=R0
+           34 CLOSURE    A=13 Bx=2 ; proto[2]
+           35 CALL       A=13 B=R1 C=R0
+           36 CALL       A=10 B=R0 C=R2
+           37 SETTABLE   A=9 B=R3 C=R10
+           38 ADD        A=3 B=R3 C=K0
+           39 MOD        A=9 B=R3 C=K8
+           40 EQ         A=0 B=R9 C=K7
+           41 JMP        A=0 sBx=-15 (-> 27)
+           42 LOADK      A=3 Bx=7 ; 0
+           43 GETTABUP   A=9 B=R0 C=K9
+           44 GETTABLE   A=10 B=R4 C=K0
+           45 GETUPVAL   A=11 B=R1 C=R0
+           46 GETTABLE   A=12 B=R4 C=K3
+           47 GETTABLE   A=13 B=R4 C=K8
+           48 GETTABLE   A=13 B=R13 C=K7
+           49 GETTABLE   A=12 B=R12 C=R13
+           50 TEST       A=12 B=R0 C=R1
+           51 JMP        A=0 sBx=1 (-> 53)
+           52 LOADK      A=12 Bx=7 ; 0
+           53 MUL        A=12 B=R12 C=K1
+           54 GETTABLE   A=13 B=R4 C=K3
+           55 GETTABLE   A=14 B=R4 C=K8
+           56 GETTABLE   A=14 B=R14 C=K0
+           57 GETTABLE   A=13 B=R13 C=R14
+           58 TEST       A=13 B=R0 C=R1
+           59 JMP        A=0 sBx=1 (-> 61)
+           60 LOADK      A=13 Bx=7 ; 0
+           61 ADD        A=12 B=R12 C=R13
+           62 ADD        A=12 B=R12 C=R7
+           63 MOD        A=12 B=R12 C=K10
+           64 CALL       A=11 B=R2 C=R2
+           65 CALL       A=9 B=R3 C=R1
+           66 ADD        A=7 B=R0 C=R7
+           67 JMP        A=0 sBx=-41 (-> 27)
+           68 GETTABUP   A=9 B=R0 C=K11
+           69 GETTABLE   A=10 B=R4 C=K0
+           70 TAILCALL   A=9 B=R2 C=R0
+           71 RETURN     A=9 B=R0 C=R0
+           72 RETURN     A=0 B=R1 C=R0
+      sub-protos: 3
+
+      === Proto main.29.2.0 (49-49) ===
+        params=0 vararg=False maxstack=2
+        upvalues(2): z(stk6), o(stk2)
+        constants (1):
+          K0: 1
+        code (8 instr):
+              0 GETUPVAL   A=0 B=R1 C=R0
+              1 GETUPVAL   A=1 B=R0 C=R0
+              2 ADD        A=0 B=R0 C=R1
+              3 SETUPVAL   A=0 B=R0 C=R0
+              4 GETUPVAL   A=0 B=R0 C=R0
+              5 SUB        A=0 B=R0 C=K0
+              6 RETURN     A=0 B=R2 C=R0
+              7 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.2.1 (49-49) ===
+        params=0 vararg=False maxstack=2
+        upvalues(1): n(stk5)
+        constants (1):
+          K0: 1
+        code (6 instr):
+              0 GETUPVAL   A=0 B=R0 C=R0
+              1 ADD        A=0 B=R0 C=K0
+              2 SETUPVAL   A=0 B=R0 C=R0
+              3 GETUPVAL   A=0 B=R0 C=R0
+              4 RETURN     A=0 B=R2 C=R0
+              5 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.2.2 (49-49) ===
+        params=0 vararg=False maxstack=2
+        upvalues(2): z(stk6), o(stk2)
+        constants (1):
+          K0: 1
+        code (8 instr):
+              0 GETUPVAL   A=0 B=R1 C=R0
+              1 GETUPVAL   A=1 B=R0 C=R0
+              2 ADD        A=0 B=R0 C=R1
+              3 SETUPVAL   A=0 B=R0 C=R0
+              4 GETUPVAL   A=0 B=R0 C=R0
+              5 SUB        A=0 B=R0 C=K0
+              6 RETURN     A=0 B=R2 C=R0
+              7 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+    === Proto main.29.3 (49-49) ===
+      params=1 vararg=False maxstack=3
+      upvalues(0): 
+      constants (1):
+        K0: -14631
+      code (6 instr):
+            0 MOVE       A=1 B=R0 C=R0
+            1 CLOSURE    A=2 Bx=0 ; proto[0]
+            2 CALL       A=2 B=R1 C=R2
+            3 ADD        A=2 B=K0 C=R2
+            4 CALL       A=1 B=R2 C=R1
+            5 RETURN     A=0 B=R1 C=R0
+      sub-protos: 1
+
+      === Proto main.29.3.0 (49-49) ===
+        params=0 vararg=False maxstack=7
+        upvalues(0): 
+        constants (2):
+          K0: 0
+          K1: 1
+        code (10 instr):
+              0 LOADK      A=0 Bx=0 ; 0
+              1 LOADK      A=1 Bx=1 ; 1
+              2 CLOSURE    A=2 Bx=0 ; proto[0]
+              3 CLOSURE    A=3 Bx=1 ; proto[1]
+              4 CLOSURE    A=4 Bx=2 ; proto[2]
+              5 CLOSURE    A=5 Bx=3 ; proto[3]
+              6 CLOSURE    A=6 Bx=4 ; proto[4]
+              7 CALL       A=2 B=R5 C=R1
+              8 RETURN     A=1 B=R2 C=R0
+              9 RETURN     A=0 B=R1 C=R0
+        sub-protos: 5
+
+        === Proto main.29.3.0.0 (49-49) ===
+          params=4 vararg=False maxstack=13
+          upvalues(0): 
+          constants (0):
+          code (39 instr):
+                0 MOVE       A=4 B=R2 C=R0
+                1 MOVE       A=5 B=R0 C=R0
+                2 MOVE       A=6 B=R0 C=R0
+                3 MOVE       A=7 B=R0 C=R0
+                4 MOVE       A=8 B=R2 C=R0
+                5 MOVE       A=9 B=R1 C=R0
+                6 CALL       A=5 B=R5 C=R2
+                7 MOVE       A=6 B=R2 C=R0
+                8 TESTSET    A=7 B=R3 C=R0
+                9 JMP        A=0 sBx=1 (-> 11)
+               10 MOVE       A=7 B=R0 C=R0
+               11 TESTSET    A=8 B=R0 C=R0
+               12 JMP        A=0 sBx=1 (-> 14)
+               13 MOVE       A=8 B=R0 C=R0
+               14 MOVE       A=9 B=R2 C=R0
+               15 TESTSET    A=10 B=R1 C=R0
+               16 JMP        A=0 sBx=1 (-> 18)
+               17 MOVE       A=10 B=R3 C=R0
+               18 CALL       A=6 B=R5 C=R2
+               19 MOVE       A=7 B=R3 C=R0
+               20 MOVE       A=8 B=R2 C=R0
+               21 TESTSET    A=9 B=R1 C=R0
+               22 JMP        A=0 sBx=1 (-> 24)
+               23 MOVE       A=9 B=R3 C=R0
+               24 TESTSET    A=10 B=R3 C=R0
+               25 JMP        A=0 sBx=1 (-> 27)
+               26 MOVE       A=10 B=R1 C=R0
+               27 MOVE       A=11 B=R1 C=R0
+               28 CALL       A=7 B=R5 C=R2
+               29 MOVE       A=8 B=R2 C=R0
+               30 MOVE       A=9 B=R0 C=R0
+               31 MOVE       A=10 B=R3 C=R0
+               32 TESTSET    A=11 B=R3 C=R0
+               33 JMP        A=0 sBx=1 (-> 35)
+               34 MOVE       A=11 B=R1 C=R0
+               35 MOVE       A=12 B=R1 C=R0
+               36 CALL       A=8 B=R5 C=R0
+               37 CALL       A=4 B=R0 C=R1
+               38 RETURN     A=0 B=R1 C=R0
+          sub-protos: 0
+
+        === Proto main.29.3.0.1 (49-49) ===
+          params=4 vararg=False maxstack=13
+          upvalues(2): d(stk0), e(stk1)
+          constants (6):
+            K0: 226
+            K1: 1
+            K2: 971
+            K3: 25708
+            K4: 350
+            K5: 175
+          code (80 instr):
+                0 GETUPVAL   A=4 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R4
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=2 B=R2 C=R0
+                4 GETUPVAL   A=4 B=R0 C=R0
+                5 ADD        A=4 B=R4 C=K1
+                6 SETUPVAL   A=4 B=R0 C=R0
+                7 GETUPVAL   A=4 B=R1 C=R0
+                8 SUB        A=4 B=R4 C=K2
+                9 MOD        A=4 B=R4 C=K3
+               10 SETUPVAL   A=4 B=R1 C=R0
+               11 GETUPVAL   A=4 B=R1 C=R0
+               12 MOD        A=4 B=R4 C=K4
+               13 LE         A=0 B=R4 C=K5
+               14 JMP        A=0 sBx=2 (-> 17)
+               15 RETURN     A=1 B=R2 C=R0
+               16 JMP        A=0 sBx=35 (-> 52)
+               17 MOVE       A=4 B=R3 C=R0
+               18 MOVE       A=5 B=R1 C=R0
+               19 TESTSET    A=6 B=R1 C=R0
+               20 JMP        A=0 sBx=1 (-> 22)
+               21 MOVE       A=6 B=R2 C=R0
+               22 TESTSET    A=7 B=R3 C=R0
+               23 JMP        A=0 sBx=1 (-> 25)
+               24 MOVE       A=7 B=R2 C=R0
+               25 MOVE       A=8 B=R3 C=R0
+               26 MOVE       A=9 B=R3 C=R0
+               27 CALL       A=5 B=R5 C=R2
+               28 MOVE       A=6 B=R2 C=R0
+               29 TESTSET    A=7 B=R0 C=R0
+               30 JMP        A=0 sBx=1 (-> 32)
+               31 MOVE       A=7 B=R2 C=R0
+               32 MOVE       A=8 B=R1 C=R0
+               33 MOVE       A=9 B=R0 C=R0
+               34 MOVE       A=10 B=R1 C=R0
+               35 CALL       A=6 B=R5 C=R2
+               36 MOVE       A=7 B=R1 C=R0
+               37 MOVE       A=8 B=R0 C=R0
+               38 MOVE       A=9 B=R2 C=R0
+               39 MOVE       A=10 B=R3 C=R0
+               40 MOVE       A=11 B=R1 C=R0
+               41 CALL       A=7 B=R5 C=R2
+               42 MOVE       A=8 B=R1 C=R0
+               43 MOVE       A=9 B=R1 C=R0
+               44 MOVE       A=10 B=R1 C=R0
+               45 TESTSET    A=11 B=R3 C=R0
+               46 JMP        A=0 sBx=1 (-> 48)
+               47 MOVE       A=11 B=R3 C=R0
+               48 MOVE       A=12 B=R1 C=R0
+               49 CALL       A=8 B=R5 C=R0
+               50 TAILCALL   A=4 B=R0 C=R0
+               51 RETURN     A=4 B=R0 C=R0
+               52 MOVE       A=4 B=R2 C=R0
+               53 MOVE       A=5 B=R3 C=R0
+               54 MOVE       A=6 B=R3 C=R0
+               55 MOVE       A=7 B=R0 C=R0
+               56 MOVE       A=8 B=R1 C=R0
+               57 MOVE       A=9 B=R1 C=R0
+               58 CALL       A=5 B=R5 C=R2
+               59 MOVE       A=6 B=R2 C=R0
+               60 MOVE       A=7 B=R1 C=R0
+               61 MOVE       A=8 B=R2 C=R0
+               62 MOVE       A=9 B=R0 C=R0
+               63 MOVE       A=10 B=R3 C=R0
+               64 CALL       A=6 B=R5 C=R2
+               65 MOVE       A=7 B=R1 C=R0
+               66 MOVE       A=8 B=R2 C=R0
+               67 MOVE       A=9 B=R2 C=R0
+               68 MOVE       A=10 B=R2 C=R0
+               69 MOVE       A=11 B=R2 C=R0
+               70 CALL       A=7 B=R5 C=R2
+               71 MOVE       A=8 B=R2 C=R0
+               72 MOVE       A=9 B=R2 C=R0
+               73 MOVE       A=10 B=R3 C=R0
+               74 MOVE       A=11 B=R1 C=R0
+               75 MOVE       A=12 B=R1 C=R0
+               76 CALL       A=8 B=R5 C=R0
+               77 TAILCALL   A=4 B=R0 C=R0
+               78 RETURN     A=4 B=R0 C=R0
+               79 RETURN     A=0 B=R1 C=R0
+          sub-protos: 0
+
+        === Proto main.29.3.0.2 (49-49) ===
+          params=4 vararg=False maxstack=13
+          upvalues(2): d(stk0), e(stk1)
+          constants (8):
+            K0: 481
+            K1: 1
+            K2: 934
+            K3: 47748
+            K4: 1288
+            K5: 644
+            K6: 591
+            K7: 22956
+          code (60 instr):
+                0 GETUPVAL   A=4 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R4
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=3 B=R2 C=R0
+                4 GETUPVAL   A=4 B=R0 C=R0
+                5 ADD        A=4 B=R4 C=K1
+                6 SETUPVAL   A=4 B=R0 C=R0
+                7 GETUPVAL   A=4 B=R1 C=R0
+                8 SUB        A=4 B=R4 C=K2
+                9 MOD        A=4 B=R4 C=K3
+               10 SETUPVAL   A=4 B=R1 C=R0
+               11 GETUPVAL   A=4 B=R1 C=R0
+               12 MOD        A=4 B=R4 C=K4
+               13 LT         A=0 B=R4 C=K5
+               14 JMP        A=0 sBx=42 (-> 57)
+               15 GETUPVAL   A=4 B=R1 C=R0
+               16 MUL        A=4 B=R4 C=K6
+               17 MOD        A=4 B=R4 C=K7
+               18 SETUPVAL   A=4 B=R1 C=R0
+               19 MOVE       A=4 B=R0 C=R0
+               20 MOVE       A=5 B=R0 C=R0
+               21 MOVE       A=6 B=R2 C=R0
+               22 MOVE       A=7 B=R3 C=R0
+               23 MOVE       A=8 B=R3 C=R0
+               24 TESTSET    A=9 B=R2 C=R0
+               25 JMP        A=0 sBx=1 (-> 27)
+               26 MOVE       A=9 B=R1 C=R0
+               27 CALL       A=5 B=R5 C=R2
+               28 MOVE       A=6 B=R2 C=R0
+               29 MOVE       A=7 B=R2 C=R0
+               30 MOVE       A=8 B=R0 C=R0
+               31 MOVE       A=9 B=R1 C=R0
+               32 MOVE       A=10 B=R0 C=R0
+               33 CALL       A=6 B=R5 C=R2
+               34 MOVE       A=7 B=R3 C=R0
+               35 MOVE       A=8 B=R1 C=R0
+               36 MOVE       A=9 B=R2 C=R0
+               37 MOVE       A=10 B=R3 C=R0
+               38 MOVE       A=11 B=R2 C=R0
+               39 CALL       A=7 B=R5 C=R2
+               40 MOVE       A=8 B=R0 C=R0
+               41 MOVE       A=9 B=R2 C=R0
+               42 MOVE       A=10 B=R0 C=R0
+               43 MOVE       A=11 B=R1 C=R0
+               44 MOVE       A=12 B=R1 C=R0
+               45 CALL       A=8 B=R5 C=R2
+               46 TEST       A=8 B=R0 C=R0
+               47 JMP        A=0 sBx=6 (-> 54)
+               48 MOVE       A=8 B=R1 C=R0
+               49 MOVE       A=9 B=R1 C=R0
+               50 MOVE       A=10 B=R2 C=R0
+               51 MOVE       A=11 B=R2 C=R0
+               52 MOVE       A=12 B=R0 C=R0
+               53 CALL       A=8 B=R5 C=R2
+               54 TAILCALL   A=4 B=R5 C=R0
+               55 RETURN     A=4 B=R0 C=R0
+               56 JMP        A=0 sBx=1 (-> 58)
+               57 RETURN     A=2 B=R2 C=R0
+               58 RETURN     A=1 B=R2 C=R0
+               59 RETURN     A=0 B=R1 C=R0
+          sub-protos: 0
+
+        === Proto main.29.3.0.3 (49-49) ===
+          params=4 vararg=False maxstack=13
+          upvalues(2): d(stk0), e(stk1)
+          constants (8):
+            K0: 144
+            K1: 1
+            K2: 765
+            K3: 27107
+            K4: 478
+            K5: 239
+            K6: 147
+            K7: 35325
+          code (90 instr):
+                0 GETUPVAL   A=4 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R4
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=3 B=R2 C=R0
+                4 GETUPVAL   A=4 B=R0 C=R0
+                5 ADD        A=4 B=R4 C=K1
+                6 SETUPVAL   A=4 B=R0 C=R0
+                7 GETUPVAL   A=4 B=R1 C=R0
+                8 MUL        A=4 B=R4 C=K2
+                9 MOD        A=4 B=R4 C=K3
+               10 SETUPVAL   A=4 B=R1 C=R0
+               11 GETUPVAL   A=4 B=R1 C=R0
+               12 MOD        A=4 B=R4 C=K4
+               13 LE         A=0 B=R4 C=K5
+               14 JMP        A=0 sBx=6 (-> 21)
+               15 GETUPVAL   A=4 B=R1 C=R0
+               16 ADD        A=4 B=R4 C=K6
+               17 MOD        A=4 B=R4 C=K7
+               18 SETUPVAL   A=4 B=R1 C=R0
+               19 RETURN     A=1 B=R2 C=R0
+               20 JMP        A=0 sBx=31 (-> 52)
+               21 MOVE       A=4 B=R1 C=R0
+               22 MOVE       A=5 B=R0 C=R0
+               23 MOVE       A=6 B=R0 C=R0
+               24 MOVE       A=7 B=R0 C=R0
+               25 MOVE       A=8 B=R0 C=R0
+               26 MOVE       A=9 B=R1 C=R0
+               27 CALL       A=5 B=R5 C=R2
+               28 MOVE       A=6 B=R1 C=R0
+               29 MOVE       A=7 B=R1 C=R0
+               30 MOVE       A=8 B=R0 C=R0
+               31 MOVE       A=9 B=R3 C=R0
+               32 MOVE       A=10 B=R3 C=R0
+               33 CALL       A=6 B=R5 C=R2
+               34 MOVE       A=7 B=R1 C=R0
+               35 MOVE       A=8 B=R0 C=R0
+               36 TESTSET    A=9 B=R2 C=R0
+               37 JMP        A=0 sBx=1 (-> 39)
+               38 MOVE       A=9 B=R2 C=R0
+               39 MOVE       A=10 B=R0 C=R0
+               40 MOVE       A=11 B=R0 C=R0
+               41 CALL       A=7 B=R5 C=R2
+               42 MOVE       A=8 B=R3 C=R0
+               43 MOVE       A=9 B=R3 C=R0
+               44 MOVE       A=10 B=R3 C=R0
+               45 TESTSET    A=11 B=R0 C=R0
+               46 JMP        A=0 sBx=1 (-> 48)
+               47 MOVE       A=11 B=R3 C=R0
+               48 MOVE       A=12 B=R3 C=R0
+               49 CALL       A=8 B=R5 C=R0
+               50 TAILCALL   A=4 B=R0 C=R0
+               51 RETURN     A=4 B=R0 C=R0
+               52 MOVE       A=4 B=R1 C=R0
+               53 MOVE       A=5 B=R3 C=R0
+               54 TESTSET    A=6 B=R2 C=R0
+               55 JMP        A=0 sBx=1 (-> 57)
+               56 MOVE       A=6 B=R1 C=R0
+               57 MOVE       A=7 B=R2 C=R0
+               58 TESTSET    A=8 B=R0 C=R0
+               59 JMP        A=0 sBx=1 (-> 61)
+               60 MOVE       A=8 B=R2 C=R0
+               61 TESTSET    A=9 B=R2 C=R0
+               62 JMP        A=0 sBx=1 (-> 64)
+               63 MOVE       A=9 B=R1 C=R0
+               64 CALL       A=5 B=R5 C=R2
+               65 MOVE       A=6 B=R2 C=R0
+               66 MOVE       A=7 B=R0 C=R0
+               67 MOVE       A=8 B=R0 C=R0
+               68 MOVE       A=9 B=R2 C=R0
+               69 MOVE       A=10 B=R0 C=R0
+               70 CALL       A=6 B=R5 C=R2
+               71 MOVE       A=7 B=R2 C=R0
+               72 TESTSET    A=8 B=R2 C=R0
+               73 JMP        A=0 sBx=1 (-> 75)
+               74 MOVE       A=8 B=R1 C=R0
+               75 TESTSET    A=9 B=R3 C=R0
+               76 JMP        A=0 sBx=1 (-> 78)
+               77 MOVE       A=9 B=R1 C=R0
+               78 MOVE       A=10 B=R1 C=R0
+               79 MOVE       A=11 B=R2 C=R0
+               80 CALL       A=7 B=R5 C=R2
+               81 MOVE       A=8 B=R1 C=R0
+               82 MOVE       A=9 B=R0 C=R0
+               83 MOVE       A=10 B=R3 C=R0
+               84 MOVE       A=11 B=R1 C=R0
+               85 MOVE       A=12 B=R1 C=R0
+               86 CALL       A=8 B=R5 C=R0
+               87 TAILCALL   A=4 B=R0 C=R0
+               88 RETURN     A=4 B=R0 C=R0
+               89 RETURN     A=0 B=R1 C=R0
+          sub-protos: 0
+
+        === Proto main.29.3.0.4 (49-49) ===
+          params=4 vararg=False maxstack=13
+          upvalues(2): d(stk0), e(stk1)
+          constants (6):
+            K0: 419
+            K1: 1
+            K2: 498
+            K3: 23569
+            K4: 1926
+            K5: 963
+          code (108 instr):
+                0 GETUPVAL   A=4 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R4
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=2 B=R2 C=R0
+                4 GETUPVAL   A=4 B=R0 C=R0
+                5 ADD        A=4 B=R4 C=K1
+                6 SETUPVAL   A=4 B=R0 C=R0
+                7 GETUPVAL   A=4 B=R1 C=R0
+                8 MUL        A=4 B=R4 C=K2
+                9 MOD        A=4 B=R4 C=K3
+               10 SETUPVAL   A=4 B=R1 C=R0
+               11 GETUPVAL   A=4 B=R1 C=R0
+               12 MOD        A=4 B=R4 C=K4
+               13 LT         A=0 B=R4 C=K5
+               14 JMP        A=0 sBx=2 (-> 17)
+               15 RETURN     A=1 B=R2 C=R0
+               16 JMP        A=0 sBx=49 (-> 66)
+               17 MOVE       A=4 B=R2 C=R0
+               18 MOVE       A=5 B=R2 C=R0
+               19 MOVE       A=6 B=R0 C=R0
+               20 MOVE       A=7 B=R3 C=R0
+               21 TESTSET    A=8 B=R3 C=R0
+               22 JMP        A=0 sBx=1 (-> 24)
+               23 MOVE       A=8 B=R3 C=R0
+               24 MOVE       A=9 B=R2 C=R0
+               25 CALL       A=5 B=R5 C=R2
+               26 TEST       A=5 B=R0 C=R0
+               27 JMP        A=0 sBx=8 (-> 36)
+               28 MOVE       A=5 B=R0 C=R0
+               29 MOVE       A=6 B=R2 C=R0
+               30 TESTSET    A=7 B=R3 C=R0
+               31 JMP        A=0 sBx=1 (-> 33)
+               32 MOVE       A=7 B=R1 C=R0
+               33 MOVE       A=8 B=R1 C=R0
+               34 MOVE       A=9 B=R3 C=R0
+               35 CALL       A=5 B=R5 C=R2
+               36 MOVE       A=6 B=R2 C=R0
+               37 MOVE       A=7 B=R2 C=R0
+               38 TESTSET    A=8 B=R0 C=R0
+               39 JMP        A=0 sBx=1 (-> 41)
+               40 MOVE       A=8 B=R0 C=R0
+               41 MOVE       A=9 B=R3 C=R0
+               42 MOVE       A=10 B=R1 C=R0
+               43 CALL       A=6 B=R5 C=R2
+               44 MOVE       A=7 B=R1 C=R0
+               45 MOVE       A=8 B=R0 C=R0
+               46 MOVE       A=9 B=R3 C=R0
+               47 MOVE       A=10 B=R2 C=R0
+               48 MOVE       A=11 B=R0 C=R0
+               49 CALL       A=7 B=R5 C=R2
+               50 MOVE       A=8 B=R1 C=R0
+               51 MOVE       A=9 B=R0 C=R0
+               52 MOVE       A=10 B=R1 C=R0
+               53 MOVE       A=11 B=R2 C=R0
+               54 MOVE       A=12 B=R0 C=R0
+               55 CALL       A=8 B=R5 C=R2
+               56 TEST       A=8 B=R0 C=R0
+               57 JMP        A=0 sBx=6 (-> 64)
+               58 MOVE       A=8 B=R2 C=R0
+               59 MOVE       A=9 B=R1 C=R0
+               60 MOVE       A=10 B=R3 C=R0
+               61 MOVE       A=11 B=R3 C=R0
+               62 MOVE       A=12 B=R2 C=R0
+               63 CALL       A=8 B=R5 C=R2
+               64 TAILCALL   A=4 B=R5 C=R0
+               65 RETURN     A=4 B=R0 C=R0
+               66 MOVE       A=4 B=R2 C=R0
+               67 MOVE       A=5 B=R2 C=R0
+               68 MOVE       A=6 B=R2 C=R0
+               69 TESTSET    A=7 B=R0 C=R0
+               70 JMP        A=0 sBx=1 (-> 72)
+               71 MOVE       A=7 B=R3 C=R0
+               72 MOVE       A=8 B=R3 C=R0
+               73 MOVE       A=9 B=R3 C=R0
+               74 CALL       A=5 B=R5 C=R2
+               75 MOVE       A=6 B=R2 C=R0
+               76 MOVE       A=7 B=R3 C=R0
+               77 MOVE       A=8 B=R2 C=R0
+               78 MOVE       A=9 B=R1 C=R0
+               79 MOVE       A=10 B=R3 C=R0
+               80 CALL       A=6 B=R5 C=R2
+               81 MOVE       A=7 B=R2 C=R0
+               82 TESTSET    A=8 B=R0 C=R0
+               83 JMP        A=0 sBx=1 (-> 85)
+               84 MOVE       A=8 B=R1 C=R0
+               85 MOVE       A=9 B=R2 C=R0
+               86 MOVE       A=10 B=R1 C=R0
+               87 MOVE       A=11 B=R3 C=R0
+               88 CALL       A=7 B=R5 C=R2
+               89 MOVE       A=8 B=R0 C=R0
+               90 TESTSET    A=9 B=R2 C=R0
+               91 JMP        A=0 sBx=1 (-> 93)
+               92 MOVE       A=9 B=R0 C=R0
+               93 MOVE       A=10 B=R2 C=R0
+               94 MOVE       A=11 B=R1 C=R0
+               95 MOVE       A=12 B=R2 C=R0
+               96 CALL       A=8 B=R5 C=R2
+               97 TEST       A=8 B=R0 C=R0
+               98 JMP        A=0 sBx=6 (-> 105)
+               99 MOVE       A=8 B=R0 C=R0
+              100 MOVE       A=9 B=R0 C=R0
+              101 MOVE       A=10 B=R2 C=R0
+              102 MOVE       A=11 B=R2 C=R0
+              103 MOVE       A=12 B=R0 C=R0
+              104 CALL       A=8 B=R5 C=R2
+              105 TAILCALL   A=4 B=R5 C=R0
+              106 RETURN     A=4 B=R0 C=R0
+              107 RETURN     A=0 B=R1 C=R0
+          sub-protos: 0
+
+    === Proto main.29.4 (49-49) ===
+      params=0 vararg=False maxstack=6
+      upvalues(0): 
+      constants (2):
+        K0: 0
+        K1: 1
+      code (9 instr):
+            0 LOADK      A=0 Bx=0 ; 0
+            1 LOADK      A=1 Bx=1 ; 1
+            2 CLOSURE    A=2 Bx=0 ; proto[0]
+            3 CLOSURE    A=3 Bx=1 ; proto[1]
+            4 CLOSURE    A=4 Bx=2 ; proto[2]
+            5 CLOSURE    A=5 Bx=3 ; proto[3]
+            6 CALL       A=2 B=R4 C=R1
+            7 RETURN     A=1 B=R2 C=R0
+            8 RETURN     A=0 B=R1 C=R0
+      sub-protos: 4
+
+      === Proto main.29.4.0 (49-49) ===
+        params=3 vararg=False maxstack=10
+        upvalues(0): 
+        constants (0):
+        code (22 instr):
+              0 MOVE       A=3 B=R0 C=R0
+              1 MOVE       A=4 B=R2 C=R0
+              2 MOVE       A=5 B=R0 C=R0
+              3 MOVE       A=6 B=R1 C=R0
+              4 MOVE       A=7 B=R0 C=R0
+              5 CALL       A=4 B=R4 C=R2
+              6 MOVE       A=5 B=R2 C=R0
+              7 MOVE       A=6 B=R1 C=R0
+              8 MOVE       A=7 B=R2 C=R0
+              9 TESTSET    A=8 B=R2 C=R0
+             10 JMP        A=0 sBx=1 (-> 12)
+             11 MOVE       A=8 B=R1 C=R0
+             12 CALL       A=5 B=R4 C=R2
+             13 MOVE       A=6 B=R0 C=R0
+             14 MOVE       A=7 B=R1 C=R0
+             15 MOVE       A=8 B=R0 C=R0
+             16 TESTSET    A=9 B=R1 C=R0
+             17 JMP        A=0 sBx=1 (-> 19)
+             18 MOVE       A=9 B=R2 C=R0
+             19 CALL       A=6 B=R4 C=R0
+             20 CALL       A=3 B=R0 C=R1
+             21 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.4.1 (49-49) ===
+        params=3 vararg=False maxstack=10
+        upvalues(2): n(stk0), z(stk1)
+        constants (6):
+          K0: 456
+          K1: 1
+          K2: 1002
+          K3: 24924
+          K4: 1982
+          K5: 991
+        code (43 instr):
+              0 GETUPVAL   A=3 B=R0 C=R0
+              1 LT         A=0 B=K0 C=R3
+              2 JMP        A=0 sBx=1 (-> 4)
+              3 RETURN     A=2 B=R2 C=R0
+              4 GETUPVAL   A=3 B=R0 C=R0
+              5 ADD        A=3 B=R3 C=K1
+              6 SETUPVAL   A=3 B=R0 C=R0
+              7 GETUPVAL   A=3 B=R1 C=R0
+              8 SUB        A=3 B=R3 C=K2
+              9 MOD        A=3 B=R3 C=K3
+             10 SETUPVAL   A=3 B=R1 C=R0
+             11 GETUPVAL   A=3 B=R1 C=R0
+             12 MOD        A=3 B=R3 C=K4
+             13 LT         A=0 B=K5 C=R3
+             14 JMP        A=0 sBx=25 (-> 40)
+             15 MOVE       A=3 B=R1 C=R0
+             16 MOVE       A=4 B=R0 C=R0
+             17 MOVE       A=5 B=R0 C=R0
+             18 MOVE       A=6 B=R0 C=R0
+             19 TESTSET    A=7 B=R1 C=R0
+             20 JMP        A=0 sBx=1 (-> 22)
+             21 MOVE       A=7 B=R2 C=R0
+             22 CALL       A=4 B=R4 C=R2
+             23 MOVE       A=5 B=R0 C=R0
+             24 TESTSET    A=6 B=R0 C=R0
+             25 JMP        A=0 sBx=1 (-> 27)
+             26 MOVE       A=6 B=R0 C=R0
+             27 TESTSET    A=7 B=R0 C=R0
+             28 JMP        A=0 sBx=1 (-> 30)
+             29 MOVE       A=7 B=R0 C=R0
+             30 MOVE       A=8 B=R2 C=R0
+             31 CALL       A=5 B=R4 C=R2
+             32 MOVE       A=6 B=R0 C=R0
+             33 MOVE       A=7 B=R1 C=R0
+             34 MOVE       A=8 B=R1 C=R0
+             35 MOVE       A=9 B=R1 C=R0
+             36 CALL       A=6 B=R4 C=R0
+             37 TAILCALL   A=3 B=R0 C=R0
+             38 RETURN     A=3 B=R0 C=R0
+             39 JMP        A=0 sBx=1 (-> 41)
+             40 RETURN     A=1 B=R2 C=R0
+             41 RETURN     A=1 B=R2 C=R0
+             42 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.4.2 (49-49) ===
+        params=3 vararg=False maxstack=10
+        upvalues(2): n(stk0), z(stk1)
+        constants (8):
+          K0: 201
+          K1: 1
+          K2: 964
+          K3: 8854
+          K4: 876
+          K5: 438
+          K6: 797
+          K7: 7429
+        code (62 instr):
+              0 GETUPVAL   A=3 B=R0 C=R0
+              1 LT         A=0 B=K0 C=R3
+              2 JMP        A=0 sBx=1 (-> 4)
+              3 RETURN     A=2 B=R2 C=R0
+              4 GETUPVAL   A=3 B=R0 C=R0
+              5 ADD        A=3 B=R3 C=K1
+              6 SETUPVAL   A=3 B=R0 C=R0
+              7 GETUPVAL   A=3 B=R1 C=R0
+              8 ADD        A=3 B=R3 C=K2
+              9 MOD        A=3 B=R3 C=K3
+             10 SETUPVAL   A=3 B=R1 C=R0
+             11 GETUPVAL   A=3 B=R1 C=R0
+             12 MOD        A=3 B=R3 C=K4
+             13 LE         A=0 B=K5 C=R3
+             14 JMP        A=0 sBx=6 (-> 21)
+             15 GETUPVAL   A=3 B=R1 C=R0
+             16 ADD        A=3 B=R3 C=K6
+             17 MOD        A=3 B=R3 C=K7
+             18 SETUPVAL   A=3 B=R1 C=R0
+             19 RETURN     A=1 B=R2 C=R0
+             20 JMP        A=0 sBx=20 (-> 41)
+             21 MOVE       A=3 B=R0 C=R0
+             22 MOVE       A=4 B=R0 C=R0
+             23 MOVE       A=5 B=R1 C=R0
+             24 MOVE       A=6 B=R0 C=R0
+             25 MOVE       A=7 B=R2 C=R0
+             26 CALL       A=4 B=R4 C=R2
+             27 MOVE       A=5 B=R1 C=R0
+             28 MOVE       A=6 B=R2 C=R0
+             29 MOVE       A=7 B=R2 C=R0
+             30 MOVE       A=8 B=R1 C=R0
+             31 CALL       A=5 B=R4 C=R2
+             32 MOVE       A=6 B=R2 C=R0
+             33 MOVE       A=7 B=R0 C=R0
+             34 TESTSET    A=8 B=R2 C=R0
+             35 JMP        A=0 sBx=1 (-> 37)
+             36 MOVE       A=8 B=R1 C=R0
+             37 MOVE       A=9 B=R0 C=R0
+             38 CALL       A=6 B=R4 C=R0
+             39 TAILCALL   A=3 B=R0 C=R0
+             40 RETURN     A=3 B=R0 C=R0
+             41 MOVE       A=3 B=R2 C=R0
+             42 MOVE       A=4 B=R2 C=R0
+             43 MOVE       A=5 B=R1 C=R0
+             44 MOVE       A=6 B=R0 C=R0
+             45 MOVE       A=7 B=R1 C=R0
+             46 CALL       A=4 B=R4 C=R2
+             47 MOVE       A=5 B=R2 C=R0
+             48 MOVE       A=6 B=R1 C=R0
+             49 TESTSET    A=7 B=R1 C=R0
+             50 JMP        A=0 sBx=1 (-> 52)
+             51 MOVE       A=7 B=R1 C=R0
+             52 MOVE       A=8 B=R2 C=R0
+             53 CALL       A=5 B=R4 C=R2
+             54 MOVE       A=6 B=R1 C=R0
+             55 MOVE       A=7 B=R0 C=R0
+             56 MOVE       A=8 B=R1 C=R0
+             57 MOVE       A=9 B=R0 C=R0
+             58 CALL       A=6 B=R4 C=R0
+             59 TAILCALL   A=3 B=R0 C=R0
+             60 RETURN     A=3 B=R0 C=R0
+             61 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.4.3 (49-49) ===
+        params=3 vararg=False maxstack=10
+        upvalues(2): n(stk0), z(stk1)
+        constants (8):
+          K0: 468
+          K1: 1
+          K2: 40
+          K3: 40189
+          K4: 1110
+          K5: 555
+          K6: 679
+          K7: 24365
+        code (43 instr):
+              0 GETUPVAL   A=3 B=R0 C=R0
+              1 LT         A=0 B=K0 C=R3
+              2 JMP        A=0 sBx=1 (-> 4)
+              3 RETURN     A=1 B=R2 C=R0
+              4 GETUPVAL   A=3 B=R0 C=R0
+              5 ADD        A=3 B=R3 C=K1
+              6 SETUPVAL   A=3 B=R0 C=R0
+              7 GETUPVAL   A=3 B=R1 C=R0
+              8 SUB        A=3 B=R3 C=K2
+              9 MOD        A=3 B=R3 C=K3
+             10 SETUPVAL   A=3 B=R1 C=R0
+             11 GETUPVAL   A=3 B=R1 C=R0
+             12 MOD        A=3 B=R3 C=K4
+             13 LE         A=0 B=K5 C=R3
+             14 JMP        A=0 sBx=25 (-> 40)
+             15 GETUPVAL   A=3 B=R1 C=R0
+             16 SUB        A=3 B=R3 C=K6
+             17 MOD        A=3 B=R3 C=K7
+             18 SETUPVAL   A=3 B=R1 C=R0
+             19 MOVE       A=3 B=R2 C=R0
+             20 MOVE       A=4 B=R2 C=R0
+             21 MOVE       A=5 B=R0 C=R0
+             22 MOVE       A=6 B=R1 C=R0
+             23 MOVE       A=7 B=R2 C=R0
+             24 CALL       A=4 B=R4 C=R2
+             25 MOVE       A=5 B=R2 C=R0
+             26 TESTSET    A=6 B=R1 C=R0
+             27 JMP        A=0 sBx=1 (-> 29)
+             28 MOVE       A=6 B=R1 C=R0
+             29 MOVE       A=7 B=R0 C=R0
+             30 MOVE       A=8 B=R2 C=R0
+             31 CALL       A=5 B=R4 C=R2
+             32 MOVE       A=6 B=R2 C=R0
+             33 MOVE       A=7 B=R0 C=R0
+             34 MOVE       A=8 B=R2 C=R0
+             35 MOVE       A=9 B=R0 C=R0
+             36 CALL       A=6 B=R4 C=R0
+             37 TAILCALL   A=3 B=R0 C=R0
+             38 RETURN     A=3 B=R0 C=R0
+             39 JMP        A=0 sBx=1 (-> 41)
+             40 RETURN     A=2 B=R2 C=R0
+             41 RETURN     A=1 B=R2 C=R0
+             42 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+    === Proto main.29.5 (49-49) ===
+      params=0 vararg=False maxstack=2
+      upvalues(1): _ENV(upv0)
+      constants (0):
+      code (3 instr):
+            0 GETUPVAL   A=0 B=R0 C=R0
+            1 RETURN     A=0 B=R2 C=R0
+            2 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+    === Proto main.29.6 (49-49) ===
+      params=1 vararg=True maxstack=27
+      upvalues(12): j(stk12), z(stk13), s(stk6), f(stk0), h(stk4), d(stk17), o(stk16), n(stk19), y(stk18), a(stk15), fz(stk14), _ENV(upv0)
+      constants (14):
+        K0: '^0=iS)Hjz{UGDl7-UU0;{z=ZUUiHGzSdDzDiSDl=)0l7)-z=u-{b0zUIz70-UU=)U{iiD!7=HG-wjz9Q-Gz)-U==G1isGzS DH{i0{GI=GG0S=l=TU{{0zU...[+23682]
+        K1: 0
+        K2: 'yxGuFFVq'
+        K3: 'gjeX_bzq'
+        K4: 'Hx_mYSzf'
+        K5: '1.0'
+        K6: 1
+        K7: 255
+        K8: 1
+        K9: ''
+        K10: 2
+        K11: 1
+        K12: 'TUogrWqDedRuiCz'
+        K13: None
+      code (67 instr):
+            0 GETUPVAL   A=1 B=R0 C=R0
+            1 GETUPVAL   A=2 B=R1 C=R0
+            2 LOADK      A=3 Bx=0 ; '^0=iS)Hjz{UGDl7-UU0;{z=ZUUiHGzSdDzDiSDl=)0l7)-z=u-{b0zUIz70-UU=)U{iiD!7=HG-wjz9Q-Gz)-U==G1isGzS DH{i0{GI=GG0S=l=TU{{0zU...[+23682]
+            3 CALL       A=1 B=R3 C=R2
+            4 LOADK      A=2 Bx=1 ; 0
+            5 GETTABUP   A=3 B=R2 C=K2
+            6 CLOSURE    A=4 Bx=0 ; proto[0]
+            7 CALL       A=3 B=R2 C=R1
+            8 CLOSURE    A=3 Bx=1 ; proto[1]
+            9 GETUPVAL   A=4 B=R3 C=R0
+           10 LOADK      A=5 Bx=1 ; 0
+           11 GETUPVAL   A=6 B=R3 C=R0
+           12 MOVE       A=7 B=R3 C=R0
+           13 MOVE       A=8 B=R1 C=R0
+           14 GETTABUP   A=9 B=R2 C=K3
+           15 CALL       A=4 B=R6 C=R4
+           16 CLOSURE    A=7 Bx=2 ; proto[2]
+           17 LOADBOOL   A=8 B=R1 C=R0
+           18 LOADK      A=9 Bx=1 ; 0
+           19 CLOSURE    A=10 Bx=3 ; proto[3]
+           20 MOVE       A=11 B=R5 C=R0
+           21 CLOSURE    A=12 Bx=4 ; proto[4]
+           22 GETTABUP   A=13 B=R2 C=K4
+           23 GETUPVAL   A=14 B=R4 C=R0
+           24 LOADK      A=15 Bx=5 ; '1.0'
+           25 CALL       A=14 B=R2 C=R0
+           26 CALL       A=13 B=R0 C=R2
+           27 LEN        A=13 B=R13 C=R0
+           28 EQ         A=0 B=R13 C=K6
+           29 JMP        A=0 sBx=1 (-> 31)
+           30 LOADBOOL   A=13 B=R0 C=R1
+           31 LOADBOOL   A=13 B=R1 C=R0
+           32 MOVE       A=14 B=R5 C=R0
+           33 CLOSURE    A=15 Bx=5 ; proto[5]
+           34 CLOSURE    A=16 Bx=6 ; proto[6]
+           35 CLOSURE    A=17 Bx=7 ; proto[7]
+           36 CLOSURE    A=18 Bx=8 ; proto[8]
+           37 LOADK      A=19 Bx=7 ; 255
+           38 NEWTABLE   A=20 B=R0 C=R0
+           39 LOADK      A=21 Bx=8 ; 1
+           40 LOADK      A=22 Bx=9 ; ''
+           41 CLOSURE    A=23 Bx=9 ; proto[9]
+           42 NEWTABLE   A=24 B=R0 C=R0
+           43 CALL       A=23 B=R2 C=R1
+           44 MOVE       A=23 B=R18 C=R0
+           45 GETUPVAL   A=24 B=R9 C=R0
+           46 MOVE       A=25 B=R20 C=R0
+           47 CALL       A=24 B=R2 C=R0
+           48 CALL       A=23 B=R0 C=R2
+           49 NEWTABLE   A=24 B=R0 C=R0
+           50 SETTABLE   A=20 B=K10 C=R24
+           51 MOVE       A=24 B=R23 C=R0
+           52 GETTABLE   A=25 B=R20 C=K11
+           53 CALL       A=24 B=R2 C=R2
+           54 SETTABLE   A=20 B=K11 C=R24
+           55 SETTABUP   A=11 B=K12 C=K13
+           56 MOVE       A=24 B=R18 C=R0
+           57 GETUPVAL   A=25 B=R9 C=R0
+           58 MOVE       A=26 B=R20 C=R0
+           59 CALL       A=25 B=R2 C=R0
+           60 CALL       A=24 B=R0 C=R2
+           61 MOVE       A=23 B=R24 C=R0
+           62 MOVE       A=24 B=R23 C=R0
+           63 VARARG     A=25 B=R0 C=R0
+           64 TAILCALL   A=24 B=R0 C=R0
+           65 RETURN     A=24 B=R0 C=R0
+           66 RETURN     A=0 B=R1 C=R0
+      sub-protos: 10
+
+      === Proto main.29.6.0 (49-49) ===
+        params=0 vararg=False maxstack=2
+        upvalues(2): s(upv2), e(stk2)
+        constants (2):
+          K0: 'pWwjyFaE'
+          K1: 1
+        code (6 instr):
+              0 GETTABUP   A=0 B=R0 C=K0
+              1 CALL       A=0 B=R1 C=R1
+              2 GETUPVAL   A=0 B=R1 C=R0
+              3 ADD        A=0 B=R0 C=K1
+              4 SETUPVAL   A=0 B=R1 C=R0
+              5 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.1 (49-49) ===
+        params=2 vararg=False maxstack=3
+        upvalues(1): e(stk2)
+        constants (0):
+        code (8 instr):
+              0 TEST       A=1 B=R0 C=R0
+              1 JMP        A=0 sBx=2 (-> 4)
+              2 GETUPVAL   A=2 B=R0 C=R0
+              3 RETURN     A=2 B=R2 C=R0
+              4 GETUPVAL   A=2 B=R0 C=R0
+              5 ADD        A=2 B=R0 C=R2
+              6 SETUPVAL   A=2 B=R0 C=R0
+              7 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.2 (49-49) ===
+        params=0 vararg=False maxstack=6
+        upvalues(3): s(upv2), r(stk1), z(stk3)
+        constants (7):
+          K0: 'gjeX_bzq'
+          K1: 1
+          K2: 3
+          K3: 5
+          K4: 6
+          K5: 2
+          K6: 256
+        code (19 instr):
+              0 GETTABUP   A=0 B=R0 C=K0
+              1 GETUPVAL   A=1 B=R1 C=R0
+              2 GETUPVAL   A=2 B=R2 C=R0
+              3 LOADK      A=3 Bx=1 ; 1
+              4 LOADK      A=4 Bx=2 ; 3
+              5 CALL       A=2 B=R3 C=R2
+              6 GETUPVAL   A=3 B=R2 C=R0
+              7 LOADK      A=4 Bx=3 ; 5
+              8 LOADK      A=5 Bx=4 ; 6
+              9 CALL       A=3 B=R3 C=R2
+             10 ADD        A=3 B=R3 C=K5
+             11 CALL       A=0 B=R4 C=R3
+             12 GETUPVAL   A=2 B=R2 C=R0
+             13 LOADK      A=3 Bx=5 ; 2
+             14 CALL       A=2 B=R2 C=R1
+             15 MUL        A=2 B=R1 C=K6
+             16 ADD        A=2 B=R2 C=R0
+             17 RETURN     A=2 B=R2 C=R0
+             18 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.3 (49-49) ===
+        params=0 vararg=False maxstack=9
+        upvalues(4): e(stk5), l(stk4), c(stk9), s(upv2)
+        constants (12):
+          K0: 1
+          K1: 20
+          K2: 4294967296.0
+          K3: 21
+          K4: 31
+          K5: 32
+          K6: -1
+          K7: 0
+          K8: 2047
+          K9: 'vjpMQaCP'
+          K10: 1023
+          K11: 4503599627370496.0
+        code (53 instr):
+              0 GETUPVAL   A=0 B=R0 C=R0
+              1 CALL       A=0 B=R1 C=R2
+              2 GETUPVAL   A=1 B=R0 C=R0
+              3 CALL       A=1 B=R1 C=R2
+              4 LOADK      A=2 Bx=0 ; 1
+              5 GETUPVAL   A=3 B=R1 C=R0
+              6 MOVE       A=4 B=R1 C=R0
+              7 LOADK      A=5 Bx=0 ; 1
+              8 LOADK      A=6 Bx=1 ; 20
+              9 CALL       A=3 B=R4 C=R2
+             10 MUL        A=3 B=R3 C=K2
+             11 ADD        A=3 B=R3 C=R0
+             12 GETUPVAL   A=4 B=R1 C=R0
+             13 MOVE       A=5 B=R1 C=R0
+             14 LOADK      A=6 Bx=3 ; 21
+             15 LOADK      A=7 Bx=4 ; 31
+             16 CALL       A=4 B=R4 C=R2
+             17 GETUPVAL   A=5 B=R1 C=R0
+             18 MOVE       A=6 B=R1 C=R0
+             19 LOADK      A=7 Bx=5 ; 32
+             20 CALL       A=5 B=R3 C=R2
+             21 POW        A=5 B=K6 C=R5
+             22 EQ         A=0 B=R4 C=K7
+             23 JMP        A=0 sBx=9 (-> 33)
+             24 GETUPVAL   A=6 B=R2 C=R0
+             25 EQ         A=0 B=R3 C=R6
+             26 JMP        A=0 sBx=3 (-> 30)
+             27 MUL        A=6 B=R5 C=K7
+             28 RETURN     A=6 B=R2 C=R0
+             29 JMP        A=0 sBx=14 (-> 44)
+             30 LOADK      A=4 Bx=0 ; 1
+             31 LOADK      A=2 Bx=7 ; 0
+             32 JMP        A=0 sBx=11 (-> 44)
+             33 EQ         A=0 B=R4 C=K8
+             34 JMP        A=0 sBx=9 (-> 44)
+             35 EQ         A=0 B=R3 C=K7
+             36 JMP        A=0 sBx=4 (-> 41)
+             37 DIV        A=6 B=K0 C=K7
+             38 MUL        A=6 B=R5 C=R6
+             39 TEST       A=6 B=R0 C=R1
+             40 JMP        A=0 sBx=2 (-> 43)
+             41 DIV        A=6 B=K7 C=K7
+             42 MUL        A=6 B=R5 C=R6
+             43 RETURN     A=6 B=R2 C=R0
+             44 GETTABUP   A=6 B=R3 C=K9
+             45 MOVE       A=7 B=R5 C=R0
+             46 SUB        A=8 B=R4 C=K10
+             47 CALL       A=6 B=R3 C=R2
+             48 DIV        A=7 B=R3 C=K11
+             49 ADD        A=7 B=R2 C=R7
+             50 MUL        A=6 B=R6 C=R7
+             51 RETURN     A=6 B=R2 C=R0
+             52 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.4 (49-49) ===
+        params=1 vararg=False maxstack=12
+        upvalues(5): k(stk11), s(upv2), r(stk1), z(stk3), c(stk9)
+        constants (7):
+          K0: 0
+          K1: ''
+          K2: 'dSrDYsTB'
+          K3: 1
+          K4: 3
+          K5: 5
+          K6: 6
+        code (43 instr):
+              0 LOADNIL    A=1 B=R0 C=R0
+              1 TEST       A=0 B=R0 C=R1
+              2 JMP        A=0 sBx=7 (-> 10)
+              3 GETUPVAL   A=2 B=R0 C=R0
+              4 CALL       A=2 B=R1 C=R2
+              5 MOVE       A=0 B=R2 C=R0
+              6 EQ         A=0 B=R0 C=K0
+              7 JMP        A=0 sBx=2 (-> 10)
+              8 LOADK      A=2 Bx=1 ; ''
+              9 RETURN     A=2 B=R2 C=R0
+             10 GETTABUP   A=2 B=R1 C=K2
+             11 GETUPVAL   A=3 B=R2 C=R0
+             12 GETUPVAL   A=4 B=R3 C=R0
+             13 LOADK      A=5 Bx=3 ; 1
+             14 LOADK      A=6 Bx=4 ; 3
+             15 CALL       A=4 B=R3 C=R2
+             16 GETUPVAL   A=5 B=R3 C=R0
+             17 LOADK      A=6 Bx=5 ; 5
+             18 LOADK      A=7 Bx=6 ; 6
+             19 CALL       A=5 B=R3 C=R2
+             20 ADD        A=5 B=R5 C=R0
+             21 SUB        A=5 B=R5 C=K3
+             22 CALL       A=2 B=R4 C=R2
+             23 MOVE       A=1 B=R2 C=R0
+             24 GETUPVAL   A=2 B=R3 C=R0
+             25 MOVE       A=3 B=R0 C=R0
+             26 CALL       A=2 B=R2 C=R1
+             27 LOADK      A=2 Bx=1 ; ''
+             28 GETUPVAL   A=3 B=R4 C=R0
+             29 ADD        A=3 B=K3 C=R3
+             30 LEN        A=4 B=R1 C=R0
+             31 LOADK      A=5 Bx=3 ; 1
+             32 FORPREP    A=3 sBx=7 (-> 40)
+             33 MOVE       A=7 B=R2 C=R0
+             34 GETTABUP   A=8 B=R1 C=K2
+             35 MOVE       A=9 B=R1 C=R0
+             36 MOVE       A=10 B=R6 C=R0
+             37 MOVE       A=11 B=R6 C=R0
+             38 CALL       A=8 B=R4 C=R2
+             39 CONCAT     A=2 B=R7 C=R8
+             40 FORLOOP    A=3 sBx=-8 (-> 33)
+             41 RETURN     A=2 B=R2 C=R0
+             42 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.5 (49-49) ===
+        params=0 vararg=True maxstack=4
+        upvalues(1): s(upv2)
+        constants (2):
+          K0: 'rUurIQyh'
+          K1: '#'
+        code (9 instr):
+              0 NEWTABLE   A=0 B=R0 C=R0
+              1 VARARG     A=1 B=R0 C=R0
+              2 SETLIST    A=0 B=R0 C=R1
+              3 GETTABUP   A=1 B=R0 C=K0
+              4 LOADK      A=2 Bx=1 ; '#'
+              5 VARARG     A=3 B=R0 C=R0
+              6 CALL       A=1 B=R0 C=R0
+              7 RETURN     A=0 B=R0 C=R0
+              8 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.6 (49-49) ===
+        params=0 vararg=False maxstack=18
+        upvalues(13): e(stk5), j(stk6), b(stk10), c(stk13), s(upv2), p(stk12), nz(stk16), l(stk4), t(stk7), d(upv5), o(upv6), u(stk0), n(upv7)
+        constants (11):
+          K0: 1
+          K1: 3
+          K2: 0
+          K3: 'wvQHXIjx'
+          K4: 'Hx_mYSzf'
+          K5: '.(0+)$'
+          K6: 'WnEwQZ_Q'
+          K7: 2
+          K8: 4
+          K9: 6
+          K10: 65536.0
+        code (189 instr):
+              0 NEWTABLE   A=0 B=R0 C=R0
+              1 NEWTABLE   A=1 B=R0 C=R0
+              2 NEWTABLE   A=2 B=R0 C=R0
+              3 NEWTABLE   A=3 B=R4 C=R0
+              4 MOVE       A=4 B=R2 C=R0
+              5 MOVE       A=5 B=R1 C=R0
+              6 LOADNIL    A=6 B=R0 C=R0
+              7 MOVE       A=7 B=R0 C=R0
+              8 SETLIST    A=3 B=R4 C=R1
+              9 GETUPVAL   A=4 B=R0 C=R0
+             10 CALL       A=4 B=R1 C=R2
+             11 NEWTABLE   A=5 B=R0 C=R0
+             12 LOADK      A=6 Bx=0 ; 1
+             13 MOVE       A=7 B=R4 C=R0
+             14 LOADK      A=8 Bx=0 ; 1
+             15 FORPREP    A=6 sBx=41 (-> 57)
+             16 GETUPVAL   A=10 B=R1 C=R0
+             17 CALL       A=10 B=R1 C=R2
+             18 LOADNIL    A=11 B=R0 C=R0
+             19 EQ         A=0 B=R10 C=K1
+             20 JMP        A=0 sBx=9 (-> 30)
+             21 GETUPVAL   A=12 B=R1 C=R0
+             22 CALL       A=12 B=R1 C=R2
+             23 NEWTABLE   A=13 B=R0 C=R0
+             24 LEN        A=13 B=R13 C=R0
+             25 EQ         A=0 B=R12 C=R13
+             26 JMP        A=0 sBx=1 (-> 28)
+             27 LOADBOOL   A=11 B=R0 C=R1
+             28 LOADBOOL   A=11 B=R1 C=R0
+             29 JMP        A=0 sBx=26 (-> 56)
+             30 EQ         A=0 B=R10 C=K2
+             31 JMP        A=0 sBx=19 (-> 51)
+             32 GETUPVAL   A=12 B=R2 C=R0
+             33 CALL       A=12 B=R1 C=R2
+             34 GETUPVAL   A=13 B=R3 C=R0
+             35 TEST       A=13 B=R0 C=R0
+             36 JMP        A=0 sBx=12 (-> 49)
+             37 GETTABUP   A=13 B=R4 C=K3
+             38 GETTABUP   A=14 B=R4 C=K4
+             39 MOVE       A=15 B=R12 C=R0
+             40 CALL       A=14 B=R2 C=R2
+             41 LOADK      A=15 Bx=5 ; '.(0+)$'
+             42 CALL       A=13 B=R3 C=R2
+             43 TEST       A=13 B=R0 C=R0
+             44 JMP        A=0 sBx=4 (-> 49)
+             45 GETTABUP   A=13 B=R4 C=K6
+             46 MOVE       A=14 B=R12 C=R0
+             47 CALL       A=13 B=R2 C=R2
+             48 MOVE       A=12 B=R13 C=R0
+             49 MOVE       A=11 B=R12 C=R0
+             50 JMP        A=0 sBx=5 (-> 56)
+             51 EQ         A=0 B=R10 C=K7
+             52 JMP        A=0 sBx=3 (-> 56)
+             53 GETUPVAL   A=12 B=R5 C=R0
+             54 CALL       A=12 B=R1 C=R2
+             55 MOVE       A=11 B=R12 C=R0
+             56 SETTABLE   A=5 B=R9 C=R11
+             57 FORLOOP    A=6 sBx=-42 (-> 16)
+             58 LOADK      A=6 Bx=0 ; 1
+             59 GETUPVAL   A=7 B=R0 C=R0
+             60 CALL       A=7 B=R1 C=R2
+             61 LOADK      A=8 Bx=0 ; 1
+             62 FORPREP    A=6 sBx=8 (-> 71)
+             63 NEWTABLE   A=10 B=R1 C=R0
+             64 LOADK      A=11 Bx=0 ; 1
+             65 SETLIST    A=10 B=R1 C=R1
+             66 LEN        A=10 B=R10 C=R0
+             67 SUB        A=10 B=R9 C=R10
+             68 GETUPVAL   A=11 B=R6 C=R0
+             69 CALL       A=11 B=R1 C=R2
+             70 SETTABLE   A=1 B=R10 C=R11
+             71 FORLOOP    A=6 sBx=-9 (-> 63)
+             72 LOADK      A=6 Bx=0 ; 1
+             73 GETUPVAL   A=7 B=R0 C=R0
+             74 CALL       A=7 B=R1 C=R2
+             75 LOADK      A=8 Bx=0 ; 1
+             76 FORPREP    A=6 sBx=106 (-> 183)
+             77 GETUPVAL   A=10 B=R1 C=R0
+             78 CALL       A=10 B=R1 C=R2
+             79 GETUPVAL   A=11 B=R7 C=R0
+             80 MOVE       A=12 B=R10 C=R0
+             81 LOADK      A=13 Bx=0 ; 1
+             82 LOADK      A=14 Bx=0 ; 1
+             83 CALL       A=11 B=R4 C=R2
+             84 EQ         A=0 B=R11 C=K2
+             85 JMP        A=0 sBx=97 (-> 183)
+             86 GETUPVAL   A=11 B=R7 C=R0
+             87 MOVE       A=12 B=R10 C=R0
+             88 LOADK      A=13 Bx=7 ; 2
+             89 LOADK      A=14 Bx=1 ; 3
+             90 CALL       A=11 B=R4 C=R2
+             91 GETUPVAL   A=12 B=R7 C=R0
+             92 MOVE       A=13 B=R10 C=R0
+             93 LOADK      A=14 Bx=8 ; 4
+             94 LOADK      A=15 Bx=9 ; 6
+             95 CALL       A=12 B=R4 C=R2
+             96 NEWTABLE   A=13 B=R4 C=R0
+             97 GETUPVAL   A=14 B=R8 C=R0
+             98 CALL       A=14 B=R1 C=R2
+             99 GETUPVAL   A=15 B=R8 C=R0
+            100 CALL       A=15 B=R1 C=R2
+            101 LOADNIL    A=16 B=R1 C=R0
+            102 SETLIST    A=13 B=R4 C=R1
+            103 EQ         A=0 B=R11 C=K2
+            104 JMP        A=0 sBx=9 (-> 114)
+            105 GETUPVAL   A=14 B=R9 C=R0
+            106 GETUPVAL   A=15 B=R8 C=R0
+            107 CALL       A=15 B=R1 C=R2
+            108 SETTABLE   A=13 B=R14 C=R15
+            109 GETUPVAL   A=14 B=R10 C=R0
+            110 GETUPVAL   A=15 B=R8 C=R0
+            111 CALL       A=15 B=R1 C=R2
+            112 SETTABLE   A=13 B=R14 C=R15
+            113 JMP        A=0 sBx=32 (-> 146)
+            114 NEWTABLE   A=14 B=R1 C=R0
+            115 LOADK      A=15 Bx=0 ; 1
+            116 SETLIST    A=14 B=R1 C=R1
+            117 LEN        A=14 B=R14 C=R0
+            118 EQ         A=0 B=R11 C=R14
+            119 JMP        A=0 sBx=5 (-> 125)
+            120 GETUPVAL   A=14 B=R9 C=R0
+            121 GETUPVAL   A=15 B=R0 C=R0
+            122 CALL       A=15 B=R1 C=R2
+            123 SETTABLE   A=13 B=R14 C=R15
+            124 JMP        A=0 sBx=21 (-> 146)
+            125 GETTABUP   A=14 B=R11 C=K7
+            126 EQ         A=0 B=R11 C=R14
+            127 JMP        A=0 sBx=6 (-> 134)
+            128 GETUPVAL   A=14 B=R9 C=R0
+            129 GETUPVAL   A=15 B=R0 C=R0
+            130 CALL       A=15 B=R1 C=R2
+            131 SUB        A=15 B=R15 C=K10
+            132 SETTABLE   A=13 B=R14 C=R15
+            133 JMP        A=0 sBx=12 (-> 146)
+            134 GETTABUP   A=14 B=R11 C=K1
+            135 EQ         A=0 B=R11 C=R14
+            136 JMP        A=0 sBx=9 (-> 146)
+            137 GETUPVAL   A=14 B=R9 C=R0
+            138 GETUPVAL   A=15 B=R0 C=R0
+            139 CALL       A=15 B=R1 C=R2
+            140 SUB        A=15 B=R15 C=K10
+            141 SETTABLE   A=13 B=R14 C=R15
+            142 GETUPVAL   A=14 B=R10 C=R0
+            143 GETUPVAL   A=15 B=R8 C=R0
+            144 CALL       A=15 B=R1 C=R2
+            145 SETTABLE   A=13 B=R14 C=R15
+            146 GETUPVAL   A=14 B=R7 C=R0
+            147 MOVE       A=15 B=R12 C=R0
+            148 LOADK      A=16 Bx=0 ; 1
+            149 LOADK      A=17 Bx=0 ; 1
+            150 CALL       A=14 B=R4 C=R2
+            151 EQ         A=0 B=R14 C=K0
+            152 JMP        A=0 sBx=5 (-> 158)
+            153 GETUPVAL   A=14 B=R12 C=R0
+            154 GETUPVAL   A=15 B=R12 C=R0
+            155 GETTABLE   A=15 B=R13 C=R15
+            156 GETTABLE   A=15 B=R5 C=R15
+            157 SETTABLE   A=13 B=R14 C=R15
+            158 GETUPVAL   A=14 B=R7 C=R0
+            159 MOVE       A=15 B=R12 C=R0
+            160 LOADK      A=16 Bx=7 ; 2
+            161 LOADK      A=17 Bx=7 ; 2
+            162 CALL       A=14 B=R4 C=R2
+            163 EQ         A=0 B=R14 C=K0
+            164 JMP        A=0 sBx=5 (-> 170)
+            165 GETUPVAL   A=14 B=R9 C=R0
+            166 GETUPVAL   A=15 B=R9 C=R0
+            167 GETTABLE   A=15 B=R13 C=R15
+            168 GETTABLE   A=15 B=R5 C=R15
+            169 SETTABLE   A=13 B=R14 C=R15
+            170 GETUPVAL   A=14 B=R7 C=R0
+            171 MOVE       A=15 B=R12 C=R0
+            172 LOADK      A=16 Bx=1 ; 3
+            173 LOADK      A=17 Bx=1 ; 3
+            174 CALL       A=14 B=R4 C=R2
+            175 EQ         A=0 B=R14 C=K0
+            176 JMP        A=0 sBx=5 (-> 182)
+            177 GETUPVAL   A=14 B=R10 C=R0
+            178 GETUPVAL   A=15 B=R10 C=R0
+            179 GETTABLE   A=15 B=R13 C=R15
+            180 GETTABLE   A=15 B=R5 C=R15
+            181 SETTABLE   A=13 B=R14 C=R15
+            182 SETTABLE   A=2 B=R9 C=R13
+            183 FORLOOP    A=6 sBx=-107 (-> 77)
+            184 GETUPVAL   A=6 B=R1 C=R0
+            185 CALL       A=6 B=R1 C=R2
+            186 SETTABLE   A=3 B=K1 C=R6
+            187 RETURN     A=3 B=R2 C=R0
+            188 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.7 (49-49) ===
+        params=3 vararg=False maxstack=11
+        upvalues(2): h(upv4), s(upv2)
+        constants (3):
+          K0: 'wvQHXIjx'
+          K1: 'yxGuFFVq'
+          K2: 2
+        code (18 instr):
+              0 MOVE       A=3 B=R1 C=R0
+              1 MOVE       A=4 B=R2 C=R0
+              2 GETUPVAL   A=5 B=R0 C=R0
+              3 GETTABUP   A=6 B=R1 C=K0
+              4 GETTABUP   A=7 B=R1 C=K0
+              5 NEWTABLE   A=8 B=R0 C=R0
+              6 GETTABUP   A=9 B=R1 C=K1
+              7 MOVE       A=10 B=R0 C=R0
+              8 CALL       A=9 B=R2 C=R0
+              9 SETLIST    A=8 B=R0 C=R1
+             10 GETTABLE   A=8 B=R8 C=K2
+             11 MOVE       A=9 B=R1 C=R0
+             12 CALL       A=7 B=R3 C=R2
+             13 MOVE       A=8 B=R2 C=R0
+             14 CALL       A=6 B=R3 C=R0
+             15 TAILCALL   A=5 B=R0 C=R0
+             16 RETURN     A=5 B=R0 C=R0
+             17 RETURN     A=0 B=R1 C=R0
+        sub-protos: 0
+
+      === Proto main.29.6.8 (49-49) ===
+        params=3 vararg=False maxstack=4
+        upvalues(9): s(upv2), f(upv3), ez(stk15), y(upv8), n(upv7), d(upv5), a(upv9), o(upv6), k(stk18)
+        constants (0):
+        code (3 instr):
+              0 CLOSURE    A=3 Bx=0 ; proto[0]
+              1 RETURN     A=3 B=R2 C=R0
+              2 RETURN     A=0 B=R1 C=R0
+        sub-protos: 1
+
+        === Proto main.29.6.8.0 (49-49) ===
+          params=0 vararg=True maxstack=48
+          upvalues(12): s(upv0), f(upv1), g(stk0), ez(upv2), y(upv3), n(upv4), d(upv5), a(upv6), j(stk1), o(upv7), h(stk2), k(upv8)
+          constants (170):
+            K0: 0
+            K1: -1
+            K2: 3
+            K3: 4
+            K4: 'rUurIQyh'
+            K5: '#'
+            K6: 1
+            K7: 22
+            K8: 74
+            K9: 6
+            K10: 7
+            K11: -2
+            K12: 34
+            K13: 41
+            K14: 13
+            K15: 2
+            K16: 81
+            K17: 46
+            K18: 56
+            K19: 85
+            K20: 20
+            K21: -41
+            K22: -40
+            K23: 42
+            K24: 82
+            K25: 61
+            K26: 72
+            K27: 67
+            K28: 63
+            K29: 65
+            K30: 64
+            K31: 5
+            K32: 36
+            K33: 90
+            K34: 58
+            K35: 16
+            K36: 62
+            K37: -4
+            K38: 43
+            K39: 59
+            K40: 10
+            K41: 83
+            K42: 31
+            K43: 23
+            K44: 97
+            K45: 68
+            K46: -3
+            K47: 69
+            K48: 48
+            K49: 79
+            K50: 71
+            K51: 76
+            K52: 80
+            K53: 77
+            K54: 70
+            K55: 35
+            K56: 98
+            K57: 39
+            K58: 96
+            K59: 73
+            K60: 75
+            K61: 44
+            K62: None
+            K63: 50
+            K64: 38
+            K65: 45
+            K66: 47
+            K67: 14
+            K68: 49
+            K69: 52
+            K70: 40
+            K71: 51
+            K72: 53
+            K73: 54
+            K74: 60
+            K75: 'sFkFtTFe'
+            K76: '__index'
+            K77: '__newindex'
+            K78: 1
+            K79: 17
+            K80: 1
+            K81: 27
+            K82: 57
+            K83: 2
+            K84: 9
+            K85: 15
+            K86: 18
+            K87: 33
+            K88: 11
+            K89: 'ZKyD_Bgp'
+            K90: 8
+            K91: 29
+            K92: 37
+            K93: 32
+            K94: 87
+            K95: 55
+            K96: 30
+            K97: 86
+            K98: 24
+            K99: 21
+            K100: 26
+            K101: 25
+            K102: 28
+            K103: 89
+            K104: 124
+            K105: 146
+            K106: 135
+            K107: 130
+            K108: 131
+            K109: 133
+            K110: 126
+            K111: 122
+            K112: 127
+            K113: 128
+            K114: 84
+            K115: 95
+            K116: 139
+            K117: 136
+            K118: 137
+            K119: 142
+            K120: 144
+            K121: 141
+            K122: 140
+            K123: 155
+            K124: 160
+            K125: 163
+            K126: 162
+            K127: 92
+            K128: 164
+            K129: 161
+            K130: 165
+            K131: 1
+            K132: 1
+            K133: 157
+            K134: 152
+            K135: 156
+            K136: 159
+            K137: 2
+            K138: 151
+            K139: 147
+            K140: 148
+            K141: 149
+            K142: 145
+            K143: 153
+            K144: 150
+            K145: 154
+            K146: 103
+            K147: 93
+            K148: 88
+            K149: 91
+            K150: 94
+            K151: 101
+            K152: 99
+            K153: 100
+            K154: 102
+            K155: 113
+            K156: 119
+            K157: 115
+            K158: 111
+            K159: 116
+            K160: 118
+            K161: 123
+            K162: 120
+            K163: 121
+            K164: 108
+            K165: 112
+            K166: 109
+            K167: 106
+            K168: 19
+            K169: 105
+          code (8816 instr):
+                0 LOADNIL    A=0 B=R11 C=R0
+                1 LOADK      A=12 Bx=0 ; 0
+                2 LT         A=0 B=K1 C=R12
+                3 JMP        A=0 sBx=98 (-> 102)
+                4 LE         A=0 B=K2 C=R12
+                5 JMP        A=0 sBx=41 (-> 47)
+                6 LE         A=0 B=R12 C=K3
+                7 JMP        A=0 sBx=17 (-> 25)
+                8 EQ         A=1 B=R12 C=K2
+                9 JMP        A=0 sBx=8 (-> 18)
+               10 GETTABUP   A=13 B=R0 C=K4
+               11 LOADK      A=14 Bx=5 ; '#'
+               12 VARARG     A=15 B=R0 C=R0
+               13 CALL       A=13 B=R0 C=R2
+               14 SUB        A=9 B=R13 C=K6
+               15 NEWTABLE   A=13 B=R0 C=R0
+               16 MOVE       A=10 B=R13 C=R0
+               17 JMP        A=0 sBx=82 (-> 100)
+               18 NEWTABLE   A=13 B=R0 C=R0
+               19 MOVE       A=7 B=R13 C=R0
+               20 NEWTABLE   A=13 B=R0 C=R0
+               21 VARARG     A=14 B=R0 C=R0
+               22 SETLIST    A=13 B=R0 C=R1
+               23 MOVE       A=8 B=R13 C=R0
+               24 JMP        A=0 sBx=75 (-> 100)
+               25 LE         A=0 B=K3 C=R12
+               26 JMP        A=0 sBx=15 (-> 42)
+               27 LOADK      A=13 Bx=7 ; 22
+               28 LOADK      A=14 Bx=8 ; 74
+               29 LOADK      A=15 Bx=6 ; 1
+               30 FORPREP    A=13 sBx=9 (-> 40)
+               31 EQ         A=1 B=K9 C=R12
+               32 JMP        A=0 sBx=5 (-> 38)
+               33 GETUPVAL   A=17 B=R1 C=R0
+               34 LOADK      A=18 Bx=10 ; 7
+               35 CALL       A=17 B=R2 C=R2
+               36 MOVE       A=11 B=R17 C=R0
+               37 JMP        A=0 sBx=62 (-> 100)
+               38 LOADK      A=12 Bx=11 ; -2
+               39 JMP        A=0 sBx=60 (-> 100)
+               40 FORLOOP    A=13 sBx=-10 (-> 31)
+               41 JMP        A=0 sBx=58 (-> 100)
+               42 GETUPVAL   A=13 B=R1 C=R0
+               43 LOADK      A=14 Bx=10 ; 7
+               44 CALL       A=13 B=R2 C=R2
+               45 MOVE       A=11 B=R13 C=R0
+               46 JMP        A=0 sBx=53 (-> 100)
+               47 LT         A=0 B=R12 C=K6
+               48 JMP        A=0 sBx=17 (-> 66)
+               49 GETUPVAL   A=13 B=R1 C=R0
+               50 LOADK      A=14 Bx=9 ; 6
+               51 LOADK      A=15 Bx=12 ; 34
+               52 LOADK      A=16 Bx=6 ; 1
+               53 LOADK      A=17 Bx=13 ; 41
+               54 GETUPVAL   A=18 B=R2 C=R0
+               55 CALL       A=13 B=R6 C=R2
+               56 MOVE       A=0 B=R13 C=R0
+               57 GETUPVAL   A=13 B=R1 C=R0
+               58 LOADK      A=14 Bx=9 ; 6
+               59 LOADK      A=15 Bx=14 ; 13
+               60 LOADK      A=16 Bx=15 ; 2
+               61 LOADK      A=17 Bx=16 ; 81
+               62 GETUPVAL   A=18 B=R2 C=R0
+               63 CALL       A=13 B=R6 C=R2
+               64 MOVE       A=1 B=R13 C=R0
+               65 JMP        A=0 sBx=34 (-> 100)
+               66 EQ         A=1 B=R12 C=K11
+               67 JMP        A=0 sBx=22 (-> 90)
+               68 LOADK      A=13 Bx=17 ; 46
+               69 LOADK      A=14 Bx=18 ; 56
+               70 LOADK      A=15 Bx=6 ; 1
+               71 FORPREP    A=13 sBx=16 (-> 88)
+               72 LT         A=0 B=R12 C=K15
+               73 JMP        A=0 sBx=11 (-> 85)
+               74 GETUPVAL   A=17 B=R1 C=R0
+               75 LOADK      A=18 Bx=9 ; 6
+               76 LOADK      A=19 Bx=19 ; 85
+               77 LOADK      A=20 Bx=2 ; 3
+               78 LOADK      A=21 Bx=20 ; 20
+               79 GETUPVAL   A=22 B=R2 C=R0
+               80 CALL       A=17 B=R6 C=R2
+               81 MOVE       A=2 B=R17 C=R0
+               82 GETUPVAL   A=4 B=R3 C=R0
+               83 LOADK      A=3 Bx=0 ; 0
+               84 JMP        A=0 sBx=15 (-> 100)
+               85 LOADK      A=5 Bx=21 ; -41
+               86 LOADK      A=6 Bx=1 ; -1
+               87 JMP        A=0 sBx=12 (-> 100)
+               88 FORLOOP    A=13 sBx=-17 (-> 72)
+               89 JMP        A=0 sBx=10 (-> 100)
+               90 GETUPVAL   A=13 B=R1 C=R0
+               91 LOADK      A=14 Bx=9 ; 6
+               92 LOADK      A=15 Bx=19 ; 85
+               93 LOADK      A=16 Bx=2 ; 3
+               94 LOADK      A=17 Bx=20 ; 20
+               95 GETUPVAL   A=18 B=R2 C=R0
+               96 CALL       A=13 B=R6 C=R2
+               97 MOVE       A=2 B=R13 C=R0
+               98 GETUPVAL   A=4 B=R3 C=R0
+               99 LOADK      A=3 Bx=0 ; 0
+              100 ADD        A=12 B=R12 C=K6
+              101 JMP        A=0 sBx=-100 (-> 2)
+              102 LOADK      A=13 Bx=0 ; 0
+              103 MOVE       A=14 B=R9 C=R0
+              104 LOADK      A=15 Bx=6 ; 1
+              105 FORPREP    A=13 sBx=10 (-> 116)
+              106 LE         A=0 B=R2 C=R16
+              107 JMP        A=0 sBx=5 (-> 113)
+              108 SUB        A=17 B=R16 C=R2
+              109 ADD        A=18 B=R16 C=K6
+              110 GETTABLE   A=18 B=R8 C=R18
+              111 SETTABLE   A=7 B=R17 C=R18
+              112 JMP        A=0 sBx=3 (-> 116)
+              113 ADD        A=17 B=R16 C=K6
+              114 GETTABLE   A=17 B=R8 C=R17
+              115 SETTABLE   A=11 B=R16 C=R17
+              116 FORLOOP    A=13 sBx=-11 (-> 106)
+              117 SUB        A=13 B=R9 C=R2
+              118 ADD        A=13 B=R13 C=K6
+              119 LOADNIL    A=14 B=R1 C=R0
+              120 CLOSURE    A=16 Bx=0 ; proto[0]
+              121 LT         A=0 B=R5 C=K22
+              122 JMP        A=0 sBx=1 (-> 124)
+              123 ADD        A=5 B=R5 C=K23
+              124 GETTABLE   A=14 B=R0 C=R5
+              125 GETUPVAL   A=17 B=R4 C=R0
+              126 GETTABLE   A=15 B=R14 C=R17
+              127 LE         A=0 B=R15 C=K24
+              128 JMP        A=0 sBx=4262 (-> 4391)
+              129 LE         A=0 B=K13 C=R15
+              130 JMP        A=0 sBx=2334 (-> 2465)
+              131 LT         A=0 B=K25 C=R15
+              132 JMP        A=0 sBx=1230 (-> 1363)
+              133 LT         A=0 B=R15 C=K26
+              134 JMP        A=0 sBx=639 (-> 774)
+              135 LT         A=0 B=R15 C=K27
+              136 JMP        A=0 sBx=272 (-> 409)
+              137 LT         A=0 B=K28 C=R15
+              138 JMP        A=0 sBx=159 (-> 298)
+              139 LE         A=0 B=K29 C=R15
+              140 JMP        A=0 sBx=36 (-> 177)
+              141 LE         A=0 B=K30 C=R15
+              142 JMP        A=0 sBx=23 (-> 166)
+              143 LT         A=0 B=K29 C=R15
+              144 JMP        A=0 sBx=10 (-> 155)
+              145 GETUPVAL   A=17 B=R5 C=R0
+              146 GETTABLE   A=17 B=R14 C=R17
+              147 GETTABLE   A=17 B=R11 C=R17
+              148 TEST       A=17 B=R0 C=R0
+              149 JMP        A=0 sBx=2 (-> 152)
+              150 ADD        A=5 B=R5 C=K6
+              151 JMP        A=0 sBx=8661 (-> 8813)
+              152 GETUPVAL   A=17 B=R6 C=R0
+              153 GETTABLE   A=5 B=R14 C=R17
+              154 JMP        A=0 sBx=8658 (-> 8813)
+              155 GETUPVAL   A=17 B=R5 C=R0
+              156 GETTABLE   A=17 B=R14 C=R17
+              157 GETTABLE   A=18 B=R11 C=R17
+              158 GETUPVAL   A=19 B=R7 C=R0
+              159 MOVE       A=20 B=R11 C=R0
+              160 ADD        A=21 B=R17 C=K6
+              161 GETUPVAL   A=22 B=R6 C=R0
+              162 GETTABLE   A=22 B=R14 C=R22
+              163 CALL       A=19 B=R4 C=R0
+              164 CALL       A=18 B=R0 C=R1
+              165 JMP        A=0 sBx=8647 (-> 8813)
+              166 GETUPVAL   A=17 B=R5 C=R0
+              167 GETTABLE   A=17 B=R14 C=R17
+              168 GETTABLE   A=18 B=R11 C=R17
+              169 GETUPVAL   A=19 B=R7 C=R0
+              170 MOVE       A=20 B=R11 C=R0
+              171 ADD        A=21 B=R17 C=K6
+              172 GETUPVAL   A=22 B=R6 C=R0
+              173 GETTABLE   A=22 B=R14 C=R22
+              174 CALL       A=19 B=R4 C=R0
+              175 CALL       A=18 B=R0 C=R1
+              176 JMP        A=0 sBx=8636 (-> 8813)
+              177 LOADNIL    A=17 B=R0 C=R0
+              178 LOADK      A=18 Bx=0 ; 0
+              179 LOADK      A=19 Bx=9 ; 6
+              180 LOADK      A=20 Bx=6 ; 1
+              181 FORPREP    A=18 sBx=114 (-> 296)
+              182 LT         A=0 B=K15 C=R21
+              183 JMP        A=0 sBx=56 (-> 240)
+              184 LT         A=0 B=K3 C=R21
+              185 JMP        A=0 sBx=28 (-> 214)
+              186 LE         A=0 B=K3 C=R21
+              187 JMP        A=0 sBx=17 (-> 205)
+              188 LT         A=0 B=K31 C=R21
+              189 JMP        A=0 sBx=6 (-> 196)
+              190 GETUPVAL   A=22 B=R5 C=R0
+              191 GETTABLE   A=17 B=R14 C=R22
+              192 GETTABLE   A=22 B=R11 C=R17
+              193 CALL       A=22 B=R1 C=R2
+              194 SETTABLE   A=11 B=R17 C=R22
+              195 JMP        A=0 sBx=100 (-> 296)
+              196 GETUPVAL   A=22 B=R5 C=R0
+              197 GETTABLE   A=22 B=R14 C=R22
+              198 GETUPVAL   A=23 B=R6 C=R0
+              199 GETTABLE   A=23 B=R14 C=R23
+              200 GETTABUP   A=23 B=R8 C=R23
+              201 SETTABLE   A=11 B=R22 C=R23
+              202 ADD        A=5 B=R5 C=K6
+              203 GETTABLE   A=14 B=R0 C=R5
+              204 JMP        A=0 sBx=91 (-> 296)
+              205 GETUPVAL   A=22 B=R5 C=R0
+              206 GETTABLE   A=22 B=R14 C=R22
+              207 GETUPVAL   A=23 B=R6 C=R0
+              208 GETTABLE   A=23 B=R14 C=R23
+              209 GETTABUP   A=23 B=R8 C=R23
+              210 SETTABLE   A=11 B=R22 C=R23
+              211 ADD        A=5 B=R5 C=K6
+              212 GETTABLE   A=14 B=R0 C=R5
+              213 JMP        A=0 sBx=82 (-> 296)
+              214 EQ         A=0 B=K3 C=R21
+              215 JMP        A=0 sBx=12 (-> 228)
+              216 GETUPVAL   A=22 B=R5 C=R0
+              217 GETTABLE   A=22 B=R14 C=R22
+              218 GETTABLE   A=22 B=R11 C=R22
+              219 GETUPVAL   A=23 B=R6 C=R0
+              220 GETTABLE   A=23 B=R14 C=R23
+              221 GETUPVAL   A=24 B=R9 C=R0
+              222 GETTABLE   A=24 B=R14 C=R24
+              223 GETTABLE   A=24 B=R11 C=R24
+              224 SETTABLE   A=22 B=R23 C=R24
+              225 ADD        A=5 B=R5 C=K6
+              226 GETTABLE   A=14 B=R0 C=R5
+              227 JMP        A=0 sBx=68 (-> 296)
+              228 GETUPVAL   A=22 B=R5 C=R0
+              229 GETTABLE   A=22 B=R14 C=R22
+              230 GETUPVAL   A=23 B=R6 C=R0
+              231 GETTABLE   A=23 B=R14 C=R23
+              232 GETTABLE   A=23 B=R11 C=R23
+              233 GETUPVAL   A=24 B=R9 C=R0
+              234 GETTABLE   A=24 B=R14 C=R24
+              235 GETTABLE   A=23 B=R23 C=R24
+              236 SETTABLE   A=11 B=R22 C=R23
+              237 ADD        A=5 B=R5 C=K6
+              238 GETTABLE   A=14 B=R0 C=R5
+              239 JMP        A=0 sBx=56 (-> 296)
+              240 LE         A=0 B=K6 C=R21
+              241 JMP        A=0 sBx=43 (-> 285)
+              242 EQ         A=1 B=R21 C=K0
+              243 JMP        A=0 sBx=29 (-> 273)
+              244 LOADK      A=22 Bx=32 ; 36
+              245 LOADK      A=23 Bx=33 ; 90
+              246 LOADK      A=24 Bx=6 ; 1
+              247 FORPREP    A=22 sBx=23 (-> 271)
+              248 LT         A=0 B=R21 C=K15
+              249 JMP        A=0 sBx=12 (-> 262)
+              250 GETUPVAL   A=26 B=R5 C=R0
+              251 GETTABLE   A=26 B=R14 C=R26
+              252 GETTABLE   A=26 B=R11 C=R26
+              253 GETUPVAL   A=27 B=R6 C=R0
+              254 GETTABLE   A=27 B=R14 C=R27
+              255 GETUPVAL   A=28 B=R9 C=R0
+              256 GETTABLE   A=28 B=R14 C=R28
+              257 GETTABLE   A=28 B=R11 C=R28
+              258 SETTABLE   A=26 B=R27 C=R28
+              259 ADD        A=5 B=R5 C=K6
+              260 GETTABLE   A=14 B=R0 C=R5
+              261 JMP        A=0 sBx=34 (-> 296)
+              262 GETUPVAL   A=26 B=R5 C=R0
+              263 GETTABLE   A=26 B=R14 C=R26
+              264 GETUPVAL   A=27 B=R6 C=R0
+              265 GETTABLE   A=27 B=R14 C=R27
+              266 GETTABUP   A=27 B=R8 C=R27
+              267 SETTABLE   A=11 B=R26 C=R27
+              268 ADD        A=5 B=R5 C=K6
+              269 GETTABLE   A=14 B=R0 C=R5
+              270 JMP        A=0 sBx=25 (-> 296)
+              271 FORLOOP    A=22 sBx=-24 (-> 248)
+              272 JMP        A=0 sBx=23 (-> 296)
+              273 GETUPVAL   A=22 B=R5 C=R0
+              274 GETTABLE   A=22 B=R14 C=R22
+              275 GETTABLE   A=22 B=R11 C=R22
+              276 GETUPVAL   A=23 B=R6 C=R0
+              277 GETTABLE   A=23 B=R14 C=R23
+              278 GETUPVAL   A=24 B=R9 C=R0
+              279 GETTABLE   A=24 B=R14 C=R24
+              280 GETTABLE   A=24 B=R11 C=R24
+              281 SETTABLE   A=22 B=R23 C=R24
+              282 ADD        A=5 B=R5 C=K6
+              283 GETTABLE   A=14 B=R0 C=R5
+              284 JMP        A=0 sBx=11 (-> 296)
+              285 GETUPVAL   A=22 B=R5 C=R0
+              286 GETTABLE   A=22 B=R14 C=R22
+              287 GETUPVAL   A=23 B=R6 C=R0
+              288 GETTABLE   A=23 B=R14 C=R23
+              289 GETTABLE   A=23 B=R11 C=R23
+              290 GETUPVAL   A=24 B=R9 C=R0
+              291 GETTABLE   A=24 B=R14 C=R24
+              292 GETTABLE   A=23 B=R23 C=R24
+              293 SETTABLE   A=11 B=R22 C=R23
+              294 ADD        A=5 B=R5 C=K6
+              295 GETTABLE   A=14 B=R0 C=R5
+              296 FORLOOP    A=18 sBx=-115 (-> 182)
+              297 JMP        A=0 sBx=8515 (-> 8813)
+              298 LE         A=0 B=K34 C=R15
+              299 JMP        A=0 sBx=97 (-> 397)
+            ... (+8516 more)
+          sub-protos: 9
+
+          === Proto main.29.6.8.0.0 (49-49) ===
+            params=0 vararg=True maxstack=2
+            upvalues(0): 
+            constants (0):
+            code (2 instr):
+                  0 JMP        A=0 sBx=-1 (-> 0)
+                  1 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.1 (49-49) ===
+            params=2 vararg=False maxstack=5
+            upvalues(1): f(stk19)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (6 instr):
+                  0 GETTABUP   A=2 B=R0 C=R1
+                  1 GETTABLE   A=3 B=R2 C=K0
+                  2 GETTABLE   A=4 B=R2 C=K1
+                  3 GETTABLE   A=3 B=R3 C=R4
+                  4 RETURN     A=3 B=R2 C=R0
+                  5 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.2 (49-49) ===
+            params=3 vararg=False maxstack=6
+            upvalues(1): f(stk19)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (5 instr):
+                  0 GETTABUP   A=3 B=R0 C=R1
+                  1 GETTABLE   A=4 B=R3 C=K0
+                  2 GETTABLE   A=5 B=R3 C=K1
+                  3 SETTABLE   A=4 B=R5 C=R2
+                  4 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.3 (49-49) ===
+            params=2 vararg=False maxstack=5
+            upvalues(1): f(stk19)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (6 instr):
+                  0 GETTABUP   A=2 B=R0 C=R1
+                  1 GETTABLE   A=3 B=R2 C=K0
+                  2 GETTABLE   A=4 B=R2 C=K1
+                  3 GETTABLE   A=3 B=R3 C=R4
+                  4 RETURN     A=3 B=R2 C=R0
+                  5 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.4 (49-49) ===
+            params=3 vararg=False maxstack=6
+            upvalues(1): f(stk19)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (5 instr):
+                  0 GETTABUP   A=3 B=R0 C=R1
+                  1 GETTABLE   A=4 B=R3 C=K0
+                  2 GETTABLE   A=5 B=R3 C=K1
+                  3 SETTABLE   A=4 B=R5 C=R2
+                  4 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.5 (49-49) ===
+            params=2 vararg=False maxstack=5
+            upvalues(1): f(stk23)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (6 instr):
+                  0 GETTABUP   A=2 B=R0 C=R1
+                  1 GETTABLE   A=3 B=R2 C=K0
+                  2 GETTABLE   A=4 B=R2 C=K1
+                  3 GETTABLE   A=3 B=R3 C=R4
+                  4 RETURN     A=3 B=R2 C=R0
+                  5 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.6 (49-49) ===
+            params=3 vararg=False maxstack=6
+            upvalues(1): f(stk23)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (5 instr):
+                  0 GETTABUP   A=3 B=R0 C=R1
+                  1 GETTABLE   A=4 B=R3 C=K0
+                  2 GETTABLE   A=5 B=R3 C=K1
+                  3 SETTABLE   A=4 B=R5 C=R2
+                  4 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.7 (49-49) ===
+            params=2 vararg=False maxstack=5
+            upvalues(1): f(stk19)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (6 instr):
+                  0 GETTABUP   A=2 B=R0 C=R1
+                  1 GETTABLE   A=3 B=R2 C=K0
+                  2 GETTABLE   A=4 B=R2 C=K1
+                  3 GETTABLE   A=3 B=R3 C=R4
+                  4 RETURN     A=3 B=R2 C=R0
+                  5 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.8.0.8 (49-49) ===
+            params=3 vararg=False maxstack=6
+            upvalues(1): f(stk19)
+            constants (2):
+              K0: 1
+              K1: 2
+            code (5 instr):
+                  0 GETTABUP   A=3 B=R0 C=R1
+                  1 GETTABLE   A=4 B=R3 C=K0
+                  2 GETTABLE   A=5 B=R3 C=K1
+                  3 SETTABLE   A=4 B=R5 C=R2
+                  4 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+      === Proto main.29.6.9 (49-49) ===
+        params=1 vararg=False maxstack=8
+        upvalues(9): d(stk19), dz(stk17), f(stk20), a(upv9), n(stk22), o(stk21), fz(upv10), nz(stk16), s(upv2)
+        constants (3):
+          K0: 0
+          K1: 3
+          K2: 5582
+        code (13 instr):
+              0 MOVE       A=1 B=R0 C=R0
+              1 LOADK      A=2 Bx=0 ; 0
+              2 LOADK      A=3 Bx=0 ; 0
+              3 NEWTABLE   A=4 B=R3 C=R0
+              4 CLOSURE    A=5 Bx=0 ; proto[0]
+              5 CLOSURE    A=6 Bx=1 ; proto[1]
+              6 CLOSURE    A=7 Bx=2 ; proto[2]
+              7 SETLIST    A=4 B=R3 C=R1
+              8 MOVE       A=1 B=R4 C=R0
+              9 GETTABLE   A=4 B=R1 C=K1
+             10 LOADK      A=5 Bx=2 ; 5582
+             11 CALL       A=4 B=R2 C=R1
+             12 RETURN     A=0 B=R1 C=R0
+        sub-protos: 3
+
+        === Proto main.29.6.9.0 (49-49) ===
+          params=1 vararg=False maxstack=3
+          upvalues(10): t(stk2), z(stk3), e(stk0), l(stk1), d(upv0), dz(upv1), f(upv2), a(upv3), n(upv4), o(upv5)
+          constants (15):
+            K0: 34
+            K1: 1
+            K2: 2199
+            K3: 14
+            K4: 3
+            K5: 'wxIuo'
+            K6: 1
+            K7: 227
+            K8: 2
+            K9: 'kFuun'
+            K10: 2
+            K11: 120
+            K12: 0
+            K13: 'EssMz'
+            K14: 854
+          code (57 instr):
+                0 GETUPVAL   A=1 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R1
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=0 B=R2 C=R0
+                4 GETUPVAL   A=1 B=R0 C=R0
+                5 ADD        A=1 B=R1 C=K1
+                6 SETUPVAL   A=1 B=R0 C=R0
+                7 GETUPVAL   A=1 B=R1 C=R0
+                8 ADD        A=1 B=R1 C=K2
+                9 SUB        A=1 B=R1 C=R0
+               10 MOD        A=1 B=R1 C=K3
+               11 SETUPVAL   A=1 B=R1 C=R0
+               12 GETUPVAL   A=1 B=R1 C=R0
+               13 MOD        A=1 B=R1 C=K4
+               14 EQ         A=0 B=R1 C=K1
+               15 JMP        A=0 sBx=10 (-> 26)
+               16 CLOSURE    A=1 Bx=0 ; proto[0]
+               17 LOADK      A=2 Bx=5 ; 'wxIuo'
+               18 CALL       A=1 B=R2 C=R2
+               19 TEST       A=1 B=R0 C=R0
+               20 JMP        A=0 sBx=5 (-> 26)
+               21 GETTABUP   A=1 B=R3 C=K6
+               22 ADD        A=2 B=K7 C=R0
+               23 CALL       A=1 B=R2 C=R2
+               24 TEST       A=1 B=R0 C=R1
+               25 JMP        A=0 sBx=29 (-> 55)
+               26 GETUPVAL   A=1 B=R1 C=R0
+               27 MOD        A=1 B=R1 C=K4
+               28 EQ         A=0 B=R1 C=K8
+               29 JMP        A=0 sBx=10 (-> 40)
+               30 CLOSURE    A=1 Bx=1 ; proto[1]
+               31 LOADK      A=2 Bx=9 ; 'kFuun'
+               32 CALL       A=1 B=R2 C=R2
+               33 TEST       A=1 B=R0 C=R0
+               34 JMP        A=0 sBx=5 (-> 40)
+               35 GETTABUP   A=1 B=R3 C=K10
+               36 ADD        A=2 B=R0 C=K11
+               37 CALL       A=1 B=R2 C=R2
+               38 TEST       A=1 B=R0 C=R1
+               39 JMP        A=0 sBx=15 (-> 55)
+               40 GETUPVAL   A=1 B=R1 C=R0
+               41 MOD        A=1 B=R1 C=K4
+               42 EQ         A=0 B=R1 C=K12
+               43 JMP        A=0 sBx=10 (-> 54)
+               44 CLOSURE    A=1 Bx=2 ; proto[2]
+               45 LOADK      A=2 Bx=13 ; 'EssMz'
+               46 CALL       A=1 B=R2 C=R2
+               47 TEST       A=1 B=R0 C=R0
+               48 JMP        A=0 sBx=5 (-> 54)
+               49 GETTABUP   A=1 B=R3 C=K4
+               50 ADD        A=2 B=R0 C=K14
+               51 CALL       A=1 B=R2 C=R2
+               52 TEST       A=1 B=R0 C=R1
+               53 JMP        A=0 sBx=1 (-> 55)
+               54 MOVE       A=1 B=R0 C=R0
+               55 RETURN     A=1 B=R2 C=R0
+               56 RETURN     A=0 B=R1 C=R0
+          sub-protos: 3
+
+          === Proto main.29.6.9.0.0 (49-49) ===
+            params=1 vararg=False maxstack=2
+            upvalues(2): e(upv2), z(upv1)
+            constants (2):
+              K0: 1
+              K1: 154
+            code (10 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=4 (-> 7)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 LOADBOOL   A=1 B=R1 C=R0
+                  8 RETURN     A=1 B=R2 C=R0
+                  9 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.9.0.1 (49-49) ===
+            params=1 vararg=False maxstack=7
+            upvalues(8): e(upv2), z(upv1), d(upv4), dz(upv5), f(upv6), a(upv7), n(upv8), o(upv9)
+            constants (3):
+              K0: 1
+              K1: 183
+              K2: 2
+            code (36 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=30 (-> 33)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 GETTABUP   A=1 B=R2 C=K2
+                  8 GETUPVAL   A=2 B=R3 C=R0
+                  9 CLOSURE    A=3 Bx=0 ; proto[0]
+                 10 GETUPVAL   A=4 B=R5 C=R0
+                 11 GETUPVAL   A=5 B=R6 C=R0
+                 12 CALL       A=4 B=R2 C=R0
+                 13 CALL       A=2 B=R0 C=R2
+                 14 GETUPVAL   A=3 B=R3 C=R0
+                 15 GETTABUP   A=4 B=R2 C=K0
+                 16 GETUPVAL   A=5 B=R5 C=R0
+                 17 GETUPVAL   A=6 B=R6 C=R0
+                 18 CALL       A=5 B=R2 C=R0
+                 19 CALL       A=3 B=R0 C=R2
+                 20 SUB        A=2 B=R2 C=R3
+                 21 MUL        A=1 B=R1 C=R2
+                 22 ADD        A=1 B=R1 C=K0
+                 23 SETTABUP   A=2 B=K2 C=R1
+                 24 GETUPVAL   A=1 B=R7 C=R0
+                 25 NEWTABLE   A=2 B=R0 C=R0
+                 26 SETTABUP   A=4 B=R1 C=R2
+                 27 GETTABUP   A=1 B=R2 C=K2
+                 28 SETUPVAL   A=1 B=R2 C=R0
+                 29 GETUPVAL   A=1 B=R7 C=R0
+                 30 GETUPVAL   A=2 B=R2 C=R0
+                 31 ADD        A=1 B=R1 C=R2
+                 32 SETUPVAL   A=1 B=R7 C=R0
+                 33 LOADBOOL   A=1 B=R1 C=R0
+                 34 RETURN     A=1 B=R2 C=R0
+                 35 RETURN     A=0 B=R1 C=R0
+            sub-protos: 1
+
+            === Proto main.29.6.9.0.1.0 (49-49) ===
+              params=0 vararg=False maxstack=2
+              upvalues(1): f(upv4)
+              constants (0):
+              code (3 instr):
+                    0 GETUPVAL   A=0 B=R0 C=R0
+                    1 CALL       A=0 B=R1 C=R1
+                    2 RETURN     A=0 B=R1 C=R0
+              sub-protos: 0
+
+          === Proto main.29.6.9.0.2 (49-49) ===
+            params=1 vararg=False maxstack=2
+            upvalues(2): e(upv2), z(upv1)
+            constants (2):
+              K0: 1
+              K1: 21
+            code (10 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=4 (-> 7)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 LOADBOOL   A=1 B=R1 C=R0
+                  8 RETURN     A=1 B=R2 C=R0
+                  9 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+        === Proto main.29.6.9.1 (49-49) ===
+          params=1 vararg=False maxstack=3
+          upvalues(8): t(stk2), z(stk3), e(stk0), l(stk1), f(upv2), o(upv5), fz(upv6), d(upv0)
+          constants (15):
+            K0: 46
+            K1: 1
+            K2: 3443
+            K3: 60
+            K4: 3
+            K5: 0
+            K6: 'frJbT'
+            K7: 746
+            K8: 1
+            K9: 'yjPVu'
+            K10: 1
+            K11: 605
+            K12: 2
+            K13: 'OzHfI'
+            K14: 692
+          code (57 instr):
+                0 GETUPVAL   A=1 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R1
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=0 B=R2 C=R0
+                4 GETUPVAL   A=1 B=R0 C=R0
+                5 ADD        A=1 B=R1 C=K1
+                6 SETUPVAL   A=1 B=R0 C=R0
+                7 GETUPVAL   A=1 B=R1 C=R0
+                8 ADD        A=1 B=R1 C=K2
+                9 SUB        A=1 B=R1 C=R0
+               10 MOD        A=1 B=R1 C=K3
+               11 SETUPVAL   A=1 B=R1 C=R0
+               12 GETUPVAL   A=1 B=R1 C=R0
+               13 MOD        A=1 B=R1 C=K4
+               14 EQ         A=0 B=R1 C=K5
+               15 JMP        A=0 sBx=10 (-> 26)
+               16 CLOSURE    A=1 Bx=0 ; proto[0]
+               17 LOADK      A=2 Bx=6 ; 'frJbT'
+               18 CALL       A=1 B=R2 C=R2
+               19 TEST       A=1 B=R0 C=R0
+               20 JMP        A=0 sBx=5 (-> 26)
+               21 GETTABUP   A=1 B=R3 C=K4
+               22 ADD        A=2 B=K7 C=R0
+               23 CALL       A=1 B=R2 C=R2
+               24 TEST       A=1 B=R0 C=R1
+               25 JMP        A=0 sBx=29 (-> 55)
+               26 GETUPVAL   A=1 B=R1 C=R0
+               27 MOD        A=1 B=R1 C=K4
+               28 EQ         A=0 B=R1 C=K8
+               29 JMP        A=0 sBx=10 (-> 40)
+               30 CLOSURE    A=1 Bx=1 ; proto[1]
+               31 LOADK      A=2 Bx=9 ; 'yjPVu'
+               32 CALL       A=1 B=R2 C=R2
+               33 TEST       A=1 B=R0 C=R0
+               34 JMP        A=0 sBx=5 (-> 40)
+               35 GETTABUP   A=1 B=R3 C=K10
+               36 ADD        A=2 B=R0 C=K11
+               37 CALL       A=1 B=R2 C=R2
+               38 TEST       A=1 B=R0 C=R1
+               39 JMP        A=0 sBx=15 (-> 55)
+               40 GETUPVAL   A=1 B=R1 C=R0
+               41 MOD        A=1 B=R1 C=K4
+               42 EQ         A=0 B=R1 C=K12
+               43 JMP        A=0 sBx=10 (-> 54)
+               44 CLOSURE    A=1 Bx=2 ; proto[2]
+               45 LOADK      A=2 Bx=13 ; 'OzHfI'
+               46 CALL       A=1 B=R2 C=R2
+               47 TEST       A=1 B=R0 C=R0
+               48 JMP        A=0 sBx=5 (-> 54)
+               49 GETTABUP   A=1 B=R3 C=K12
+               50 ADD        A=2 B=R0 C=K14
+               51 CALL       A=1 B=R2 C=R2
+               52 TEST       A=1 B=R0 C=R1
+               53 JMP        A=0 sBx=1 (-> 55)
+               54 MOVE       A=1 B=R0 C=R0
+               55 RETURN     A=1 B=R2 C=R0
+               56 RETURN     A=0 B=R1 C=R0
+          sub-protos: 3
+
+          === Proto main.29.6.9.1.0 (49-49) ===
+            params=1 vararg=False maxstack=2
+            upvalues(2): e(upv2), z(upv1)
+            constants (2):
+              K0: 1
+              K1: 102
+            code (10 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=4 (-> 7)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 LOADBOOL   A=1 B=R1 C=R0
+                  8 RETURN     A=1 B=R2 C=R0
+                  9 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.9.1.1 (49-49) ===
+            params=1 vararg=False maxstack=3
+            upvalues(6): e(upv2), z(upv1), f(upv4), o(upv5), fz(upv6), d(upv7)
+            constants (2):
+              K0: 1
+              K1: 70
+            code (18 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=12 (-> 15)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 GETUPVAL   A=1 B=R3 C=R0
+                  8 GETUPVAL   A=2 B=R4 C=R0
+                  9 CALL       A=2 B=R1 C=R2
+                 10 SETTABUP   A=2 B=R1 C=R2
+                 11 GETUPVAL   A=1 B=R3 C=R0
+                 12 GETUPVAL   A=2 B=R5 C=R0
+                 13 ADD        A=1 B=R1 C=R2
+                 14 SETUPVAL   A=1 B=R3 C=R0
+                 15 LOADBOOL   A=1 B=R1 C=R0
+                 16 RETURN     A=1 B=R2 C=R0
+                 17 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.9.1.2 (49-49) ===
+            params=1 vararg=False maxstack=2
+            upvalues(2): e(upv2), z(upv1)
+            constants (2):
+              K0: 1
+              K1: 49
+            code (10 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=4 (-> 7)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 LOADBOOL   A=1 B=R1 C=R0
+                  8 RETURN     A=1 B=R2 C=R0
+                  9 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+        === Proto main.29.6.9.2 (49-49) ===
+          params=1 vararg=False maxstack=3
+          upvalues(10): t(stk2), z(stk3), e(stk0), n(upv4), f(upv2), o(upv5), nz(upv7), s(upv8), d(upv0), l(stk1)
+          constants (15):
+            K0: 45
+            K1: 1
+            K2: 2427
+            K3: 34
+            K4: 3
+            K5: 2
+            K6: 'RJysI'
+            K7: 1
+            K8: 816
+            K9: 'bFKoz'
+            K10: 997
+            K11: 0
+            K12: 'kCOzn'
+            K13: 2
+            K14: 353
+          code (57 instr):
+                0 GETUPVAL   A=1 B=R0 C=R0
+                1 LT         A=0 B=K0 C=R1
+                2 JMP        A=0 sBx=1 (-> 4)
+                3 RETURN     A=0 B=R2 C=R0
+                4 GETUPVAL   A=1 B=R0 C=R0
+                5 ADD        A=1 B=R1 C=K1
+                6 SETUPVAL   A=1 B=R0 C=R0
+                7 GETUPVAL   A=1 B=R1 C=R0
+                8 ADD        A=1 B=R1 C=K2
+                9 SUB        A=1 B=R1 C=R0
+               10 MOD        A=1 B=R1 C=K3
+               11 SETUPVAL   A=1 B=R1 C=R0
+               12 GETUPVAL   A=1 B=R1 C=R0
+               13 MOD        A=1 B=R1 C=K4
+               14 EQ         A=0 B=R1 C=K5
+               15 JMP        A=0 sBx=10 (-> 26)
+               16 CLOSURE    A=1 Bx=0 ; proto[0]
+               17 LOADK      A=2 Bx=6 ; 'RJysI'
+               18 CALL       A=1 B=R2 C=R2
+               19 TEST       A=1 B=R0 C=R0
+               20 JMP        A=0 sBx=5 (-> 26)
+               21 GETTABUP   A=1 B=R9 C=K7
+               22 ADD        A=2 B=K8 C=R0
+               23 CALL       A=1 B=R2 C=R2
+               24 TEST       A=1 B=R0 C=R1
+               25 JMP        A=0 sBx=29 (-> 55)
+               26 GETUPVAL   A=1 B=R1 C=R0
+               27 MOD        A=1 B=R1 C=K4
+               28 EQ         A=0 B=R1 C=K7
+               29 JMP        A=0 sBx=10 (-> 40)
+               30 CLOSURE    A=1 Bx=1 ; proto[1]
+               31 LOADK      A=2 Bx=9 ; 'bFKoz'
+               32 CALL       A=1 B=R2 C=R2
+               33 TEST       A=1 B=R0 C=R0
+               34 JMP        A=0 sBx=5 (-> 40)
+               35 GETTABUP   A=1 B=R9 C=K4
+               36 ADD        A=2 B=R0 C=K10
+               37 CALL       A=1 B=R2 C=R2
+               38 TEST       A=1 B=R0 C=R1
+               39 JMP        A=0 sBx=15 (-> 55)
+               40 GETUPVAL   A=1 B=R1 C=R0
+               41 MOD        A=1 B=R1 C=K4
+               42 EQ         A=0 B=R1 C=K11
+               43 JMP        A=0 sBx=10 (-> 54)
+               44 CLOSURE    A=1 Bx=2 ; proto[2]
+               45 LOADK      A=2 Bx=12 ; 'kCOzn'
+               46 CALL       A=1 B=R2 C=R2
+               47 TEST       A=1 B=R0 C=R0
+               48 JMP        A=0 sBx=5 (-> 54)
+               49 GETTABUP   A=1 B=R9 C=K13
+               50 ADD        A=2 B=R0 C=K14
+               51 CALL       A=1 B=R2 C=R2
+               52 TEST       A=1 B=R0 C=R1
+               53 JMP        A=0 sBx=1 (-> 55)
+               54 MOVE       A=1 B=R0 C=R0
+               55 RETURN     A=1 B=R2 C=R0
+               56 RETURN     A=0 B=R1 C=R0
+          sub-protos: 3
+
+          === Proto main.29.6.9.2.0 (49-49) ===
+            params=1 vararg=False maxstack=4
+            upvalues(8): e(upv2), z(upv1), n(upv3), f(upv4), o(upv5), nz(upv6), s(upv7), d(upv8)
+            constants (8):
+              K0: 1
+              K1: 21
+              K2: ': a'
+              K3: 'igeSxLoX'
+              K4: 0
+              K5: ':'
+              K6: 2
+              K7: 255
+            code (36 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=30 (-> 33)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 NEWTABLE   A=1 B=R2 C=R0
+                  8 GETUPVAL   A=2 B=R2 C=R0
+                  9 LOADK      A=3 Bx=2 ; ': a'
+                 10 CONCAT     A=2 B=R2 C=R3
+                 11 GETUPVAL   A=3 B=R2 C=R0
+                 12 SETLIST    A=1 B=R2 C=R1
+                 13 SETUPVAL   A=1 B=R2 C=R0
+                 14 GETUPVAL   A=1 B=R4 C=R0
+                 15 GETUPVAL   A=2 B=R5 C=R0
+                 16 CALL       A=2 B=R1 C=R2
+                 17 SETTABUP   A=3 B=R1 C=R2
+                 18 GETUPVAL   A=1 B=R4 C=R0
+                 19 GETTABUP   A=2 B=R6 C=K3
+                 20 TEST       A=2 B=R0 C=R1
+                 21 JMP        A=0 sBx=3 (-> 25)
+                 22 LOADK      A=2 Bx=0 ; 1
+                 23 TEST       A=2 B=R0 C=R1
+                 24 JMP        A=0 sBx=1 (-> 26)
+                 25 LOADK      A=2 Bx=4 ; 0
+                 26 ADD        A=1 B=R1 C=R2
+                 27 SETUPVAL   A=1 B=R4 C=R0
+                 28 LOADK      A=1 Bx=5 ; ':'
+                 29 GETTABUP   A=2 B=R2 C=K0
+                 30 CONCAT     A=1 B=R1 C=R2
+                 31 SETTABUP   A=2 B=K0 C=R1
+                 32 SETTABUP   A=7 B=K6 C=K7
+                 33 LOADBOOL   A=1 B=R1 C=R0
+                 34 RETURN     A=1 B=R2 C=R0
+                 35 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+          === Proto main.29.6.9.2.1 (49-49) ===
+            params=1 vararg=False maxstack=3
+            upvalues(4): e(upv2), z(upv1), n(upv3), d(upv8)
+            constants (4):
+              K0: 1
+              K1: 110
+              K2: '%'
+              K3: 'd+'
+            code (20 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=14 (-> 17)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 LOADK      A=1 Bx=2 ; '%'
+                  8 SETUPVAL   A=1 B=R2 C=R0
+                  9 NEWTABLE   A=1 B=R1 C=R0
+                 10 CLOSURE    A=2 Bx=0 ; proto[0]
+                 11 SETLIST    A=1 B=R1 C=R1
+                 12 SETUPVAL   A=1 B=R3 C=R0
+                 13 GETUPVAL   A=1 B=R2 C=R0
+                 14 LOADK      A=2 Bx=3 ; 'd+'
+                 15 CONCAT     A=1 B=R1 C=R2
+                 16 SETUPVAL   A=1 B=R2 C=R0
+                 17 LOADBOOL   A=1 B=R1 C=R0
+                 18 RETURN     A=1 B=R2 C=R0
+                 19 RETURN     A=0 B=R1 C=R0
+            sub-protos: 1
+
+            === Proto main.29.6.9.2.1.0 (49-49) ===
+              params=0 vararg=False maxstack=2
+              upvalues(1): d(upv3)
+              constants (0):
+              code (3 instr):
+                    0 GETUPVAL   A=0 B=R0 C=R0
+                    1 CALL       A=0 B=R1 C=R1
+                    2 RETURN     A=0 B=R1 C=R0
+              sub-protos: 0
+
+          === Proto main.29.6.9.2.2 (49-49) ===
+            params=1 vararg=False maxstack=2
+            upvalues(2): e(upv2), z(upv1)
+            constants (2):
+              K0: 1
+              K1: 59
+            code (10 instr):
+                  0 GETTABUP   A=1 B=R0 C=R0
+                  1 TEST       A=1 B=R0 C=R1
+                  2 JMP        A=0 sBx=4 (-> 7)
+                  3 GETUPVAL   A=1 B=R1 C=R0
+                  4 ADD        A=1 B=R1 C=K0
+                  5 SETUPVAL   A=1 B=R1 C=R0
+                  6 SETTABUP   A=0 B=R0 C=K1
+                  7 LOADBOOL   A=1 B=R1 C=R0
+                  8 RETURN     A=1 B=R2 C=R0
+                  9 RETURN     A=0 B=R1 C=R0
+            sub-protos: 0
+
+    === Proto main.29.7 (49-49) ===
+      params=0 vararg=False maxstack=6
+      upvalues(2): s(stk6), tz(stk20)
+      constants (8):
+        K0: 1
+        K1: 'igeSxLoX'
+        K2: ''
+        K3: 'wvQHXIjx'
+        K4: 'dTLnQGzl'
+        K5: 0
+        K6: 2
+        K7: 3
+      code (27 instr):
+            0 NEWTABLE   A=0 B=R0 C=R0
+            1 LOADK      A=1 Bx=0 ; 1
+            2 LOADNIL    A=2 B=R0 C=R0
+            3 GETTABUP   A=3 B=R0 C=K1
+            4 TEST       A=3 B=R0 C=R0
+            5 JMP        A=0 sBx=5 (-> 11)
+            6 GETTABUP   A=3 B=R0 C=K1
+            7 GETUPVAL   A=4 B=R1 C=R0
+            8 CALL       A=3 B=R2 C=R2
+            9 MOVE       A=2 B=R3 C=R0
+           10 JMP        A=0 sBx=1 (-> 12)
+           11 LOADK      A=2 Bx=2 ; ''
+           12 GETTABUP   A=3 B=R0 C=K3
+           13 MOVE       A=4 B=R2 C=R0
+           14 GETTABUP   A=5 B=R0 C=K4
+           15 CALL       A=3 B=R3 C=R2
+           16 TEST       A=3 B=R0 C=R0
+           17 JMP        A=0 sBx=2 (-> 20)
+           18 ADD        A=1 B=R1 C=K5
+           19 JMP        A=0 sBx=1 (-> 21)
+           20 ADD        A=1 B=R1 C=K0
+           21 SETTABLE   A=0 B=R1 C=K6
+           22 GETTABLE   A=3 B=R0 C=R1
+           23 ADD        A=3 B=R3 C=K0
+           24 SETTABLE   A=0 B=R3 C=K7
+           25 RETURN     A=0 B=R2 C=R0
+           26 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+  === Proto main.30 (49-49) ===
+    params=6 vararg=False maxstack=18
+    upvalues(1): _ENV(upv0)
+    constants (21):
+      K0: 4
+      K1: 2
+      K2: -2
+      K3: 28
+      K4: 84
+      K5: 1
+      K6: 3
+      K7: 16777216
+      K8: 65536
+      K9: 256
+      K10: 5
+      K11: -3
+      K12: 29
+      K13: 81
+      K14: 0
+      K15: 1
+      K16: 6
+      K17: 7
+      K18: 4
+      K19: 'setmetatable'
+      K20: '__call'
+    code (147 instr):
+          0 LOADNIL    A=6 B=R0 C=R0
+          1 LT         A=0 B=R0 C=K0
+          2 JMP        A=0 sBx=89 (-> 92)
+          3 LE         A=0 B=K1 C=R0
+          4 JMP        A=0 sBx=38 (-> 43)
+          5 EQ         A=1 B=R0 C=K2
+          6 JMP        A=0 sBx=31 (-> 38)
+          7 LOADK      A=7 Bx=3 ; 28
+          8 LOADK      A=8 Bx=4 ; 84
+          9 LOADK      A=9 Bx=5 ; 1
+         10 FORPREP    A=7 sBx=25 (-> 36)
+         11 EQ         A=1 B=R0 C=K6
+         12 JMP        A=0 sBx=5 (-> 18)
+         13 LOADK      A=11 Bx=7 ; 16777216
+         14 LOADK      A=12 Bx=8 ; 65536
+         15 LOADK      A=13 Bx=9 ; 256
+         16 RETURN     A=11 B=R4 C=R0
+         17 JMP        A=0 sBx=128 (-> 146)
+         18 MOVE       A=11 B=R1 C=R0
+         19 LOADK      A=12 Bx=5 ; 1
+         20 CALL       A=11 B=R2 C=R2
+         21 MOVE       A=12 B=R1 C=R0
+         22 LOADK      A=13 Bx=0 ; 4
+         23 MOVE       A=14 B=R4 C=R0
+         24 MOVE       A=15 B=R3 C=R0
+         25 MOVE       A=16 B=R2 C=R0
+         26 MOVE       A=17 B=R1 C=R0
+         27 CALL       A=12 B=R6 C=R2
+         28 MOVE       A=13 B=R1 C=R0
+         29 LOADK      A=14 Bx=10 ; 5
+         30 MOVE       A=15 B=R4 C=R0
+         31 MOVE       A=16 B=R3 C=R0
+         32 MOVE       A=17 B=R2 C=R0
+         33 CALL       A=13 B=R5 C=R0
+         34 RETURN     A=11 B=R0 C=R0
+         35 JMP        A=0 sBx=110 (-> 146)
+         36 FORLOOP    A=7 sBx=-26 (-> 11)
+         37 JMP        A=0 sBx=108 (-> 146)
+         38 LOADK      A=7 Bx=7 ; 16777216
+         39 LOADK      A=8 Bx=8 ; 65536
+         40 LOADK      A=9 Bx=9 ; 256
+         41 RETURN     A=7 B=R4 C=R0
+         42 JMP        A=0 sBx=103 (-> 146)
+         43 LE         A=0 B=K11 C=R0
+         44 JMP        A=0 sBx=29 (-> 74)
+         45 LOADK      A=7 Bx=12 ; 29
+         46 LOADK      A=8 Bx=13 ; 81
+         47 LOADK      A=9 Bx=5 ; 1
+         48 FORPREP    A=7 sBx=23 (-> 72)
+         49 LT         A=0 B=K14 C=R0
+         50 JMP        A=0 sBx=3 (-> 54)
+         51 CLOSURE    A=11 Bx=0 ; proto[0]
+         52 RETURN     A=11 B=R2 C=R0
+         53 JMP        A=0 sBx=92 (-> 146)
+         54 MOVE       A=11 B=R1 C=R0
+         55 LOADK      A=12 Bx=15 ; 1
+         56 CALL       A=11 B=R2 C=R2
+         57 MOVE       A=12 B=R1 C=R0
+         58 LOADK      A=13 Bx=0 ; 4
+         59 MOVE       A=14 B=R4 C=R0
+         60 MOVE       A=15 B=R3 C=R0
+         61 MOVE       A=16 B=R2 C=R0
+         62 MOVE       A=17 B=R1 C=R0
+         63 CALL       A=12 B=R6 C=R2
+         64 MOVE       A=13 B=R1 C=R0
+         65 LOADK      A=14 Bx=10 ; 5
+         66 MOVE       A=15 B=R4 C=R0
+         67 MOVE       A=16 B=R3 C=R0
+         68 MOVE       A=17 B=R2 C=R0
+         69 CALL       A=13 B=R5 C=R0
+         70 RETURN     A=11 B=R0 C=R0
+         71 JMP        A=0 sBx=74 (-> 146)
+         72 FORLOOP    A=7 sBx=-24 (-> 49)
+         73 JMP        A=0 sBx=72 (-> 146)
+         74 MOVE       A=7 B=R1 C=R0
+         75 LOADK      A=8 Bx=15 ; 1
+         76 CALL       A=7 B=R2 C=R2
+         77 MOVE       A=8 B=R1 C=R0
+         78 LOADK      A=9 Bx=0 ; 4
+         79 MOVE       A=10 B=R4 C=R0
+         80 MOVE       A=11 B=R3 C=R0
+         81 MOVE       A=12 B=R2 C=R0
+         82 MOVE       A=13 B=R1 C=R0
+         83 CALL       A=8 B=R6 C=R2
+         84 MOVE       A=9 B=R1 C=R0
+         85 LOADK      A=10 Bx=10 ; 5
+         86 MOVE       A=11 B=R4 C=R0
+         87 MOVE       A=12 B=R3 C=R0
+         88 MOVE       A=13 B=R2 C=R0
+         89 CALL       A=9 B=R5 C=R0
+         90 RETURN     A=7 B=R0 C=R0
+         91 JMP        A=0 sBx=54 (-> 146)
+         92 LT         A=0 B=R0 C=K16
+         93 JMP        A=0 sBx=22 (-> 116)
+         94 EQ         A=1 B=K15 C=R0
+         95 JMP        A=0 sBx=15 (-> 111)
+         96 LT         A=0 B=R0 C=K10
+         97 JMP        A=0 sBx=8 (-> 106)
+         98 MOVE       A=7 B=R3 C=R0
+         99 MOVE       A=8 B=R4 C=R0
+        100 LOADK      A=9 Bx=1 ; 2
+        101 CALL       A=8 B=R2 C=R4
+        102 CLOSURE    A=11 Bx=1 ; proto[1]
+        103 RETURN     A=11 B=R2 C=R0
+        104 JMP        A=8 sBx=41 (-> 146)
+        105 JMP        A=8 sBx=0 (-> 106)
+        106 MOVE       A=7 B=R3 C=R0
+        107 CLOSURE    A=8 Bx=2 ; proto[2]
+        108 RETURN     A=8 B=R2 C=R0
+        109 JMP        A=8 sBx=36 (-> 146)
+        110 JMP        A=0 sBx=35 (-> 146)
+        111 MOVE       A=7 B=R3 C=R0
+        112 CLOSURE    A=8 Bx=3 ; proto[3]
+        113 RETURN     A=8 B=R2 C=R0
+        114 JMP        A=8 sBx=31 (-> 146)
+        115 JMP        A=0 sBx=30 (-> 146)
+        116 LT         A=0 B=R0 C=K17
+        117 JMP        A=0 sBx=3 (-> 121)
+        118 GETTABLE   A=7 B=R4 C=R2
+        119 RETURN     A=7 B=R2 C=R0
+        120 JMP        A=0 sBx=25 (-> 146)
+        121 LT         A=0 B=K18 C=R0
+        122 JMP        A=0 sBx=17 (-> 140)
+        123 LT         A=0 B=K17 C=R0
+        124 JMP        A=0 sBx=7 (-> 132)
+        125 MOVE       A=7 B=R2 C=R0
+        126 MOVE       A=8 B=R0 C=R0
+        127 LOADNIL    A=9 B=R0 C=R0
+        128 MOVE       A=10 B=R2 C=R0
+        129 TAILCALL   A=7 B=R4 C=R0
+        130 RETURN     A=7 B=R0 C=R0
+        131 JMP        A=0 sBx=14 (-> 146)
+        132 GETTABUP   A=7 B=R0 C=K19
+        133 NEWTABLE   A=8 B=R0 C=R0
+        134 NEWTABLE   A=9 B=R0 C=R1
+        135 CLOSURE    A=10 Bx=4 ; proto[4]
+        136 SETTABLE   A=9 B=K20 C=R10
+        137 TAILCALL   A=7 B=R3 C=R0
+        138 RETURN     A=7 B=R0 C=R0
+        139 JMP        A=0 sBx=6 (-> 146)
+        140 MOVE       A=7 B=R2 C=R0
+        141 MOVE       A=8 B=R0 C=R0
+        142 LOADNIL    A=9 B=R0 C=R0
+        143 MOVE       A=10 B=R2 C=R0
+        144 TAILCALL   A=7 B=R4 C=R0
+        145 RETURN     A=7 B=R0 C=R0
+        146 RETURN     A=0 B=R1 C=R0
+    sub-protos: 5
+
+    === Proto main.30.0 (49-49) ===
+      params=3 vararg=False maxstack=6
+      upvalues(0): 
+      constants (3):
+        K0: 1
+        K1: 2
+        K2: 0
+      code (27 instr):
+            0 TEST       A=2 B=R0 C=R0
+            1 JMP        A=0 sBx=13 (-> 15)
+            2 SUB        A=3 B=R1 C=K0
+            3 POW        A=3 B=K1 C=R3
+            4 DIV        A=3 B=R0 C=R3
+            5 SUB        A=4 B=R2 C=K0
+            6 SUB        A=5 B=R1 C=K0
+            7 SUB        A=4 B=R4 C=R5
+            8 ADD        A=4 B=R4 C=K0
+            9 POW        A=4 B=K1 C=R4
+           10 MOD        A=3 B=R3 C=R4
+           11 MOD        A=4 B=R3 C=K0
+           12 SUB        A=4 B=R3 C=R4
+           13 RETURN     A=4 B=R2 C=R0
+           14 JMP        A=0 sBx=11 (-> 26)
+           15 SUB        A=3 B=R1 C=K0
+           16 POW        A=3 B=K1 C=R3
+           17 ADD        A=4 B=R3 C=R3
+           18 MOD        A=4 B=R0 C=R4
+           19 LE         A=0 B=R3 C=R4
+           20 JMP        A=0 sBx=3 (-> 24)
+           21 LOADK      A=4 Bx=0 ; 1
+           22 TEST       A=4 B=R0 C=R1
+           23 JMP        A=0 sBx=1 (-> 25)
+           24 LOADK      A=4 Bx=2 ; 0
+           25 RETURN     A=4 B=R2 C=R0
+           26 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+    === Proto main.30.1 (49-49) ===
+      params=0 vararg=False maxstack=6
+      upvalues(6): z(stk1), e(stk2), l(stk7), d(stk8), n(stk9), f(stk10)
+      constants (2):
+        K0: 3
+        K1: 4
+      code (26 instr):
+            0 GETUPVAL   A=0 B=R0 C=R0
+            1 GETUPVAL   A=1 B=R1 C=R0
+            2 GETUPVAL   A=2 B=R2 C=R0
+            3 GETUPVAL   A=3 B=R2 C=R0
+            4 GETUPVAL   A=4 B=R2 C=R0
+            5 CALL       A=2 B=R3 C=R2
+            6 GETUPVAL   A=3 B=R2 C=R0
+            7 GETUPVAL   A=4 B=R2 C=R0
+            8 GETUPVAL   A=5 B=R2 C=R0
+            9 CALL       A=3 B=R3 C=R2
+           10 ADD        A=3 B=R3 C=K0
+           11 CALL       A=0 B=R4 C=R5
+           12 GETUPVAL   A=4 B=R2 C=R0
+           13 LOADK      A=5 Bx=1 ; 4
+           14 CALL       A=4 B=R2 C=R1
+           15 GETUPVAL   A=4 B=R3 C=R0
+           16 MUL        A=4 B=R3 C=R4
+           17 GETUPVAL   A=5 B=R4 C=R0
+           18 MUL        A=5 B=R2 C=R5
+           19 ADD        A=4 B=R4 C=R5
+           20 GETUPVAL   A=5 B=R5 C=R0
+           21 MUL        A=5 B=R1 C=R5
+           22 ADD        A=4 B=R4 C=R5
+           23 ADD        A=4 B=R4 C=R0
+           24 RETURN     A=4 B=R2 C=R0
+           25 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+    === Proto main.30.2 (49-49) ===
+      params=0 vararg=False maxstack=6
+      upvalues(3): z(stk1), e(stk2), l(stk7)
+      constants (1):
+        K0: 1
+      code (16 instr):
+            0 GETUPVAL   A=0 B=R0 C=R0
+            1 GETUPVAL   A=1 B=R1 C=R0
+            2 GETUPVAL   A=2 B=R2 C=R0
+            3 GETUPVAL   A=3 B=R2 C=R0
+            4 GETUPVAL   A=4 B=R2 C=R0
+            5 CALL       A=2 B=R3 C=R2
+            6 GETUPVAL   A=3 B=R2 C=R0
+            7 GETUPVAL   A=4 B=R2 C=R0
+            8 GETUPVAL   A=5 B=R2 C=R0
+            9 CALL       A=3 B=R3 C=R0
+           10 CALL       A=0 B=R0 C=R2
+           11 GETUPVAL   A=1 B=R2 C=R0
+           12 LOADK      A=2 Bx=0 ; 1
+           13 CALL       A=1 B=R2 C=R1
+           14 RETURN     A=0 B=R2 C=R0
+           15 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+    === Proto main.30.3 (49-49) ===
+      params=0 vararg=False maxstack=6
+      upvalues(3): z(stk1), e(stk2), l(stk7)
+      constants (1):
+        K0: 1
+      code (16 instr):
+            0 GETUPVAL   A=0 B=R0 C=R0
+            1 GETUPVAL   A=1 B=R1 C=R0
+            2 GETUPVAL   A=2 B=R2 C=R0
+            3 GETUPVAL   A=3 B=R2 C=R0
+            4 GETUPVAL   A=4 B=R2 C=R0
+            5 CALL       A=2 B=R3 C=R2
+            6 GETUPVAL   A=3 B=R2 C=R0
+            7 GETUPVAL   A=4 B=R2 C=R0
+            8 GETUPVAL   A=5 B=R2 C=R0
+            9 CALL       A=3 B=R3 C=R0
+           10 CALL       A=0 B=R0 C=R2
+           11 GETUPVAL   A=1 B=R2 C=R0
+           12 LOADK      A=2 Bx=0 ; 1
+           13 CALL       A=1 B=R2 C=R1
+           14 RETURN     A=0 B=R2 C=R0
+           15 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
+
+    === Proto main.30.4 (49-49) ===
+      params=5 vararg=False maxstack=6
+      upvalues(0): 
+      constants (0):
+      code (11 instr):
+            0 TEST       A=4 B=R0 C=R0
+            1 JMP        A=0 sBx=3 (-> 5)
+            2 GETTABLE   A=5 B=R0 C=R4
+            3 RETURN     A=5 B=R2 C=R0
+            4 JMP        A=0 sBx=5 (-> 10)
+            5 TEST       A=3 B=R0 C=R0
+            6 JMP        A=0 sBx=2 (-> 9)
+            7 RETURN     A=0 B=R2 C=R0
+            8 JMP        A=0 sBx=1 (-> 10)
+            9 SETTABLE   A=0 B=R1 C=R2
+           10 RETURN     A=0 B=R1 C=R0
+      sub-protos: 0
