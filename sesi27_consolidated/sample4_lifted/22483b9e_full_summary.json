@@ -1,0 +1,14 @@
+{
+  "header": {
+    "version": 83,
+    "int_size": 4,
+    "sz_size": 8,
+    "instr_size": 4
+  },
+  "main_upvalues": 1,
+  "total_protos": 195,
+  "total_instrs": 14649,
+  "main_consts": 240,
+  "total_strings": 588,
+  "unique_strings": 259
+}
