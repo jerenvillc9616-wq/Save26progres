@@ -1,0 +1,57 @@
+-- Luraph VM  –  Main Payload  (Layer 11)
+-- Protected with: Luraph Obfuscator v14.7  [https://lura.ph/]
+-- Size: ~3.2 MB  |  Hash: abd9feca  |  Captured at: 30.57 s
+--
+-- ┌─────────────────────────────────────────────────────────────────────────┐
+-- │  THIS FILE CANNOT BE FURTHER DEOBFUSCATED WITHOUT THE RUNTIME.          │
+-- │  It is the primary script payload, implementing the full MaxHub          │
+-- │  cheat hub logic for Roblox.                                             │
+-- └─────────────────────────────────────────────────────────────────────────┘
+--
+-- LURAPH v14.7 VM ARCHITECTURE (observed from source):
+--   Same general VM design as 04_luraph_vm_a.lua but ~13× larger.
+--   Encoded bytecode strings use the LPH base-encoding format with
+--   escape sequences like:
+--     [==[LPH}B)l2pB0U#MB5)!VB+eiCB...]==]
+--   These are the VM's encrypted instruction streams.
+--
+--   Notable internal identifiers seen in raw source:
+--     Dh, mi, si, VX, bi, ki, uh, vh, Fh, nh, ih, th, kh, Sh, Ts, ts, es, Cs, Li, Ys, vs
+--
+-- WHAT THIS VM EXECUTES  (inferred from modules loaded AFTER it runs):
+--   This file orchestrates loading all the MaxHub feature modules via
+--   loadstring().  After it executes (t=30.57s → t=35.4s), the following
+--   modules appear as captured dumps:
+--
+--     12_connection_handler.lua   – RBXScriptSignal connection manager
+--     13_leny_ui_library.lua      – Leny-UI GUI framework (UI builder)
+--     14_dropdown.lua             – UI Dropdown element
+--     15_toggle.lua               – UI Toggle element
+--     16_popup.lua                – UI Popup element
+--     17_utility.lua              – UI utility helpers (tween, drag, resize)
+--     18_slider.lua               – UI Slider element
+--     19_keybind.lua              – UI Keybind element
+--     20_textbox.lua              – UI TextBox element
+--     21_navigation.lua           – UI Navigation / Tab element
+--     22_color_picker.lua         – UI ColorPicker element
+--     23_theme.lua                – UI Theme system
+--     24_main_moonsec.lua         – Main game-specific cheat (MoonSec V3)
+--
+--   The loadstring calls for modules 12–23 fetch from:
+--     https://raw.githubusercontent.com/Grayy12/EXT/main/connections.lua
+--     https://raw.githubusercontent.com/Grayy12/Leny-UI/refs/heads/main/...
+--   (or from a local Luarmor CDN file read via readfile)
+--
+--   The main script (module 24) is loaded from Luarmor:
+--     https://api.luarmor.net/files/v3/loaders/<script_id>.lua
+--   (the ~3.3 MB JSON blob read during execution contains the encrypted payload)
+--
+-- DATA FILES READ:
+--   static_content_130525/emwi1d78fq6igjpe0cs4kt32ueohfap.json  (244 KB)
+--     → Contains Luarmor-encrypted sub-payloads or asset data
+--   static_content_130525/brosrp0zijhb8ju2w8ynllo6a5nblaz.json  (3.3 MB)
+--     → Contains the main script encrypted payload (expanded and executed
+--        as Module 24 via MoonSec V3 protection)
+--
+-- [The actual ~3.2 MB of Luraph VM bytecode is omitted from this annotated stub.
+--  See 011_abd9feca.lua in marbeg_dumps/ for the raw dump.]

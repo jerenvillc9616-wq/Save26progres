@@ -1,0 +1,55 @@
+-- Luraph VM  –  Instance A  (Layer 4)
+-- Protected with: Luraph Obfuscator v14.4.2  [https://lura.ph/]
+-- Size: ~239 KB  |  Hash: fe7f2e5e  |  Captured at: 6.79 s
+--
+-- ┌─────────────────────────────────────────────────────────────────────────┐
+-- │  THIS FILE CANNOT BE FURTHER DEOBFUSCATED WITHOUT THE RUNTIME.          │
+-- │  It implements a Luraph virtual machine that interprets encrypted        │
+-- │  bytecode stored as data literals within the file itself.               │
+-- └─────────────────────────────────────────────────────────────────────────┘
+--
+-- LURAPH v14.4.2 VM ARCHITECTURE (observed from source):
+--
+--   • The entire script is a single `return({...})` call that evaluates to a
+--     table of ~hundreds of VM handler functions (named with short obfuscated
+--     identifiers like `z`, `h`, `gi`, `_i`, `Nd`, `k`, `j`, `F`, …).
+--
+--   • State tables (register files) hold the current interpreter frame,
+--     stack pointer, instruction pointer, upvalue array, and constant pool.
+--
+--   • Instructions are stored as encoded integer sequences and dispatched
+--     via a large opcode-switch / while-loop pattern.
+--
+--   • Bit operations (lshift, bor, etc.) are aliased to bit32.* functions:
+--       Ad = bit32.lshift
+--       Id = bit32.bor
+--       Kd = math.modf
+--       D  = math.ceil
+--       Y  = string.packsize
+--
+--   • The VM calls out to a custom string manipulation layer for string
+--     operations (sub, byte, len, format, etc.).
+--
+-- WHAT THIS VM EXECUTES:
+--   Based on the execution timeline and the globals captured after it runs:
+--
+--   • Loads and calls the key-check library (06_key_check_library.lua):
+--       key_check_lib.script_id = "<32-char hex id>"
+--       local result = key_check_lib.check_key(getgenv().script_key)
+--
+--   • On successful validation:
+--       - Sets getgenv().script_key ("NujYJRBQSEoWhqTyHFwBzeTvOHgskXVS")
+--       - Triggers the second Luarmor bootstrap (08_luarmor_bootstrap_b.lua)
+--       - Fires the Luraph wrapper B (05) → Luraph VM main (11)
+--
+--   • On failure / invalid key:
+--       - Calls key_check_lib.invalidate_cache()
+--       - Displays an error notification via Nord (07_nord_notifications.lua)
+--       - Halts execution
+--
+-- CALL CHAIN FROM THIS FILE:
+--   04 → calls loadstring() which produces → 05 (Luraph wrapper B)
+--                                           → 06 (key check lib, via wrapper)
+--
+-- [The actual ~239 KB of Luraph VM bytecode is omitted from this annotated stub.
+--  See 004_fe7f2e5e.lua in marbeg_dumps/ for the raw dump.]

@@ -1,0 +1,54 @@
+-- Luarmor V4 Bootstrapper / Script Loader  (Layer 2)
+-- Origin: loaded from CDN at https://cdn.luarmor.net/v4_init_marbeg.lua
+-- Cached locally at: static_content_130525/init-74c74f95fd0-marbeg.lua
+-- Size: ~602 KB  |  Hash: dbb7b845
+--
+-- ┌─────────────────────────────────────────────────────────────────────────┐
+-- │  THIS FILE CANNOT BE FURTHER DEOBFUSCATED WITHOUT THE RUNTIME.          │
+-- │  It is Luarmor's proprietary V4 loader containing:                      │
+-- │   1. An encrypted bytecode blob (superflow_bytecode)                    │
+-- │   2. A custom Luarmor VM / decryptor (~602 KB of obfuscated code)       │
+-- └─────────────────────────────────────────────────────────────────────────┘
+--
+-- WHAT IT DOES AT RUNTIME:
+--
+--   1. Reads session authentication data from the global _bsdata0 table
+--      (set by the Layer 1 bootstrapper):
+--        [4]  = session key bytes (XOR key seed)
+--        [7]  = epoch timestamp
+--        [11] = hex authentication token
+--        (+ other fields)
+--
+--   2. Decrypts the `superflow_bytecode` blob using the session key.
+--      The blob is a table of encrypted byte-string segments.
+--
+--   3. Decodes the result into an executable Lua chunk (the Luraph-
+--      protected script payload, which becomes Layer 3 + 4).
+--
+--   4. Executes it, passing the Luarmor key-check library proxy
+--      (06_key_check_library.lua) as the environment so the script
+--      can call check_key(), invalidate_cache(), and load_script().
+--
+--   5. The script then validates the user's key via the Luarmor API,
+--      and on success loads the actual game script payload.
+--
+-- EXECUTION CHAIN TRIGGERED BY THIS FILE:
+--   02 (this) → 03 (Luraph env wrapper A) → 04 (Luraph VM A)
+--             → 05 (Luraph env wrapper B) → 06 (key check lib)
+--             → key validation → 08 (second bootstrap)
+--             → 11 (Luraph VM main/payload)
+--             → 12..24 (UI modules + main cheat)
+--
+-- FILES READ / WRITTEN:
+--   read:  static_content_130525/init-74c74f95fd0-marbeg.lua  (self)
+--   read:  MaxhubKey  (user's Luarmor key file, 32 bytes)
+--   write: static_content_130525/init-74c74f95fd0-marbeg.lua  (cache update)
+--   read:  static_content_130525/emwi1d78fq6igjpe0cs4kt32ueohfap.json  (~244 KB)
+--   read:  static_content_130525/brosrp0zijhb8ju2w8ynllo6a5nblaz.json  (~3.3 MB)
+--
+-- KEY IDENTIFIER:
+--   script_key = "NujYJRBQSEoWhqTyHFwBzeTvOHgskXVS"  (observed in globals snapshot)
+--   This is the Luarmor key stored in getgenv().script_key
+
+-- [The actual 602 KB of superflow_bytecode + VM code is omitted from this
+--  annotated stub.  See 002_dbb7b845.lua in marbeg_dumps/ for the raw dump.]

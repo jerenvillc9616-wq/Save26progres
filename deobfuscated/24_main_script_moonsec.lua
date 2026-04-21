@@ -1,0 +1,61 @@
+-- Main Game Script  (Layer 24)
+-- Protected with: MoonSec V3
+-- Size: ~76 KB  |  Hash: 65002084  |  Captured at: 42.42 s
+--
+-- ┌─────────────────────────────────────────────────────────────────────────┐
+-- │  THIS FILE CANNOT BE FURTHER DEOBFUSCATED WITHOUT THE RUNTIME.          │
+-- │  It is the innermost cheat script, protected with MoonSec V3.           │
+-- └─────────────────────────────────────────────────────────────────────────┘
+--
+-- MOONSEC V3 STRUCTURE:
+--
+--   ([[This file was protected with MoonSec V3]]):gsub('.+', function(a)
+--       _yTJuHBMtehfa = a   -- stores the string "This file was protected with MoonSec V3"
+--   end)
+--
+--   return (function(f, ...)
+--       -- MoonSec bootstrap:
+--       --   n = VM register file
+--       --   o = instruction table / opcode dispatch
+--       --   d = bytecode decoder function
+--       --   h = tonumber
+--       --   t = string library reference
+--       --   s = environment proxy (rvwScOhk = string.char or decode helper)
+--       --   z = initial VM state seed (24915)
+--       -- … ~76 KB of encoded bytecode + VM dispatcher follows
+--   end)(string.byte, ...)
+--
+-- WHAT THIS SCRIPT IMPLEMENTS  (inferred from context and UI modules):
+--   This is the main MaxHub cheat hub script for a specific Roblox game.
+--   It uses the Leny-UI framework (13_leny_ui_library.lua) to build the
+--   cheat GUI and connects to the various UI element modules (14–23).
+--
+--   Likely features (typical for a Roblox cheat hub of this type):
+--     • Aimbot / silent aim
+--     • ESP / wallhack (player highlights, boxes, tracers)
+--     • Speed / fly hacks
+--     • Auto-farm / auto-collect
+--     • Teleport / noclip
+--     • Anti-cheat bypass hooks
+--     • GUI with toggles, sliders, dropdowns, keybinds, color pickers
+--
+--   The script uses:
+--     – _G.Config              (set by MaxHub for Nord notification theme)
+--     – getgenv().script_key   (Luarmor validated key)
+--     – shared.Flags           (Toggle / Slider state accessible globally)
+--
+-- MOONSEC V3 EXECUTION MODEL:
+--   MoonSec V3 uses a custom Lua VM similar to Luraph.  The compressed
+--   bytecode is encoded in a large string literal embedded in the source.
+--   A bootstrap function decodes it using string.byte / string.char operations
+--   and interprets the resulting instruction stream.  The VM uses several
+--   single-character instruction opcodes:
+--     "\0" → environment global load       (n[z] = n[z][key])
+--     "\2" → string decode via rvwScOhk    (z = s.rvwScOhk(z))
+--     "\3" → boolean coerce                (z = z ~= "\0")
+--     "\4" → upvalue/constant load         (z = n[z])
+--     "\5" → RETURN / break signal
+--     "\6" → closure creation              (n[z] = function(e,z) return f(8,nil,f,z,e) end)
+--
+-- [The actual ~76 KB of MoonSec V3 bytecode is omitted from this annotated stub.
+--  See 024_65002084.lua in marbeg_dumps/ for the raw dump.]
