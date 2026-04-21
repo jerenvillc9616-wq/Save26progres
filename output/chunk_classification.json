@@ -1,0 +1,242 @@
+[
+  {
+    "n": 1,
+    "hash": "ee576e08",
+    "size": 1417,
+    "chunk_name": "",
+    "time": 1.0927023887634277,
+    "kind": "luarmor_v4_loader",
+    "description": "Luarmor V4 outer loader stub",
+    "file": "001_ee576e08.lua"
+  },
+  {
+    "n": 2,
+    "hash": "dbb7b845",
+    "size": 602650,
+    "chunk_name": "",
+    "time": 3.102717161178589,
+    "kind": "luarmor_v4_bootstrap",
+    "description": "Luarmor V4 internal runtime",
+    "file": "002_dbb7b845.lua"
+  },
+  {
+    "n": 3,
+    "hash": "bd13279a",
+    "size": 2438,
+    "chunk_name": "Luraph",
+    "time": 3.443480968475342,
+    "kind": "luraph_trampoline",
+    "description": "Luraph outer trampoline",
+    "file": "003_bd13279a.lua"
+  },
+  {
+    "n": 4,
+    "hash": "fe7f2e5e",
+    "size": 239053,
+    "chunk_name": "",
+    "time": 6.791022777557373,
+    "kind": "luraph_v14_4_2",
+    "description": "Luraph 14.4.2 VM payload",
+    "file": "004_fe7f2e5e.lua"
+  },
+  {
+    "n": 5,
+    "hash": "daaf51c0",
+    "size": 2926,
+    "chunk_name": "Luraph",
+    "time": 6.984341621398926,
+    "kind": "luraph_trampoline",
+    "description": "Luraph outer trampoline",
+    "file": "005_daaf51c0.lua"
+  },
+  {
+    "n": 6,
+    "hash": "52a23c60",
+    "size": 6130,
+    "chunk_name": "",
+    "time": 10.443756580352783,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "006_52a23c60.lua"
+  },
+  {
+    "n": 7,
+    "hash": "bc9e0415",
+    "size": 12567,
+    "chunk_name": "",
+    "time": 10.638026475906372,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "007_bc9e0415.lua"
+  },
+  {
+    "n": 8,
+    "hash": "0738f280",
+    "size": 1421,
+    "chunk_name": "",
+    "time": 12.414202690124512,
+    "kind": "luarmor_v4_loader",
+    "description": "Luarmor V4 outer loader stub",
+    "file": "008_0738f280.lua"
+  },
+  {
+    "n": 9,
+    "hash": "6ffbbf53",
+    "size": 94,
+    "chunk_name": "",
+    "time": 14.134730815887451,
+    "kind": "raw_blob",
+    "description": "raw byte string (probably key material)",
+    "file": "009_6ffbbf53.lua"
+  },
+  {
+    "n": 10,
+    "hash": "4002f162",
+    "size": 113,
+    "chunk_name": "",
+    "time": 14.161312580108643,
+    "kind": "script_key_init",
+    "description": "script_key initializer",
+    "file": "010_4002f162.lua"
+  },
+  {
+    "n": 11,
+    "hash": "abd9feca",
+    "size": 3205449,
+    "chunk_name": "",
+    "time": 30.56891894340515,
+    "kind": "luraph_v14_7",
+    "description": "Luraph 14.7 VM payload",
+    "file": "011_abd9feca.lua"
+  },
+  {
+    "n": 12,
+    "hash": "6fc616d3",
+    "size": 7011,
+    "chunk_name": "",
+    "time": 35.40292453765869,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "012_6fc616d3.lua"
+  },
+  {
+    "n": 13,
+    "hash": "626a17c0",
+    "size": 94778,
+    "chunk_name": "",
+    "time": 35.73631834983826,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "013_626a17c0.lua"
+  },
+  {
+    "n": 14,
+    "hash": "fcc301e5",
+    "size": 2295,
+    "chunk_name": "",
+    "time": 35.919832944869995,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "014_fcc301e5.lua"
+  },
+  {
+    "n": 15,
+    "hash": "f74fa3de",
+    "size": 510,
+    "chunk_name": "",
+    "time": 36.086365938186646,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "015_f74fa3de.lua"
+  },
+  {
+    "n": 16,
+    "hash": "326887b5",
+    "size": 6214,
+    "chunk_name": "",
+    "time": 36.303431034088135,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "016_326887b5.lua"
+  },
+  {
+    "n": 17,
+    "hash": "51d65100",
+    "size": 7383,
+    "chunk_name": "",
+    "time": 36.45270562171936,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "017_51d65100.lua"
+  },
+  {
+    "n": 18,
+    "hash": "445d55de",
+    "size": 3300,
+    "chunk_name": "",
+    "time": 36.77010107040405,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "018_445d55de.lua"
+  },
+  {
+    "n": 19,
+    "hash": "7f03f94b",
+    "size": 2957,
+    "chunk_name": "",
+    "time": 36.91935849189758,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "019_7f03f94b.lua"
+  },
+  {
+    "n": 20,
+    "hash": "42a35fca",
+    "size": 686,
+    "chunk_name": "",
+    "time": 37.070940017700195,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "020_42a35fca.lua"
+  },
+  {
+    "n": 21,
+    "hash": "8c52c530",
+    "size": 1485,
+    "chunk_name": "",
+    "time": 37.236374378204346,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "021_8c52c530.lua"
+  },
+  {
+    "n": 22,
+    "hash": "91bb4274",
+    "size": 6424,
+    "chunk_name": "",
+    "time": 38.18068313598633,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "022_91bb4274.lua"
+  },
+  {
+    "n": 23,
+    "hash": "7f0ce28e",
+    "size": 3568,
+    "chunk_name": "",
+    "time": 38.60324716567993,
+    "kind": "clean_lua",
+    "description": "plain Lua source",
+    "file": "023_7f0ce28e.lua"
+  },
+  {
+    "n": 24,
+    "hash": "65002084",
+    "size": 76158,
+    "chunk_name": "",
+    "time": 42.42049860954285,
+    "kind": "moonsec_v3",
+    "description": "MoonSec V3 VM payload",
+    "file": "024_65002084.lua"
+  }
+]

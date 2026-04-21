@@ -1,0 +1,7 @@
+{
+  "getfenv": 1,
+  "select": 1,
+  "setmetatable": 1,
+  "setfenv": 1,
+  "unpack": 4
+}

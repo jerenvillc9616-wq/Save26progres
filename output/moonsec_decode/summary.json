@@ -1,0 +1,23 @@
+{
+  "alias_entries": 6,
+  "opcode_stream_blobs": 2,
+  "blobs": [
+    {
+      "seed": 32,
+      "alphabet_chars": "zo3%j1Or:(,{y-&;",
+      "encoded_length": 18,
+      "decoded_length": 1,
+      "alias_entries_decoded": 0,
+      "decoded_preview_hex": "05"
+    },
+    {
+      "seed": 210,
+      "alphabet_chars": "J9Ce;>WRT,sp{=}L",
+      "encoded_length": 612,
+      "decoded_length": 298,
+      "alias_entries_decoded": 17,
+      "decoded_preview_hex": "0006737472696e670464756d7069676553784c6f5804057063616c6c797847754646567101057072696e7464544c6e51477a6c0006737472696e67056d617463"
+    }
+  ],
+  "total_aliases": 23
+}

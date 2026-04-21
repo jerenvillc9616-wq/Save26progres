@@ -1,0 +1,51 @@
+{
+  "total": 1496,
+  "identifiers_unique": 10,
+  "numerics_unique": 1,
+  "short_literals": 856,
+  "long_pool_blobs": 71,
+  "long_pool_bytes": 19763,
+  "other": 558,
+  "top_identifiers": [
+    [
+      "L0NhNZ",
+      1
+    ],
+    [
+      "P4TV5",
+      1
+    ],
+    [
+      "W9F",
+      1
+    ],
+    [
+      "Y7TBHi",
+      1
+    ],
+    [
+      "XopV9F9",
+      1
+    ],
+    [
+      "aJXIO",
+      1
+    ],
+    [
+      "iLY",
+      1
+    ],
+    [
+      "m",
+      1
+    ],
+    [
+      "oJQY5lh",
+      1
+    ],
+    [
+      "s8N",
+      1
+    ]
+  ]
+}

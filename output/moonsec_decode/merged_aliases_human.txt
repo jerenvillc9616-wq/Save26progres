@@ -1,0 +1,23 @@
+s['rvwScOhk'] = _ENV['tonumber']
+s['GtHyR_mw'] = _ENV['string']['char']
+s['dSrDYsTB'] = _ENV['string']['sub']
+s['gjeX_bzq'] = _ENV['string']['byte']
+s['rZFaKTvv'] = _ENV['table']['concat']
+s['ZKyD_Bgp'] = _ENV['table']['insert']
+s['igeSxLoX'] = _ENV['string']['dump']
+s['yxGuFFVq'] = _ENV['pcall']
+s['dTLnQGzl'] = literal 'print'
+s['wvQHXIjx'] = _ENV['string']['match']
+s['vjpMQaCP'] = _ENV['math']['ldexp']
+s['sFkFtTFe'] = _ENV['setmetatable']
+s['MpigoyyM'] = _ENV['Vector3']
+s['pWwjyFaE'] = _ENV['wait']
+s['SWGWuEpv'] = tonumber('9')
+s['Hx_mYSzf'] = _ENV['tostring']
+s['hiyaeZuR'] = _ENV['table']['unpack']
+s['OJmphWrn'] = _ENV['unpack']
+s['EiqfqVrY'] = _ENV['print']
+s['BMCQisQT'] = closure in _ENV['tostring'] (== literal 'tostring' for s[])
+s['donkeyLO'] = closure in _ENV['print'] (== literal 'print' for s[])
+s['rUurIQyh'] = _ENV['select']
+s['WnEwQZ_Q'] = _ENV['math']['floor']

@@ -1,0 +1,38 @@
+{
+  "rvwScOhk": {
+    "opcode": 4,
+    "parent_or_value": "tonumber",
+    "field": null,
+    "meaning": "_ENV['tonumber']"
+  },
+  "GtHyR_mw": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "char",
+    "meaning": "_ENV['string']['char']"
+  },
+  "dSrDYsTB": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "sub",
+    "meaning": "_ENV['string']['sub']"
+  },
+  "gjeX_bzq": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "byte",
+    "meaning": "_ENV['string']['byte']"
+  },
+  "rZFaKTvv": {
+    "opcode": 0,
+    "parent_or_value": "table",
+    "field": "concat",
+    "meaning": "_ENV['table']['concat']"
+  },
+  "ZKyD_Bgp": {
+    "opcode": 0,
+    "parent_or_value": "table",
+    "field": "insert",
+    "meaning": "_ENV['table']['insert']"
+  }
+}

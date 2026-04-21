@@ -1,0 +1,2055 @@
+origin: loadstring
+
+return function()if Z.Character and Z.Character:FindFirstChild(C[1][C[3]])then local i=Z.Character.HumanoidRootPart
+
+local H=Z.Character:WaitForChild("\x48\z  uma\110o\x69d")
+
+local i=v.LocalPlayer
+
+if Z.Character and Z.Character:FindFirstChild(C[1][C[3]])and Z.Character:FindFirstChild("\x48u\109\u{61}noid")then do table.insert(J.visibleTargets,{character=Z.Character,distance=P,isVisible=true})
+
+local K,C=J:GetHighlight(Z.Character,P,true)
+
+if K then K.Adornee=P<=200 and Z.Character or nil
+
+local K=Z.Character:FindFirstChild('I\116em\x52o\z \111\x74',true)
+
+R.Position=UDim2.new(0,m.X-b/2,0,m.Y-q/2)
+
+R.Size=UDim2.new(0,b/5,0,1)
+
+f.Position=UDim2.new(0,m.X-b/2,0,m.Y-q/2)
+
+f.Size=UDim2.new(0,1,0,q/5)
+
+c.Position=UDim2.new(0,m.X-b/2,0,m.Y+q/2)
+
+c.Size=UDim2.new(0,1,0,q/5)
+
+c.AnchorPoint=Vector2.new(0,5)
+
+W.Position=UDim2.new(0,m.X-b/2,0,m.Y+q/2)
+
+W.Size=UDim2.new(0,b/5,0,1)
+
+W.AnchorPoint=Vector2.new(0,1)
+
+j.Position=UDim2.new(0,m.X+b/2,0,m.Y-q/2)
+
+j.Size=UDim2.new(0,b/5,0,1)
+
+j.AnchorPoint=Vector2.new(1,0)
+
+y.Position=UDim2.new(0,m.X+b/2-1,0,m.Y-q/2)
+
+y.Size=UDim2.new(0,1,0,q/5)
+
+y.AnchorPoint=Vector2.new(0,0)
+
+M.Position=UDim2.new(0,m.X+b/2,0,m.Y+q/2)
+
+M.Size=UDim2.new(0,1,0,q/5)
+
+M.AnchorPoint=Vector2.new(1,1)
+
+t.Position=UDim2.new(0,m.X+b/2,0,m.Y+q/2)
+
+t.Size=UDim2.new(0,b/5,0,1)
+
+t.AnchorPoint=Vector2.new(1,1)
+
+do E.Position=UDim2.new(0,m.X-b/2,0,m.Y-q/2)
+
+E.Size=UDim2.new(0,b,0,q)
+
+if u.Toggle['\u{042}\z  o\u{0078}\101s Full']:getState()then E.BackgroundColor3=Color3.fromRGB(255,255,255)
+
+o.Position=UDim2.new(0,m.X-b/2-6,0,m.Y-q/2+q*(1-t))
+
+o.Size=UDim2.new(0,2.5,0,q*t)
+
+s.Position=UDim2.new(0,m.X-b/2-6,0,m.Y-q/2)
+
+s.Size=UDim2.new(0,2.5,0,q)
+
+do if u.Toggle['H\u{65}a\u{06C}th\z  \84e\z \x78t']:getState()then local j=math.floor(H.Health/H.MaxHealth*100)
+
+L.Position=UDim2.new(0,m.X-b/2-6,0,m.Y-q/2+q*(1-j/100)+3)
+
+if u.Toggle['Hea\108thTex\x74\ \x4C\101r\z  p']:getState()then local j=t>=0.75 and Color3.fromRGB(0,255,0)or t>=0.5 and Color3.fromRGB(255,255,0)or t>=0.25 and Color3.fromRGB(255,170,0)or Color3.fromRGB(255,0,0)
+
+if Z.type=="P\z la\u{0079}e\x72"and u.Toggle["\x46\x72i\101\x6E\d\u{0063}he\c\107"]:getState()and i:IsFriendsWith(Z.UserId)then B.Text=string.format('(<fo\z  \u{006E}t c\u{06F}lo\114\61\34r\x67b(%d\u{002C}\x20\37\x64\z  \x2C %\d\)"\z>\z  F<\z  /\x66on\x74>) %s',Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,Z.Name)
+
+else B.Text=string.format('\40\z \u{003C}font\ co\lor\x3D"\u{0072}gb(\x25\100\44 \x25d\z\x2C %d\u{029}">%s<\47fo\x6E\116>\u{0029} \z\37s',255,0,0,"\z\u{0045}",Z.Name)
+
+B.Position=UDim2.new(0,m.X,0,m.Y-q/2-9)
+
+do if l.Flags.Toggle["\68\105st\x61\110\u{063}\101 \67\z\104eck"]:getState()then if l.Flags.Dropdown['\u{44}\z \105st\u{61}\110c\101 T\101xt Pos\u{69}\z tion']:getValue()=='Bo\116tom'then Q.Position=UDim2.new(0,m.X,0,m.Y+q/2+18)
+
+F.Position=UDim2.new(0,m.X-21,0,m.Y+q/2+15)
+
+X.Position=UDim2.new(0,m.X,0,m.Y+q/2+7)
+
+X.Text=string.format('\u{025}\100 meter\115',math.floor(P))
+
+else Q.Position=UDim2.new(0,m.X,0,m.Y+q/2+8)
+
+F.Position=UDim2.new(0,m.X-21,0,m.Y+q/2+5)
+
+if Z.type=="Pl\x61y\101\z  \u{72}"and l.Flags.Toggle["\70r\x69\101n\x64ch\101\x63k"]:getState()and i:IsFriendsWith(Z.UserId)then B.Text=string.format('(<\u{0066}\o\110\x74\ co\z  \108\z or\z  \=\u{022}r\g\98\z\u{028}%d\44\ \u{0025}d\, \x25d)">F\</f\u{006F}n\z  t\u{003E}\41 \37s \91\z%\100\93',Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,Z.Name,math.floor(P))
+
+else B.Text=string.format("\(\z  <\102o\z \u{06E}\z \116\ \co\lo\114\61\"r\z\u{0067}b\x28\%d, %\z  d,\u{0020}%d)\34>\u{25}s\60\/\zfont>\41 %\zs\x20\91%d]",255,0,0,'E',Z.Name,math.floor(P))
+
+do local i=Z.Character:FindFirstChildWhichIsA('\Ra\121Va\z l\117\z \101')
+
+if i-s[1][s[3]]>=0.5 then local Q=x.Character
+
+local u=Q and Q:FindFirstChildWhichIsA("RayVa\u{006C}u\u{065}")
+
+if u then local r=u:FindFirstChild("G\x75\zn\83\116at\x75s")
+
+pcall(function()local q=math.random(1000,9999)
+
+local r=math.random(1000,9999)
+
+if E.Toggle["\65\x75t\x6F \u{057}a\u{069}\z  t \u{0054}i\108 \80\l\z ay\101\u{72} \u{047}o\110\e"]and E.Toggle["\x41u\116\u{06F} Wa\u{0069}t\x20T\z i\z l\32Playe\u{72} G\x6F\z ne"]:getState()then if x.Character and x.Character:FindFirstChild(K[1][K[3]])then W(CFrame.new(n),300,0,0)
+
+if(E.Toggle['\75i\u{63}k I\102 Pla\y\ze\u{0072}\x20\z Nea\114\u{0062}\u{0079}']:getState()or E.Toggle["Res\101\u{74}\u{20}I\102\x20Pla\z  yer Ne\97\114\z by"]:getState())and x.Character and x.Character:FindFirstChild(K[1][K[3]])then local i=x.Character.HumanoidRootPart
+
+for n,n in pairs(game.Players:GetPlayers())do if n~=x and n.Character and n.Character:FindFirstChild(K[1][K[3]])then if(n.Character.HumanoidRootPart.Position-i.Position).Magnitude<=E.Slider['\u{0050}\layer\32De\116ection\ R\u{61}d\u{0069}us']:getValue()then if E.Toggle['Res\101t\32I\z f Pl\97\y\x65r N\ear\x62\u{0079}']:getState()then H:FireServer(100,{Head=100},true)
+
+if x.Character and x.Character:FindFirstChild(K[1][K[3]])then local i=x.Character.HumanoidRootPart.Position
+
+if j.LoreNPCs.Scourge and j.LoreNPCs.Scourge:FindFirstChild(K[1][K[3]])and b:GetAttribute("C\z  a\115h")>500 then local n=j.LoreNPCs.Scourge.HumanoidRootPart.Position
+
+if i and i.Visible and i.AnswerCanvas.ScrollingFrame:FindFirstChild('\x41n\u{073}\wer')then e.Event:FireServer("1\x3A\32\Yes.")
+
+else fireproximityprompt(j.LoreNPCs.Scourge.HumanoidRootPart.TalkWithNPC)
+
+local i=b.OverlayGui:FindFirstChild('\80\u{0072}o\109\z pt\u{0073}')
+
+if i then local n=i:FindFirstChild("Cho\zi\z  \99\101\u{50}\u{072}o\m\p\z t")
+
+if n and n:FindFirstChild("\67\111\x6E\u{74}\97in\x65r")then local i=n.Container:FindFirstChild('\67\z\104\u{6F}\105\z  \99e\Car\z d')
+
+if i and i:FindFirstChild('\66\117\116t\111n')and i.Button.Visible then local Q=E.Dropdown['\z A\117to C\o\u{6C}\x6Cec\z  t']:getValue()
+
+if#i>=4 and i[4]:FindFirstChild('\But\116\z on')then firesignal(i[4].Button.MouseButton1Click)
+
+for i,i in pairs(j.Arena:GetChildren())do if i:FindFirstChild(K[1][K[3]])and i.Humanoid.Health>0 then local n=i.Head
+
+else W(j.LoreNPCs.Scourge.HumanoidRootPart.CFrame,300,0,-5.0)
+
+if E.Toggle['\x41uto \u{53}k\u{69}p\x20\z\Shop']:getState()and b.MainStaticGui:FindFirstChild("A\108\101r\116s")and b.MainStaticGui.Alerts:FindFirstChild('A\108\101rt\70\x72a\z me')and b.MainStaticGui.Alerts.AlertFrame:FindFirstChild('\65cce\112\zt')then firesignal(b.MainStaticGui.Alerts.AlertFrame.Accept.MouseButton1Click)
+
+if E.Toggle['\65u\u{0074}o\u{0020}\u{50}i\99\x6B\x20\u{0050}e\z rk']:getState()and b.OverlayGui.Prompts:FindFirstChild("\C\104\111\ic\101\x50ro\u{006D}\112t")and b.OverlayGui.Prompts.ChoicePrompt:FindFirstChild("C\u{006F}\110\116a\105n\ze\114")then for i,i in pairs(b.OverlayGui.Prompts.ChoicePrompt.Container:GetChildren())do if i:IsA(G[1][G[3]])and i.Name=='Choi\99\u{065}\C\u{61}\114d'then firesignal(i.Button.MouseButton1Click)
+
+if E.Toggle['F\97rm Zo\z\mb\105es']:getState()then for i,i in pairs(game:GetService("\Work\s\u{0070}a\x63e").NPCs.Custom:GetChildren())do if i:FindFirstChild(K[1][K[3]])and i.Humanoid.Health>0 then local j=i.Head
+
+if x.Character and x.Character:FindFirstChild("Humano\u{069}d")then if x.Character.Humanoid.Health<=55 then W(i.HumanoidRootPart.CFrame,E.Slider["F\x61\z r\109 Sp\x65ed"]:getValue(),50,3)
+
+else W(i.HumanoidRootPart.CFrame,E.Slider["Fa\u{72}\x6D \83pe\x65d"]:getValue(),E.Slider["\z  \72\u{0065}i\g\u{068}t Of\z  \102\115e\116\x73"]:getValue(),3)
+
+if E.Toggle["\83t\za\114\z t L\z  o\z \111\z  \u{74}\32\u{0046}\97\z  \x72\m"]:getState()then if U[1][U[3]]and U[1][U[3]]:FindFirstChild('\z Human\x6F\zi\u{0064}')and U[1][U[3]]:FindFirstChild(K[1][K[3]])then local i=U[1][U[3]]:GetAttribute("\zP\97rk\x6F\117r")==true
+
+if i then U[1][U[3]].Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+
+if j then Z=i.CFrame*CFrame.new(-3.0,0,0)
+
+elseif L then Z=i.CFrame*CFrame.new(-3.0,0,-2.0)
+
+else Z=i.CFrame*CFrame.new(E.Slider["\79f\102set 1"]:getValue(),E.Slider['O\u{0066}\x66\z \set\032\x32']:getValue(),E.Slider['\79ff\115et 3']:getValue())
+
+local Z=x.PlayerGui.MainGui.LootFrame
+
+if Z.Visible==true then local b=i:FindFirstChild('Lo\111tT\97\u{0062}\l\101')
+
+if j then i=p[1][p[3]].CFrame*CFrame.new(-3.0,0,0)
+
+elseif L then i=p[1][p[3]].CFrame*CFrame.new(-3.0,0,-2.0)
+
+local i=x.Character and x.Character:FindFirstChild(K[1][K[3]])
+
+if E.Toggle["\z  \68e\s\x79\110\c"]:getState()and not UserIsPoor then local i=U[1][U[3]]and U[1][U[3]]:FindFirstChild(K[1][K[3]])
+
+if i and i.AssemblyMass<math.huge and not U[1][U[3]]:FindFirstChildWhichIsA("\70\x6F\114c\x65F\x69\101l\d")then local Z=i.CFrame
+
+i.Velocity=Vector3.new(math.random(-900000.0,900000),math.random(-300000.0,300000),math.random(-900000.0,900000))
+
+if E.Toggle["\z  \N\111 \70\111\u{06F}tste\z p\z s"]and E.Toggle["N\111 Foo\z ts\u{0074}\101\112\z \115"]:getState()then local i=U[1][U[3]]and U[1][U[3]]:FindFirstChild(K[1][K[3]])
+
+local f=U[1][U[3]]and U[1][U[3]]:FindFirstChild(K[1][K[3]])
+
+local t=l.Character
+
+local z=t and t:FindFirstChild(K[1][K[3]])
+
+local c=t and t:FindFirstChildOfClass('\72\117ma\x6E\oid')
+
+if C.Toggle['Spe\ct\za\z\u{074}e']:getState()then if E then local s=c:FindFirstChild(E)
+
+if s and s.Character and s.Character:FindFirstChild(w[1][w[3]])then t[1][t[3]]=s
+
+y.CameraSubject=s.Character.Humanoid
+
+local t=R.Character and R.Character:FindFirstChild(w[1][w[3]])and R.Character.HumanoidRootPart.CFrame
+
+if t then local c=CFrame.new(y.CFrame.Position,y.CFrame.Position+t.LookVector)
+
+else x[1][x[3]]=CFrame.new(y.CFrame.Position,y.CFrame.Position+Vector3.new(0,0,-1.0))
+
+freeCamVelocity=Vector3.new(0,0,0)
+
+if R.Character and R.Character:FindFirstChild('H\z \117\109a\110\u{06F}id')then originalWalkSpeed=R.Character.Humanoid.WalkSpeed
+
+originalJumpPower=R.Character.Humanoid.JumpPower
+
+originalPlatformStand=R.Character.Humanoid.PlatformStand
+
+R.Character.Humanoid.PlatformStand=true
+
+R.Character.Humanoid.WalkSpeed=0
+
+R.Character.Humanoid.JumpPower=0
+
+local c=Vector3.new(0,0,0)
+
+if n:IsKeyDown(Enum.KeyCode.E)or n:IsKeyDown(Enum.KeyCode.Space)then c=c+Vector3.new(0,1,0)
+
+if n:IsKeyDown(Enum.KeyCode.Q)or n:IsKeyDown(Enum.KeyCode.LeftControl)then c=c-Vector3.new(0,1,0)
+
+else freeCamVelocity=freeCamVelocity:Lerp(Vector3.new(0,0,0),freeCamDeceleration*t)
+
+x[1][x[3]]=x[1][x[3]]*CFrame.fromAxisAngle(Vector3.new(0,1,0),U)
+
+if flyActive then local t=R.Character
+
+if t and t:FindFirstChild(w[1][w[3]])then local l=t.HumanoidRootPart
+
+l.Velocity=Vector3.new(0,2,0)
+
+if L then t.Position=Vector2.new(y.ViewportSize.X/2,y.ViewportSize.Y/2)
+
+else t.Position=Vector2.new(p.X+M.X,p.Y+M.Y)
+
+if n:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or z:GetAttribute('\65\i\z\m\z  \105\u{06E}g')then t.Color=J:Lerp(Color3.new(1,1,1),0.5)
+
+else t.Color=J:Lerp(Color3.new(1,1,1),X*0.3)
+
+i.Position=Vector2.new(j.Position.X,j.Position.Y+j.Radius+8)
+
+i.Color=j:Lerp(Color3.new(1,1,1),0.6)
+
+i.OutlineColor=Color3.new(0,0,0)
+
+i.Color=j:Lerp(Color3.new(1,1,1),f)
+
+else i.Position=Vector2.new(p.X+M.X,p.Y+M.Y+15)
+
+i.Color=Color3.new(1,1,1)
+
+o.OutdoorAmbient=Color3.fromRGB(128,128,128)
+
+o.Ambient=Color3.fromRGB(178,178,178)
+
+if i>0 then o.Ambient=Color3.fromRGB(i*25.5,i*25.5,i*25.5)
+
+o.OutdoorAmbient=Color3.fromRGB(i*25.5,i*25.5,i*25.5)
+
+o.Ambient=Color3.fromHSV(i,1,1)
+
+o.OutdoorAmbient=Color3.fromHSV(i,1,1)
+
+if R.Character and R.Character:FindFirstChild('\72um\x61\u{006E}\z oid')then if C.Slider['\74\117\z\x6Dp\32P\u{6F}wer']then R.Character.Humanoid.JumpPower=C.Slider['\z  \Ju\109\x70 Pow\er']:getValue()
+
+if C.Toggle['In\102 \x41m\z  m\z o']:getState()or C.Toggle['I\u{06E}f F\105\z  re\z R\97t\101']:getState()or C.Toggle['\73\zn\x66 \z  R\97ng\x65']:getState()then local i=R.Character and R.Character:FindFirstChildOfClass("\u{54}\u{006F}\111l")
+
+i=hookmetamethod(game,'\x5F\95namec\z a\ll',function(z,...)local c={...}
+
+i=hookmetamethod(game,'__n\e\x77\u{069}\110d\x65\120',function(z,c,y)if z==f[1][f[3]]and not checkcaller()and c=='\x43\Fr\97m\101'then do if p.Flags.Toggle["No\32\67\97me\x72\u{0061}\32B\zo\98\u{0062}i\110g"]:getState()then local n=debug.traceback()
+
+local function y()local n={f[1][f[3]],b.Character}
+
+for b,b in workspace.NoCollision:GetDescendants()do if b:IsA("\x42\97sePart")then table.insert(n,b)
+
+local y=workspace:Raycast(K,n*(M-w),R)
+
+if y and y:FindFirstChild("\72uma\110\z oid")then return M,R,y
+
+table.insert(X,M)
+
+if f and w then local b=f.CFrame:ToObjectSpace(CFrame.new(R))
+
+local R=math.random(-100000.0,100000)
+
+if math.random(1,100)<=p.Flags.Slider["\u{48}\z i\z \x74\32\z Ch\97n\u{063}\e"]:getValue()then n[4]={ClassName="P\z  a\114t",CFrame=CFrame.new(M,i)}
+
+local L=workspace.Camera.ViewModel
+
+local b=L:FindFirstChild("I\u{0074}\z e\m")
+
+if b then L=b:FindFirstChild("\z\66a\u{72}re\u{6C}")
+
+if not L then local f=b:FindFirstChild('A\116\zt\z  a\99h\me\z  \110ts')
+
+return function()local i=Z.Character
+
+local Z=i and i:FindFirstChild(t[1][t[3]])
+
+if j.Toggle["\u{49}m\x70\z  \x6Fss\105\zbl\z \x65\32\z  H\105t"]:getState()and not UserIsPoor then if Z and Z.AssemblyMass<1000 and not i:FindFirstChildWhichIsA('\70o\u{072}\u{63}\101\z F\ield')then local i=Z.CFrame
+
+Z.Velocity=Vector3.new(math.random(-p,p),math.random(-L,L),math.random(-p,p))
+
+if flyActive then local d=M.Character
+
+if d and d:FindFirstChild(z[1][z[3]])then local z=d.HumanoidRootPart
+
+z.Velocity=Vector3.new(0,2,0)
+
+if X then z.Position=Vector2.new(o.ViewportSize.X/2,o.ViewportSize.Y/2)
+
+else z.Position=Vector2.new(w.X+R.X,w.Y+R.Y)
+
+if z then f.Position=Vector2.new(o.ViewportSize.X/2,o.ViewportSize.Y/2)
+
+else f.Position=Vector2.new(w.X+R.X,w.Y+R.Y)
+
+if t:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or b:GetAttribute("\65\105m\ing")then f.Color=K:Lerp(Color3.new(1,1,1),0.5)
+
+else f.Color=K:Lerp(Color3.new(1,1,1),d*0.3)
+
+i.Position=Vector2.new(Z.Position.X,Z.Position.Y+Z.Radius+8)
+
+i.Color=Z:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=Z:Lerp(Color3.new(1,1,1),b)
+
+else i.Position=Vector2.new(w.X+R.X,w.Y+R.Y+15)
+
+l.OutdoorAmbient=Color3.fromRGB(128,128,128)
+
+l.Ambient=Color3.fromRGB(178,178,178)
+
+if i>0 then l.Ambient=Color3.fromRGB(i*25.5,i*25.5,i*25.5)
+
+l.OutdoorAmbient=Color3.fromRGB(i*25.5,i*25.5,i*25.5)
+
+if M.Character and M.Character:FindFirstChild("Hu\109an\u{006F}\u{069}\100")then if c.Slider['\Jum\u{0070} \z Power']then M.Character.Humanoid.JumpPower=c.Slider['Jum\u{0070}\32Pow\er']:getValue()
+
+return function(i,...)if Z.Toggle['\78o \82ec\x6Fi\108']and Z.Toggle['N\111 Re\u{0063}oil']:getState()then return 0,0,Vector2.new(0,0)
+
+game:GetService('\82e\112li\catedS\u{0074}o\114\z  a\z  g\z e'):WaitForChild("\z Re\109\z\o\z \116es"):WaitForChild('\67o\x6D\u{62}at'):WaitForChild('\66loc\z  \107'):FireServer(unpack(i))
+
+if t.HVH.Enabled then for i,i in pairs(game:GetService("\z\P\u{6C}\97\121e\114\x73"):GetPlayers())do if i.Name==t.HVH.PlayerToLock then j(i.Character.HumanoidRootPart.CFrame)
+
+game:GetService('\Vi\u{072}\z\x74ualU\115\x65\x72'):ClickButton1(Vector2.new(9e9,9e9))
+
+if Z:IsKeyDown(Enum.KeyCode[i])then local i=j.Character
+
+local t=i.HumanoidRootPart
+
+t.Velocity=Vector3.new(0,0,0)
+
+return function()if L.Character and L.Character:FindFirstChild(V[1][V[3]])then local i=L.Character.HumanoidRootPart
+
+local W=L.Character:WaitForChild("H\117\u{06D}\z\97\110\111\x69d")
+
+local i=w.LocalPlayer
+
+if L.Character and L.Character:FindFirstChild(V[1][V[3]])and L.Character:FindFirstChild("\z\u{048}um\97no\x69d")then do table.insert(B.visibleTargets,{character=L.Character,distance=q,isVisible=true})
+
+local p,z=B:GetHighlight(L.Character,q,true)
+
+if p then p.Adornee=q<=200 and L.Character or nil
+
+local p=L.Character:FindFirstChild('It\101\109R\z \u{6F}\111\u{0074}',true)
+
+o.Position=UDim2.new(0,H.X-e/2,0,H.Y-m/2)
+
+o.Size=UDim2.new(0,e/5,0,1)
+
+I.Position=UDim2.new(0,H.X-e/2,0,H.Y-m/2)
+
+I.Size=UDim2.new(0,1,0,m/5)
+
+E.Position=UDim2.new(0,H.X-e/2,0,H.Y+m/2)
+
+E.Size=UDim2.new(0,1,0,m/5)
+
+E.AnchorPoint=Vector2.new(0,5)
+
+J.Position=UDim2.new(0,H.X-e/2,0,H.Y+m/2)
+
+J.Size=UDim2.new(0,e/5,0,1)
+
+J.AnchorPoint=Vector2.new(0,1)
+
+G.Position=UDim2.new(0,H.X+e/2,0,H.Y-m/2)
+
+G.Size=UDim2.new(0,e/5,0,1)
+
+G.AnchorPoint=Vector2.new(1,0)
+
+Q.Position=UDim2.new(0,H.X+e/2-1,0,H.Y-m/2)
+
+Q.Size=UDim2.new(0,1,0,m/5)
+
+Q.AnchorPoint=Vector2.new(0,0)
+
+Z.Position=UDim2.new(0,H.X+e/2,0,H.Y+m/2)
+
+Z.Size=UDim2.new(0,1,0,m/5)
+
+Z.AnchorPoint=Vector2.new(1,1)
+
+M.Position=UDim2.new(0,H.X+e/2,0,H.Y+m/2)
+
+M.Size=UDim2.new(0,e/5,0,1)
+
+do f.Position=UDim2.new(0,H.X-e/2,0,H.Y-m/2)
+
+f.Size=UDim2.new(0,e,0,m)
+
+if v.Drawing.Boxes.Filled.Enabled then f.BackgroundColor3=Color3.fromRGB(255,255,255)
+
+l.Position=UDim2.new(0,H.X-e/2-6,0,H.Y-m/2+m*(1-Z))
+
+l.Size=UDim2.new(0,2.5,0,m*Z)
+
+U.Position=UDim2.new(0,H.X-e/2-6,0,H.Y-m/2)
+
+U.Size=UDim2.new(0,2.5,0,m)
+
+do if v.Drawing.Healthbar.HealthText then local t=math.floor(W.Health/W.MaxHealth*100)
+
+j.Position=UDim2.new(0,H.X-e/2-6,0,H.Y-m/2+m*(1-t/100)+3)
+
+if v.Drawing.Healthbar.Lerp then local t=Z>=0.75 and Color3.fromRGB(0,255,0)or Z>=0.5 and Color3.fromRGB(255,255,0)or Z>=0.25 and Color3.fromRGB(255,170,0)or Color3.fromRGB(255,0,0)
+
+if L.type=='Pl\z  \x61\121\z \x65\114'and F.Flags.Toggle["\70rie\u{6E}dc\z  heck"]:getState()and i:IsFriendsWith(L.UserId)then n.Text=string.format('(<fo\110\u{0074} \u{63}\o\108\111\x72\61"\u{0072}gb(\37d\x2C \37\z  \100\, %d)\x22\>F</\102o\zn\u{0074}\u{003E}\) %\s',Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,L.Name)
+
+else n.Text=string.format("\(\x3Cf\111\z \110\116\ c\ol\o\114\u{003D}\"r\z  gb\40%d, %d, %\100\z \41\x22>%\z s<\/font\>\z)\u{020}\37s",L.type=="Pl\97\121er"and 255 or 0,0,L.type=='Pla\u{079}er'and 0 or 255,L.type=="\P\108ay\x65\114"and'E'or'N',L.Name)
+
+n.Position=UDim2.new(0,H.X,0,H.Y-m/2-9)
+
+do if F.Flags.Toggle["D\z\u{0069}s\116a\x6E\z  \ce\32\67h\u{0065}ck"]:getState()then if F.Flags.Dropdown["\zD\x69\u{73}ta\u{6E}c\x65 T\e\120t\32P\o\si\116i\u{06F}\u{006E}"]:getValue()=="B\111tto\z \u{6D}"then b.Position=UDim2.new(0,H.X,0,H.Y+m/2+18)
+
+x.Position=UDim2.new(0,H.X-21,0,H.Y+m/2+15)
+
+C.Position=UDim2.new(0,H.X,0,H.Y+m/2+7)
+
+C.Text=string.format('\z%d\u{20}\109eter\z  \u{73}',math.floor(q))
+
+else b.Position=UDim2.new(0,H.X,0,H.Y+m/2+8)
+
+x.Position=UDim2.new(0,H.X-21,0,H.Y+m/2+5)
+
+if L.type=="Pla\121er"and F.Flags.Toggle['F\114\105\101n\z \dch\x65c\x6B']:getState()and i:IsFriendsWith(L.UserId)then n.Text=string.format("\x28\z \<\u{66}ont \x63\o\108o\114\z \x3D\"\z r\103\u{62}\z  (%d\z  ,\32%d\44\ %d\)\"\62F\z \60\/\102\x6Fnt>\41 %s [\z \x25\x64]",Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,L.Name,math.floor(q))
+
+else n.Text=string.format("\z(<fo\110t c\111\108o\x72=\"r\gb(\37d\44 \%d\44\ \37d)\">%s\<\/\102\u{6F}nt>\x29\32%s \91%\u{0064}]",L.type=="Pl\97y\er"and 255 or 0,0,L.type=='Pl\u{0061}\121\er'and 0 or 255,L.type=='\x50\l\97y\er'and'E'or'\u{04E}',L.Name,math.floor(q))
+
+do local i=L.Character:FindFirstChild('It\u{0065}\mRo\111t',true)
+
+if t.SILENTAIM and j then local t=j+Vector3.new(0,6,0)
+
+if i-z[1][z[3]]>=0.5 then local j=o.Character
+
+local F=j and j:FindFirstChildWhichIsA('\82ay\u{0056}a\l\u{075}\101')
+
+if F then local r=F:FindFirstChild('\x47\x75\110Sta\z\116us')
+
+pcall(function()local F=math.random(1000,9999)
+
+if u.Toggle["\65uto \x57\97i\116 \Ti\l\ P\108\u{61}y\x65r Go\110\z  e"]and u.Toggle["A\u{075}to\ Wait T\i\108\u{20}Pla\x79e\114\32\71one"]:getState()then if o.Character and o.Character:FindFirstChild(v[1][v[3]])then t(CFrame.new(w),300,0,0)
+
+if(u.Toggle["\75ick\u{20}I\u{066} \P\108ay\101\z r\ \Nearb\x79"]:getState()or u.Toggle['Rese\zt\32If\32\u{0050}\x6Cayer\32N\u{0065}arb\121']:getState())and o.Character and o.Character:FindFirstChild(v[1][v[3]])then local i=o.Character.HumanoidRootPart
+
+for Z,Z in pairs(game.Players:GetPlayers())do if Z~=o and Z.Character and Z.Character:FindFirstChild(v[1][v[3]])then if(Z.Character.HumanoidRootPart.Position-i.Position).Magnitude<=u.Slider["P\z  l\z aye\x72\u{0020}D\x65t\z e\ctio\x6E\u{020}Ra\100\105\117\s"]:getValue()then if u.Toggle['\82e\u{0073}\u{65}t\ If Playe\u{0072}\32N\z ear\z\98y']:getState()then f:FireServer(100,{Head=100},true)
+
+if o.Character and o.Character:FindFirstChild(v[1][v[3]])then local i=o.Character.HumanoidRootPart.Position
+
+if c.LoreNPCs.Scourge and c.LoreNPCs.Scourge:FindFirstChild(v[1][v[3]])and m:GetAttribute("C\97\x73h")>500 then local Z=c.LoreNPCs.Scourge.HumanoidRootPart.Position
+
+if i and i.Visible and i.AnswerCanvas.ScrollingFrame:FindFirstChild('An\x73w\x65\114')then q.Event:FireServer("1\58 \x59e\115.")
+
+else fireproximityprompt(c.LoreNPCs.Scourge.HumanoidRootPart.TalkWithNPC)
+
+local i=m.OverlayGui:FindFirstChild('\80ro\109p\u{074}\zs')
+
+if i then local Z=i:FindFirstChild('C\z  \u{68}\111ic\u{0065}\80\z ro\109pt')
+
+if Z and Z:FindFirstChild("\zC\111\x6E\116\97\x69\110er")then local i=Z.Container:FindFirstChild("\z C\u{68}\x6Fi\c\u{065}\zCar\100")
+
+if i and i:FindFirstChild("B\z \117tto\110")and i.Button.Visible then local j=u.Dropdown['\z  \65u\116\o\x20Co\108l\101\c\116']:getValue()
+
+if#i>=4 and i[4]:FindFirstChild("Bu\u{0074}\116\x6Fn")then firesignal(i[4].Button.MouseButton1Click)
+
+for i,i in pairs(c.Arena:GetChildren())do if i:FindFirstChild(v[1][v[3]])and i.Humanoid.Health>0 then local Z=i.Head
+
+else t(c.LoreNPCs.Scourge.HumanoidRootPart.CFrame,300,0,-5.0)
+
+if u.Toggle["A\117t\o\32Sk\z ip \u{053}ho\z  \u{070}"]:getState()and m.MainStaticGui:FindFirstChild('Al\101rts')and m.MainStaticGui.Alerts:FindFirstChild('A\x6C\u{0065}\z  r\x74Fr\u{61}m\e')and m.MainStaticGui.Alerts.AlertFrame:FindFirstChild("\x41\x63c\x65\112\116")then firesignal(m.MainStaticGui.Alerts.AlertFrame.Accept.MouseButton1Click)
+
+if u.Toggle['\Auto \z\u{0050}ic\x6B\ Perk']:getState()and m.OverlayGui.Prompts:FindFirstChild("\zChoi\x63\x65P\u{072}\x6F\109p\u{74}")and m.OverlayGui.Prompts.ChoicePrompt:FindFirstChild('\u{43}\111n\z tain\101r')then for i,i in pairs(m.OverlayGui.Prompts.ChoicePrompt.Container:GetChildren())do if i:IsA(n[1][n[3]])and i.Name=="\u{43}h\u{06F}\105\c\101C\x61r\d"then firesignal(i.Button.MouseButton1Click)
+
+if u.Toggle['\z Fa\u{0072}m Zomb\105\u{065}s']:getState()then for i,i in pairs(game:GetService('\u{0057}\u{06F}r\z  k\u{0073}\112\97\99\e').NPCs.Custom:GetChildren())do if i:FindFirstChild(v[1][v[3]])and i.Humanoid.Health>0 then local Z=i.Head
+
+if o.Character and o.Character:FindFirstChild('Hu\m\97\z  \u{06E}\z  oid')then if o.Character.Humanoid.Health<=55 then t(i.HumanoidRootPart.CFrame,u.Slider['F\97r\u{6D} Speed']:getValue(),50,3)
+
+else t(i.HumanoidRootPart.CFrame,u.Slider['F\97rm\32\x53p\u{0065}ed']:getValue(),u.Slider['Heig\104t\x20O\102\102\set\zs']:getValue(),3)
+
+if u.Toggle["\83tar\u{0074} \x4Coot Fa\u{0072}m"]:getState()then if E[1][E[3]]and E[1][E[3]]:FindFirstChild("\Hum\u{0061}noi\100")and E[1][E[3]]:FindFirstChild(v[1][v[3]])then local i=E[1][E[3]]:GetAttribute('\80\z  \x61r\x6Bour')==true
+
+if i then E[1][E[3]].Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+
+if Z then f=i.CFrame*CFrame.new(-3.0,0,0)
+
+elseif j then f=i.CFrame*CFrame.new(-3.0,0,-2.0)
+
+else f=i.CFrame*CFrame.new(u.Slider['\Off\x73et\0321']:getValue(),u.Slider["Of\102s\e\x74\0322"]:getValue(),u.Slider['Off\x73\101\u{74}\x203']:getValue())
+
+local f=o.PlayerGui.MainGui.LootFrame
+
+if f.Visible==true then local l=i:FindFirstChild("\u{04C}oo\116Tab\108e")
+
+if Z then i=J[1][J[3]].CFrame*CFrame.new(-3.0,0,0)
+
+elseif j then i=J[1][J[3]].CFrame*CFrame.new(-3.0,0,-2.0)
+
+local i=o.Character and o.Character:FindFirstChild(v[1][v[3]])
+
+if u.Toggle['\68\101s\x79\110\u{63}']:getState()and not UserIsPoor then local i=E[1][E[3]]and E[1][E[3]]:FindFirstChild(v[1][v[3]])
+
+if i and i.AssemblyMass<math.huge and not E[1][E[3]]:FindFirstChildWhichIsA('Forc\101F\105el\u{064}')then local Z=i.CFrame
+
+if u.Toggle["No\u{0020}\70\111\z\x6F\u{074}ste\u{070}\x73"]and u.Toggle['\x4Eo\ \z  \Fo\z  \u{06F}\zts\116\z  \101\p\u{073}']:getState()then local i=E[1][E[3]]and E[1][E[3]]:FindFirstChild(v[1][v[3]])
+
+local b=E[1][E[3]]and E[1][E[3]]:FindFirstChild(v[1][v[3]])
+
+local l=f.Character
+
+local o=l and l:FindFirstChild(v[1][v[3]])
+
+local z=l and l:FindFirstChildOfClass('\z\72um\97\110\u{006F}\i\u{64}')
+
+return function()for i,i in pairs(workspace.Live[j.Name]:GetChildren())do if Z.NOM1 then if i:IsA("\z A\x63c\e\x73\115o\z \114\121")and i.Name=="\67\u{041}N\84M1"then i:Destroy()
+
+for n,n in pairs(game:GetService("P\x6C\x61\u{079}\u{65}r\115").LocalPlayer.Backpack:GetChildren())do if n:IsA("\zT\u{006F}ol")and n:GetAttribute('\73te\u{006D}\84y\112\101')=='V\x61l\117a\98\z\x6C\101'then local X=n:FindFirstChild('\u{49}temDa\x74a')
+
+local i=string.format("%.\50f",y)
+
+if j>=Z then if z.PlayerGui.ToolUI.DigBar.Visible==true then game:GetService("\u{56}irt\u{0075}\97\u{006C}User"):ClickButton1(Vector2.new(9e9,9e9))
+
+if z.PlayerGui.ToolUI.DigBar.Visible==true then game:GetService('Vi\x72\116\u{0075}al\85\x73\u{065}r'):ClickButton1(Vector2.new(9e9,9e9))
+
+game:GetService("\u{056}\105rtu\97\l\x55\u{0073}er"):Button1Up(Vector2.new(9e9,9e9))
+
+if z.PlayerGui.ToolUI.DigBar.Visible==false then game:GetService('Virt\x75alU\115er'):Button1Down(Vector2.new(9e9,9e9))
+
+if z.Toggle['\A\z u\116\111\32P\x65r\x66\101ct']:getState()and t.PlayerGui.ToolUI.DigBar.Visible==true then f().Scripts.Collect:InvokeServer(1)
+
+L.CFrame=j.NPCs.StarterTown.Merchant.Torso.CFrame*CFrame.new(0,5,0)
+
+if z.Toggle["\F\111rce \71\114\u{061}b\32\x57a\121p\111\i\110t\u{0073}"]:getState()then for j,j in pairs(game:GetService('Works\p\97\z c\x65').Map.Waypoints:GetChildren())do if j:FindFirstChild("\Wa\ypoin\116\80r\x6F\u{006D}\pt")then game.Players.LocalPlayer.Character:PivotTo(j.WaypointPrompt.Parent.WorldPivot)
+
+for b,b in pairs(L)do local L={[1]=workspace:WaitForChild('\80\117\x72\c\x68\u{61}\z  s\z  a\u{62}\x6Ce'):WaitForChild("\82i\z  \118\101\x72T\u{006F}wn"):WaitForChild(b):WaitForChild('\z Sho\112\73t\u{065}m')}
+
+game:GetService('\x52e\u{70}\u{6C}\105\cat\u{065}\d\83t\o\z r\97\103\z  \u{0065}'):WaitForChild('\u{52}em\111\u{074}\101s'):WaitForChild("S\u{68}\x6Fp"):WaitForChild('Bu\u{79}It\u{065}m'):InvokeServer(unpack(L))
+
+if Z:IsKeyDown(Enum.KeyCode[i])then local i=t.Character
+
+return function(i)local R=t[1][t[3]]and t[1][t[3]]:FindFirstChildWhichIsA('Ray\u{0056}\x61\zlue')
+
+local w=n and n:FindFirstChild("\71ene\114\x61lVi\z\101\z\wM\z  \111\u{064}\101l")
+
+local K=n and n:FindFirstChild('V\105\101w\u{004D}\o\100el')
+
+local o=t[1][t[3]]and t[1][t[3]]:FindFirstChildOfClass("\Hu\x6D\z\x61\u{006E}\u{06F}id")
+
+if M.Toggle['\z \65\u{0075}\u{074}o \u{004F}\u{70}e\110\x2FBa\z s\h\ D\oors']:getState()then local t=b.LocalPlayer.Character
+
+local b=t and t:FindFirstChild(f[1][f[3]])
+
+local t=R:FindFirstChild("\71un\zSt\97tus")
+
+pcall(function()for o,o in ipairs(K:GetDescendants())do if o:IsA('\z\x4De\x73\u{068}Pa\u{0072}t')then if Z then local Z=o:FindFirstChildOfClass("\z \83\117rfa\u{63}\101\65\z\112\x70\u{065}ar\u{61}\110\u{0063}\z\u{065}")
+
+if j then o.Color=Color3.fromHSV(p[1][p[3]],0.8,1)
+
+local b=K:FindFirstChild('M\za\103')
+
+local z=math.floor(f.X-b/2)
+
+local c=math.floor(f.Y-o)
+
+X.lowAmmoGlow.Position=Vector2.new(z-3,c-3)
+
+X.lowAmmoGlow.Size=Vector2.new(b+6,l+6)
+
+w=X.lerpColor(w,Color3.fromRGB(255,255,255),t*0.3)
+
+if M.Toggle["\x53\u{0068}\111w \u{53}ha\100\111w"]:getState()then X.shadow.Position=Vector2.new(z+2,c+2)
+
+X.shadow.Size=Vector2.new(b,l)
+
+X.outline.Size=Vector2.new(b+2,l+2)
+
+X.outline.Position=Vector2.new(z-1,c-1)
+
+X.innerOutline.Size=Vector2.new(b,l)
+
+X.innerOutline.Position=Vector2.new(z,c)
+
+X.emptyBar.Size=Vector2.new(b,l)
+
+X.emptyBar.Position=Vector2.new(z,c)
+
+local t=math.max(math.floor(b*i),0)
+
+X.fillBar.Size=Vector2.new(t,l)
+
+X.fillBar.Position=Vector2.new(z,c)
+
+X.leftCap.Size=Vector2.new(2,l)
+
+X.leftCap.Position=Vector2.new(z,c)
+
+X.rightCap.Size=Vector2.new(2,l)
+
+X.rightCap.Position=Vector2.new(z+b-2,c)
+
+X.text.Position=Vector2.new(math.floor(f.X),c-16)
+
+X.text.Text=string.format('%\100\32/\32%d',j,p)
+
+return function()local i=L.Character
+
+local L=i:FindFirstChild("\z H\117\x6D\97n\111\105d")
+
+local M=i:FindFirstChild(o[1][o[3]])
+
+i.Position=Z and Vector2.new(l.ViewportSize.X/2,l.ViewportSize.Y/2)or Vector2.new(b.X+z.X,b.Y+z.Y)
+
+if n[1][n[3]]and f.Toggle["\FO\u{056}\32E\x6E\97b\x6C\101\z  d"]:getState()then i.Position=Vector2.new(n[1][n[3]].Position.X,n[1][n[3]].Position.Y+n[1][n[3]].Radius+5)
+
+i.Color=f.ColorPicker['F\z \O\86\32Co\108\111r']:getColor():Lerp(Color3.new(1,1,1),0.6)
+
+else i.Position=Vector2.new(b.X+z.X,b.Y+z.Y)
+
+if i and i.Parent then local Z=i.Parent:FindFirstChild(o[1][o[3]])
+
+local i={Real={CFrame=CFrame.new()},Fake={CFrame=CFrame.new()}}
+
+if e.FakePart then if c.TargetPart and d.Flags.Toggle['S\u{69}\108\101n\u{74}\32\u{41}im']:getState()then e.FakePart.CFrame=CFrame.new(b[1][b[3]].CFrame.p,c.TargetPart.CFrame.p)
+
+if t:IsKeyDown(Enum.KeyCode[o])then local j=game.Players.LocalPlayer.Character
+
+local o=j.HumanoidRootPart
+
+o.Velocity=Vector3.new(0,0,0)
+
+if d.Flags.Toggle['\72it\x62ox']:getState()then for t,t in ipairs(l:GetPlayers())do if t.Name~=game.Players.LocalPlayer then pcall(function()t.Character.Torso.Size=Vector3.new(20,20,20)
+
+t.Character.Torso.Transparency=0.5
+
+t.Character.Torso.BrickColor=BrickColor.new('R\x65d')
+
+t.Character.Torso.Material='N\x65\u{6F}\x6E'
+
+t.Character.Torso.CanCollide=false
+
+t.Character.Torso.Massless=true
+
+t.Info.Character=t:GetCharacter()
+
+else t.Info.Character=t:GetCharacter()
+
+do if t.Info.Class=="\u{50}l\x61\x79er"and d.Flags.Toggle['\u{41}nt\105 \68\u{065}sync']:getState()and t.Info.Character and t.Info.Character:FindFirstChild('\x48ea\100')then local j=F.Players:FindFirstChild(t.Object.Name).Status.UAC:GetAttribute('Las\z  \116Ve\z \114\105\u{066}i\101dP\111s')
+
+local l=t.Info.Character:FindFirstChild(U[1][U[3]])
+
+do if y.Character then local t=y.Character
+
+local j=t:FindFirstChild(U[1][U[3]])
+
+local L=t:FindFirstChildOfClass('\x48u\u{6D}anoi\d')
+
+local L=-math.atan2(b[1][b[3]].CFrame.LookVector.Z,b[1][b[3]].CFrame.LookVector.X)+math.rad(-90.0)
+
+do L=-math.atan2(b[1][b[3]].CFrame.LookVector.Z,b[1][b[3]].CFrame.LookVector.X+math.rad(math.random(0,360)))
+
+local l=math.rad(360)
+
+local o=CFrame.new(j.Position)*CFrame.Angles(0,L+l,0)
+
+if c.TargetPart then o=CFrame.new(j.Position,c.TargetPart.Position)*CFrame.Angles(0,l,0)
+
+do if d.Flags.Toggle['\z  Wa\x6Ck \79n \87a\116\101\z r']:getState()then local L=Ray.new(j.Position,Vector3.new(0,-10.0,0))
+
+if l and l==Enum.Material.Water then if not e.WaterPart then local L=Instance.new('\z Pa\z\114t',workspace.NoCollision)
+
+L.Size=Vector3.new(10,1,10)
+
+t.Head.CFrame=y.Character.HumanoidRootPart.CFrame*CFrame.new(0,-4.0,0)
+
+local t=b[1][b[3]]:FindFirstChild('V\zi\101\u{0077}Mod\u{065}\z l')
+
+if t then local j=t:FindFirstChild('\66\za\114\z  \u{72}el',true)
+
+if d.Flags.Toggle["\zNo Jump\ Del\97y"]:getState()and y.Character and y.Character:FindFirstChild("Hu\u{6D}\z\97n\u{006F}\z  id")then y.Character:FindFirstChild("H\z  uma\u{06E}oi\u{0064}"):SetAttribute('\x4Au\m\x70\x43ool\x64own',0)
+
+f.Heartbeat=p.Heartbeat:Connect(function()if d.Flags.Toggle["F\x4FV E\110ab\108\z ed"]:getState()and d.Flags.Toggle["D\x79n\97\z \u{6D}ic\u{0020}\u{046}\x4FV"]:getState()and c.CurrentGun then local t=c.CurrentGun:FindFirstChild('\z  Bar\114el')
+
+if L then G.FovPosition=Vector2.new(j.X,j.Y)
+
+else G.FovPosition=Vector2.new(b[1][b[3]].ViewportSize.X/2,b[1][b[3]].ViewportSize.Y/2)
+
+if d.Flags.Toggle['C\104\z \x61r\97cter \u{55}n\100e\114g\114\zound']:getState()then if n and UndergroundEnabled then if not(B and n and B:FindFirstChild(U[1][U[3]]))then pcall(function()if Animation then Animation:Stop()
+
+local L=t*CFrame.new(0,-1.1,0)*CFrame.Angles(math.rad(90),0,0)
+
+n.CameraOffset=L:ToObjectSpace(CFrame.new(t.Position)).Position
+
+p:BindToRenderStep("D\101sy\u{6E}c",Enum.RenderPriority.First.Value,function()if y.Character and d.Flags.Toggle["A\x6Et\x69\x20\68esyn\u{0063}"]:getState()then local Z=y.Character
+
+local t=Z:FindFirstChild(U[1][U[3]])
+
+if not checkcaller()and select(1,...)==workspace and i:find("\ca\u{73}t")then local i={...}
+
+if b and b.Name=="M\97\in\u{004C}ocal"and debug.traceback():find('\x47\x45\x78\116\114a\x3A4\z  11')then if j.Toggle['\83\z \x68\x6Fot \z  t\104r\u{06F}\x75\103\104 wall\s']:getState()and not UserIsPoor then f.AddToFilter(f,workspace.Map)
+
+if j.Toggle['\84\z \114acer\z \115 E\u{006E}a\u{62}\108\e\z  \d']:getState()then t:NewTracer(i,L,workspace.IgnoreThese)
+
+local G=z:FindFirstChildOfClass('\z \77\z o\d\101l')
+
+local G=B.Character
+
+if not p then if n then p=Vector2.new(z.ViewportSize.X/2,z.ViewportSize.Y/2)
+
+if e then n=Vector2.new(j.X,j.Y)
+
+if U:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)then i.Color=r:Lerp(Color3.new(1,1,1),0.5)
+
+else i.Color=r:Lerp(Color3.new(1,1,1),c*0.3)
+
+J[1][J[3]].Color=Color3.new(0,0,0)
+
+i.Color=j:Lerp(Color3.new(1,1,1),l)
+
+else i.Position=Vector2.new(E.X+b.X,E.Y+b.Y+15)
+
+if b.Player.Fly then local i=p.Character
+
+local t=i and i:FindFirstChild(j[1][j[3]])
+
+if t then t.Velocity=Vector3.new(0,0,0)
+
+if c-o.lastTime>=o.cooldown then if i=='\zXP\ \102a\z  rm'then for y,y in pairs(f:GetChildren())do if y.Name:find("C\u{75}r\x73e")or y.Name=="\z J\117juts\117\ So\zr\c\u{65}r\101\u{072}"and not y:GetAttribute("\x49sBo\z  \s\sN\x50C")and y:GetAttribute("\78PC")and y:FindFirstChild(L[1][L[3]])then z=true
+
+movement:moveto(y.HumanoidRootPart.CFrame,b.Slider["Far\z \109\32\x53p\eed"]:getValue(),b.Slider['H\101\x69\103\z ht\x20O\102\u{0066}set']:getValue(),b.Slider['\u{42}\e\u{068}ind\ \x4F\x66\102\x73\u{065}\x74']:getValue(),b.Slider["\F\x61rm\x20\65\u{6E}\z\103le"]:getValue(),true)
+
+else for y,y in pairs(f:GetChildren())do if y.Name==i and y:FindFirstChild(L[1][L[3]])then local i=(p.LocalPlayer.Character.HumanoidRootPart.Position-y.HumanoidRootPart.Position).Magnitude
+
+if i<=o.radius then movement:moveto(y.HumanoidRootPart.CFrame,b.Slider['Fa\x72\x6D \x53\z  \112\x65e\100']:getValue(),b.Slider["H\z  e\x69\u{0067}\ht O\102fs\101t"]:getValue(),b.Slider['\66\101hind\32\79ff\set']:getValue(),b.Slider["F\z\x61r\109\x20A\110gl\x65"]:getValue(),true)
+
+if b.Toggle['Re\x67ul\97\x72 \77e\x74\u{0065}\111r']and b.Toggle["Re\103u\z la\z \x72\32\77\101\116\e\u{6F}\x72"]:getState()then for i,i in pairs(l.Meteors:GetChildren())do if i:FindFirstChild('\77eteo\z  \x72')and i:FindFirstChild("\Meteo\x72").ProximityAttachment:FindFirstChild('I\z  n\u{74}e\114acti\111n')then movement:moveto(i:FindFirstChild('Meteo\114').CFrame,math.huge,0,0,0,false)
+
+fireproximityprompt(i:FindFirstChild("\x4Dete\x6Fr").ProximityAttachment:FindFirstChild('\x49\z  n\116\u{0065}\x72\z  a\ctio\110'))
+
+if b.Toggle['\u{0043}a\z m\z \e\x6Clit\e \x4Dete\x6Fr']and b.Toggle["C\z  \x61mel\li\x74e\ \77\101\u{074}e\x6F\z  \u{72}"]:getState()then for i,i in pairs(l.CamelliteMeteor:GetChildren())do if i:FindFirstChild("C\97\u{06D}M\u{065}\116e\u{6F}\z r")then movement:moveto(i.CamMeteor.PrimaryPart.CFrame,math.huge,0,0,0,false)
+
+fireproximityprompt(i.CamMeteor.PrimaryPart.ProximityAttachment:FindFirstChild('\Int\e\z  ract\i\111\u{006E}'))
+
+if b.Toggle['\x44r\x6F\ppe\d \z \u{0049}\u{074}e\m\115']and b.Toggle["\68\114op\ped \u{49}t\101\109s"]:getState()then if game:GetService("\87\u{6F}\114\u{6B}\s\z pa\z \c\101").ItemSpawns:FindFirstChild('\z\83\116a\110dardI\116em\s')then for i,i in pairs(game:GetService('Wor\x6B\s\u{0070}ac\101').ItemSpawns.StandardItems:GetDescendants())do if i:IsA("\80rox\x69mi\116\x79\80ro\u{06D}pt")and i.Parent.Name=="Pr\111ximit\z  \121\z A\z ttachm\101n\x74"and i.Parent.Parent:IsA('B\x61s\101\80\u{061}\114\116')then movement:moveto(i.Parent.Parent.CFrame,math.huge,-5.0,0,0,false)
+
+if b.Toggle['\z Lab\x43r\u{0061}t\x65']and b.Toggle["\u{4C}ab\67r\97t\e"]:getState()then hasLabCrate=Z:FindFirstChild('\_\99\z\u{072}ate')
+
+game:GetService('Repl\z ic\u{61}\x74\101\100\x53\x74\z  or\97\u{067}e'):WaitForChild('\82e\x70\x6C\i\x63atedM\od\z  ul\101s'):WaitForChild("K\110it\80\u{0061}\99\u{06B}\x61\x67\u{65}"):WaitForChild('\x4Bnit'):WaitForChild("\Ser\zv\x69c\x65\z s"):WaitForChild('Dialo\z\x67\z \u{0075}e\x53\u{0065}r\118ice'):WaitForChild("\82\x46"):WaitForChild('C\hec\z kRequ\105\x72\z  emen\116'):InvokeServer(unpack(i))
+
+else for i,i in pairs(l.LabCrate:GetChildren())do if i:FindFirstChild("\x43\z \x72a\u{074}e")then movement:moveto(i.Crate.CFrame,math.huge,10,0,0,false)
+
+fireproximityprompt(i.Crate.ProximityAttachment:FindFirstChild("I\u{006E}\z  \116era\u{63}\u{074}\u{69}o\u{06E}"))
+
+return function()if Z.nostun then for i,i in pairs(workspace.Characters[game.Players.LocalPlayer.Name].Info:GetChildren())do i:Destroy()
+
+if Z.Autoparry.totality or Z.Counter.totality then local i=game.Workspace:FindFirstChild('\x45ff\101c\u{0074}\z  s'):FindFirstChild('\84ota\108\z  ity')
+
+if i then local t=i:FindFirstChild("An\105\m\97t\u{69}o\u{6E}\x43\zon\116\z  \114\111\ll\e\u{72}")
+
+local L=i:FindFirstChild('\u{052}\111o\116Pa\114t')
+
+if t then local i=t:FindFirstChildOfClass('\65nima\z  tor')
+
+local f=game:GetService('Pla\x79\101\u{072}s').LocalPlayer.Character.HumanoidRootPart.Position
+
+if Z.Counter.totality then local L=game:GetService('\u{50}\l\x61y\101\u{072}\115').LocalPlayer.PlayerGui.Main.Moveset:FindFirstChild('M\u{61}nj\i\ \75ic\x6B')
+
+game:GetService('\x52ep\108ica\x74ed\83\116\z  o\u{0072}\97g\x65'):WaitForChild("\75\znit"):WaitForChild("\u{04B}nit"):WaitForChild('Se\z r\z \118\zic\u{065}s'):WaitForChild('M\za\u{06E}ji\Ki\x63\107\x53\z\101\x72v\u{069}ce'):WaitForChild('\R\u{45}'):WaitForChild("Activate\d"):FireServer(unpack(L))
+
+else game:GetService("Re\112\u{06C}\z i\z  cated\zStora\103\101"):WaitForChild("K\z\110it"):WaitForChild("\u{04B}ni\116"):WaitForChild('S\x65rvi\99\x65\z \115'):WaitForChild("H\97k\z  \x61r\ziS\e\u{72}v\105\x63\u{065}"):WaitForChild('RE'):WaitForChild("\u{0052}ig\104\116A\u{63}tiv\z \x61ted"):FireServer()
+
+if Z.AntiLag then for i,i in pairs(workspace.Map.Data:GetChildren())do if i:IsA("BasePa\114t")then i.Transparency=1
+
+if r.Toggle["S\pe\cta\116e"]:getState()then if Uf then local df=p:FindFirstChild(Uf)
+
+if df and df.Character and df.Character:FindFirstChild(M[1][M[3]])then k[1][k[3]]=df
+
+u.CameraSubject=df.Character.Humanoid
+
+local k=F.Character and F.Character:FindFirstChild(M[1][M[3]])and F.Character.HumanoidRootPart.CFrame
+
+if k then local of=CFrame.new(u.CFrame.Position,u.CFrame.Position+k.LookVector)
+
+else x[1][x[3]]=CFrame.new(u.CFrame.Position,u.CFrame.Position+Vector3.new(0,0,-1.0))
+
+if F.Character and F.Character:FindFirstChild("Hu\z  \x6D\u{061}\110\u{6F}i\z\d")then originalWalkSpeed=F.Character.Humanoid.WalkSpeed
+
+originalJumpPower=F.Character.Humanoid.JumpPower
+
+originalPlatformStand=F.Character.Humanoid.PlatformStand
+
+F.Character.Humanoid.PlatformStand=true
+
+F.Character.Humanoid.WalkSpeed=0
+
+F.Character.Humanoid.JumpPower=0
+
+local Q=Vector3.new(0,0,0)
+
+if tf:IsKeyDown(Enum.KeyCode.E)or tf:IsKeyDown(Enum.KeyCode.Space)then Q=Q+Vector3.new(0,1,0)
+
+if tf:IsKeyDown(Enum.KeyCode.Q)or tf:IsKeyDown(Enum.KeyCode.LeftControl)then Q=Q-Vector3.new(0,1,0)
+
+else freeCamVelocity=freeCamVelocity:Lerp(Vector3.new(0,0,0),freeCamDeceleration*k)
+
+x[1][x[3]]=x[1][x[3]]*CFrame.fromAxisAngle(Vector3.new(0,1,0),of)
+
+if flyActive then local x=F.Character
+
+if x and x:FindFirstChild(M[1][M[3]])then local B=x.HumanoidRootPart
+
+B.Velocity=Vector3.new(0,2,0)
+
+if r.Toggle["\x74\119e\97\107\u{65}r mod\z e"]:getState()then local x=F.Character
+
+if x and x:FindFirstChild(M[1][M[3]])then local M=x.HumanoidRootPart
+
+local x=Vector3.new(0,2,0)
+
+if r.Toggle["\70\u{075}l\z \u{06C}\z \u{0062}ri\103\z  \104t"]:getState()then n.Ambient=Color3.new(1,1,1)
+
+n.OutdoorAmbient=Color3.new(1,1,1)
+
+if n then c.Position=Vector2.new(u.ViewportSize.X/2,u.ViewportSize.Y/2)
+
+else c.Position=Vector2.new(bf.X+s.X,bf.Y+s.Y)
+
+if tf:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or a[1][a[3]]:GetAttribute("A\x69\ming")then c.Color=Xf:Lerp(Color3.new(1,1,1),0.5)
+
+else c.Color=Xf:Lerp(Color3.new(1,1,1),Q*0.3)
+
+i.Position=Vector2.new(n.Position.X,n.Position.Y+n.Radius+8)
+
+i.Color=n:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=n:Lerp(Color3.new(1,1,1),J)
+
+else i.Position=Vector2.new(bf.X+s.X,bf.Y+s.Y+15)
+
+if r.Toggle["\z  \Be\116ter\ \Mov\101\men\116"]:getState()and not UserIsPoor then local i=F.Character
+
+local c=i and i:FindFirstChild("Mo\z  \118em\x65n\z\u{0074}Handl\u{65}r")
+
+local n=L and b and string.format('\x25\u{73}\x3A\:%\z\x73',L,b)
+
+if r.Toggle["\x4E\o\32Do\z \wn\e\zd"]:getState()and a[1][a[3]]and not UserIsPoor then getrenv()._G.CharacterStates.Downed=false
+
+if r.Toggle["No B\u{6C}\o\ck \u{053}l\u{06F}wdown"]:getState()and a[1][a[3]]then getrenv()._G.CharacterStates.ServerBlocking=nil
+
+if r.Toggle["N\x6F\32I\zte\u{006D}\ \x55se Slowd\111\x77\x6E"]:getState()and a[1][a[3]]then getrenv()._G.CharacterStates.UsingItem=nil
+
+if r.Toggle["N\x6F \z\R\x65loa\100 S\108\u{006F}wdow\110"]:getState()and a[1][a[3]]then getrenv()._G.CharacterStates.ReloadingMovementSpeed=nil
+
+if r.Toggle['N\111\32\65\i\mi\x6E\103 \83\x6Cow\d\x6F\u{77}\110']:getState()and a[1][a[3]]then getrenv()._G.CharacterStates.AimingMovementSpeed=nil
+
+if r.Toggle['N\o\ W\101igh\116']:getState()and a[1][a[3]]then p.LocalPlayer.Character:SetAttribute("\z  Ove\zr\87eig\104\z \116\z\67a\112a\x63i\zty",0)
+
+if r.Toggle['\67\h\97\114\97c\z \116e\u{72} R\z  \u{006F}\zt\u{061}\116e']:getState()and a[1][a[3]]then p.LocalPlayer.Character:SetAttribute('\82o\116\97\u{74}eCh\x61r',true)
+
+p.LocalPlayer.Character:SetAttribute('Aut\u{06F}\82otat\e',false)
+
+if i and r.Toggle['\z\65\x75to \x50\zarry']:getState()and not UserIsPoor then local j=i.Parent:FindFirstChildOfClass("Ra\u{079}Va\u{06C}ue")
+
+if j then local i=j:FindFirstChild('Mel\x65eS\116a\x74us')
+
+if r.Toggle["Kil\z\x6C Au\u{072}\u{0061}"]:getState()and F.Character then local i=d()
+
+if r.Toggle['\77\odi\u{0066}\105\x65\u{064} M\u{0065}le\101 \u{0057}a\108\107\s\112\u{0065}ed']:getState()and a[1][a[3]]then local i=a[1][a[3]]:FindFirstChildOfClass("Huma\x6Eo\u{069}\u{64}")
+
+if i then local i=a[1][a[3]]:FindFirstChildWhichIsA("Ra\121Valu\101")
+
+for b,b in ipairs(p:GetPlayers())do if b~=F and b.Character then local p=b.Character:FindFirstChild("Cu\zrren\u{74}Gea\z  r")
+
+if Z then v[1][v[3]]:Notify(nil,string.format('\u{0046}\z  \111und \%\z \u{0073}\u{20}w\105\u{0074}h\ g\x65a\114: %\115',j,L),"\z  \109axy",20)
+
+r.TextBox["C\97sh\32Pe\z r \z  H\our\58"]:updateText({text=f(math.floor(Z)).."\u{002F}\h"})
+
+if i.Name=='U\x70\x64at\ze\u{53}\116a\z te\115'and Z.Toggle["S\112\zoof St\x61t\z  e"]:getState()then j[1]=Vector3.new(0,0,0)
+
+j[2]=Vector3.new(0,0,0)
+
+j[3]=Vector3.new(0,0,-1.0)
+
+if p=="Se\z tS\u{074}\u{061}\116\101\u{0045}\z\110ab\108e\u{064}"and j[1]==Enum.HumanoidStateType.Jumping and Z.Toggle["\z  No\u{0020}\z Jump C\z  o\u{006F}l\x64\111wn"]:getState()then return t[1][t[3]](i,j[1],true)
+
+if U:IsKeyDown(Enum.KeyCode[B])then local z=Z.Character
+
+local y=z.HumanoidRootPart
+
+y.Velocity=Vector3.new(0,0,0)
+
+if j.Toggle['\z I\110\z\x73\z tant\u{0020}\R\u{65}\115p\z \x61wn']:getState()then if Z.PlayerGui.Killed and Z.PlayerGui.Killed:FindFirstChild("\u{52}\z  esp\97wnV\105s\117al")and tick()-l[1][l[3]]>=0.5 then l[1][l[3]]=tick()
+
+game:GetService("\x52\101plicatedS\x74o\u{072}a\103\u{0065}"):WaitForChild('Ev\u{65}nt\z s'):WaitForChild("Se\x74\67l\97ss"):FireServer(unpack(l))
+
+if t then Z.Position=Vector2.new(c.ViewportSize.X/2,c.ViewportSize.Y/2)
+
+else Z.Position=Vector2.new(p.X+X.X,p.Y+X.Y)
+
+if(U:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or K[1][K[3]]:GetAttribute("\65im\u{069}ng"))then Z.Color=d:Lerp(Color3.new(1,1,1),0.5)
+
+else Z.Color=d:Lerp(Color3.new(1,1,1),y*0.3)
+
+i.Position=Vector2.new(t.Position.X,t.Position.Y+t.Radius+8)
+
+i.Color=t:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=t:Lerp(Color3.new(1,1,1),o)
+
+else i.Position=Vector2.new(p.X+X.X,p.Y+X.Y+15)
+
+local X=U and U:FindFirstChildOfClass('\M\u{6F}\100\e\108')
+
+local M=X and X:FindFirstChild("\u{0057}\x65\u{061}po\x6E")
+
+local R=o and o.getCurrentCharacter()
+
+if b.Toggle['\x49\109\x70os\x73\105\98\108\u{65} Hit']:getState()and not UserIsPoor then local t=L.Character
+
+local L=t and t:FindFirstChild(K[1][K[3]])
+
+if L and L.AssemblyMass<math.huge and not t:FindFirstChildWhichIsA("Fo\u{0072}ceFiel\100")then local t=L.CFrame
+
+L.Velocity=Vector3.new(math.random(-9000.0,9000),math.random(-3000.0,3000),math.random(-9000.0,9000))
+
+if R and R.Humanoid then local t=R.HumanoidRootPart
+
+local z=C()or R.Humanoid.MoveDirection.Magnitude>0.05
+
+if t then local c=Vector3.new(t.AssemblyLinearVelocity.X,0,t.AssemblyLinearVelocity.Z)
+
+t.AssemblyLinearVelocity=Vector3.new(K.X,n.Y,K.Z)
+
+if b.Toggle["\u{049}\110\u{0073}\x74\zan\116\u{0020}S\u{074}\u{6F}\x70"]:getState()and not R.IsJumping and not R.IsClimbing then if not C()and R.Humanoid.MoveDirection.Magnitude<=0.05 then local Z=t.AssemblyLinearVelocity
+
+local c=Vector3.new(Z.X,0,Z.Z)
+
+local n=c:Lerp(Vector3.new(0,0,0),math.clamp(i*24,0,1))
+
+if n.Magnitude<=0.05 then n=Vector3.new(0,0,0)
+
+t.AssemblyLinearVelocity=Vector3.new(n.X,Z.Y,n.Z)
+
+R:SetTargetMoveDirection(Vector3.new(0,0,0))
+
+if Z>0 and tick()-Z<=0.2 then local Z=R.DefaultCameraOffset or Vector3.new(0,-0.15,0)
+
+if R.IsCrouching then Z=(R.CrouchCameraOffset or Vector3.new(0,-1.4,0))+Z
+
+R.Humanoid.CameraOffset=Z
+
+local t=R.TargetMoveDirection or Vector3.new(0,0,0)
+
+local o=X:FindFirstChild('We\u{061}p\u{006F}n')
+
+local z=o and o:FindFirstChild('M\z a\zga\122ine')
+
+if not z and o then for c,c in ipairs(o:GetChildren())do if c:IsA("\77od\z\e\108")then z=c:FindFirstChild('\M\u{61}g\97zin\101')
+
+local n=math.floor(o.X-z/2)
+
+local M=math.floor(o.Y-y)
+
+j.lowAmmoGlow.Position=Vector2.new(n-3,M-3)
+
+j.lowAmmoGlow.Size=Vector2.new(z+6,c+6)
+
+e=j.lerpColor(e,Color3.fromRGB(255,255,255),Z*0.3)
+
+if b.Toggle['Sh\111w\u{0020}\x53\z\ha\100ow']:getState()then j.shadow.Position=Vector2.new(n+2,M+2)
+
+j.shadow.Size=Vector2.new(z,c)
+
+j.outline.Size=Vector2.new(z+2,c+2)
+
+j.outline.Position=Vector2.new(n-1,M-1)
+
+j.innerOutline.Size=Vector2.new(z,c)
+
+j.innerOutline.Position=Vector2.new(n,M)
+
+j.emptyBar.Size=Vector2.new(z,c)
+
+j.emptyBar.Position=Vector2.new(n,M)
+
+local Z=math.max(math.floor(z*i),0)
+
+j.fillBar.Size=Vector2.new(Z,c)
+
+j.fillBar.Position=Vector2.new(n,M)
+
+j.leftCap.Size=Vector2.new(2,c)
+
+j.leftCap.Position=Vector2.new(n,M)
+
+j.rightCap.Size=Vector2.new(2,c)
+
+j.rightCap.Position=Vector2.new(n+z-2,M)
+
+j.text.Position=Vector2.new(math.floor(o.X),M-16)
+
+j.text.Text=string.format("%d\u{0020}/ %\x64",L,f)
+
+if b.Toggle['Sh\111\119\x20We\97p\111n \78am\z  e']:getState()then j.weaponName.Position=Vector2.new(math.floor(o.X),M+c+8)
+
+return function()p[1][p[3]]=b.Character
+
+local i=b.PlayerGui:FindFirstChild('\u{0052}\z\x6F\x61c\ztUI')
+
+local K=p[1][p[3]]and p[1][p[3]]:FindFirstChild(t[1][t[3]])
+
+local e=K and K.Parent:FindFirstChild("H\x75\109an\x6F\z\x69\x64")
+
+local f=i:FindFirstChild(t[1][t[3]])
+
+if b.Character and b.Character:FindFirstChild(t[1][t[3]])then o(b.Character.HumanoidRootPart.Position,c[1][c[3]])
+
+if i<=c[1][c[3]]then local i=R.getSessionDataRoduxStoreForPlayer(z:FindFirstChild(z.LocalPlayer.Name))and R.getSessionDataRoduxStoreForPlayer(z:FindFirstChild(z.LocalPlayer.Name)):getState()
+
+else local i=f.CFrame*CFrame.new(0,t,b)
+
+local t=TweenInfo.new((p[1][p[3]].HumanoidRootPart.Position-i.Position).Magnitude/L.Slider["\u{0054}\x77een \83\u{70}ee\u{064}"]:getValue(),Enum.EasingStyle.Sine)
+
+local L=M:Create(p[1][p[3]].HumanoidRootPart,t,{CFrame=i})
+
+local i=Instance.new("\x42\111d\yVeloc\x69\x74\z  \y")
+
+i.Velocity=Vector3.new(0,0,0)
+
+i.MaxForce=Vector3.new(math.huge,math.huge,math.huge)
+
+i.Parent=p[1][p[3]].HumanoidRootPart
+
+else Z(2,function()n.spawnCharacter(true)
+
+return function()if p.Character and p.Character:FindFirstChild(C[1][C[3]])then local i=p.Character.HumanoidRootPart
+
+local H=p.Character:WaitForChild("Hu\109an\u{006F}i\u{064}")
+
+local i=u.LocalPlayer
+
+if p.Character and p.Character:FindFirstChild(C[1][C[3]])and p.Character:FindFirstChild("\z Hu\zmano\z\u{0069}d")then do table.insert(w.visibleTargets,{Character=p.Character,distance=P,isVisible=true})
+
+local t,b=w:GetHighlight(p.Character,P,true)
+
+if t then t.Adornee=P<=200 and p.Character or nil
+
+local t=p.Character:FindFirstChild("\73\x74\z\101\109\82\111o\z t",true)
+
+x.Position=UDim2.new(0,m.X-V/2,0,m.Y-q/2)
+
+x.Size=UDim2.new(0,V/5,0,1)
+
+K.Position=UDim2.new(0,m.X-V/2,0,m.Y-q/2)
+
+K.Size=UDim2.new(0,1,0,q/5)
+
+B.Position=UDim2.new(0,m.X-V/2,0,m.Y+q/2)
+
+B.Size=UDim2.new(0,1,0,q/5)
+
+B.AnchorPoint=Vector2.new(0,5)
+
+Z.Position=UDim2.new(0,m.X-V/2,0,m.Y+q/2)
+
+Z.Size=UDim2.new(0,V/5,0,1)
+
+Z.AnchorPoint=Vector2.new(0,1)
+
+v.Position=UDim2.new(0,m.X+V/2,0,m.Y-q/2)
+
+v.Size=UDim2.new(0,V/5,0,1)
+
+v.AnchorPoint=Vector2.new(1,0)
+
+J.Position=UDim2.new(0,m.X+V/2-1,0,m.Y-q/2)
+
+J.Size=UDim2.new(0,1,0,q/5)
+
+J.AnchorPoint=Vector2.new(0,0)
+
+e.Position=UDim2.new(0,m.X+V/2,0,m.Y+q/2)
+
+e.Size=UDim2.new(0,1,0,q/5)
+
+e.AnchorPoint=Vector2.new(1,1)
+
+U.Position=UDim2.new(0,m.X+V/2,0,m.Y+q/2)
+
+U.Size=UDim2.new(0,V/5,0,1)
+
+U.AnchorPoint=Vector2.new(1,1)
+
+do n.Position=UDim2.new(0,m.X-V/2,0,m.Y-q/2)
+
+n.Size=UDim2.new(0,V,0,q)
+
+if c.Toggle['\z  \u{0042}oxe\115\x20F\117\z \u{06C}l']:getState()then n.BackgroundColor3=Color3.fromRGB(255,255,255)
+
+M.Position=UDim2.new(0,m.X-V/2-6,0,m.Y-q/2+q*(1-Z))
+
+M.Size=UDim2.new(0,2.5,0,q*Z)
+
+R.Position=UDim2.new(0,m.X-V/2-6,0,m.Y-q/2)
+
+R.Size=UDim2.new(0,2.5,0,q)
+
+do if c.Toggle['He\u{061}\108th\z \84e\z  xt']:getState()then local t=math.floor(H.Health/H.MaxHealth*100)
+
+z.Position=UDim2.new(0,m.X-V/2-6,0,m.Y-q/2+q*(1-t/100)+3)
+
+if c.Toggle['He\97\108t\104\u{54}\z  e\120\z \116\32L\101\114p']:getState()then local t=Z>=0.75 and Color3.fromRGB(0,255,0)or Z>=0.5 and Color3.fromRGB(255,255,0)or Z>=0.25 and Color3.fromRGB(255,170,0)or Color3.fromRGB(255,0,0)
+
+if p.type=='\zP\x6C\97\u{79}\u{065}r'and c.Toggle['F\z rie\110\dc\104\101c\107']:getState()and i:IsFriendsWith(p.UserId)then j.Text=string.format('(\<\x66\u{6F}\x6E\u{74} \zc\111\108\111\u{72}\=\x22\zrgb(%d\z \44 \u{025}d\x2C\u{020}%d)">\F\60\47f\z\on\u{0074}>) \%s',Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,p.Name)
+
+else j.Text=string.format("(<font c\x6F\u{006C}\111r\z=\"r\103b\40%\z  d\z  \u{02C}\32\37d\44 \u{0025}\d\41\"\z>\x25\u{0073}\z</fo\z  \u{006E}\116>\u{029} %s",p.type=="Pl\u{061}\y\z\x65\z  \114"and 255 or 0,0,p.type=="\z  \u{0050}\u{006C}\97\u{79}\e\u{072}"and 0 or 255,p.type=="Pla\z  \yer"and"E"or"\x4E",p.Name)
+
+j.Position=UDim2.new(0,m.X,0,m.Y-q/2-9)
+
+do if F.Flags.Toggle["\x44i\u{0073}ta\110\ce Che\99k"]:getState()then if F.Flags.Dropdown["\D\u{069}\x73ta\znce\32\u{0054}e\120\u{74}\ \80\u{06F}\x73\105t\105o\110"]:getValue()=="B\z  \x6F\u{074}\x74\z\111m"then y.Position=UDim2.new(0,m.X,0,m.Y+q/2+18)
+
+f.Position=UDim2.new(0,m.X-21,0,m.Y+q/2+15)
+
+s.Position=UDim2.new(0,m.X,0,m.Y+q/2+7)
+
+s.Text=string.format("%d\32me\116e\z  \114\u{073}",math.floor(P))
+
+else y.Position=UDim2.new(0,m.X,0,m.Y+q/2+8)
+
+f.Position=UDim2.new(0,m.X-21,0,m.Y+q/2+5)
+
+if p.type=='Pla\zye\114'and F.Flags.Toggle['Fr\x69\x65ndc\he\u{63}k']:getState()and i:IsFriendsWith(p.UserId)then j.Text=string.format('\u{028}<\x66o\u{006E}\x74 col\x6Fr=\34r\103b\z  \u{0028}\z\u{25}\100,\32\z \%d,\32%\u{064})\34>\70<\47fo\u{06E}t\>\41\32%\115 [%d]',Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,p.Name,math.floor(P))
+
+else j.Text=string.format('\40\z\60fo\u{006E}t \z c\z \111\108\z  or=\34\u{72}\z\103b\(\z\x25\d,\u{020}\x25d,\u{20}\z%\100)">%\x73\<\47f\x6F\z \u{006E}\116\62)\32%s\32\z [%\u{0064}\93',p.type=='Player'and 255 or 0,0,p.type=="Pla\u{079}er"and 0 or 255,p.type=='Playe\zr'and'\z E'or'\N',p.Name,math.floor(P))
+
+do local i=p.Character:FindFirstChildWhichIsA('R\z ay\Val\x75\z \x65')
+
+local i=b:FindFirstChild("E\zsp")
+
+if t.espT then i=Instance.new('\72i\103\hl\x69g\104t',b)
+
+elseif not Z(b)then i=Instance.new("H\105g\hli\103ht",b)
+
+local i=Z:FindFirstChild("\u{045}\x73\x70")
+
+if flyActive then local w=y.Character
+
+if w and w:FindFirstChild(b[1][b[3]])then local b=w.HumanoidRootPart
+
+b.Velocity=Vector3.new(0,2,0)
+
+for c,c in ipairs(p.keys)do if c and c~=""and c~='N\z\on\u{65}'then table.insert(b,c)
+
+if j.Toggle["\78o \x52a\103d\x6F\108l"]:getState()then z.Humanoid:SetStateEnabled(Enum.HumanoidStateType.FallingDown,false)
+
+z.Humanoid:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+
+local p=y.PlayerGui:FindFirstChild('\85\x49')
+
+if y.PlayerGui.UI.Gameplay.TraitHandPrompt.Visible then firesignal(y.PlayerGui.UI.Gameplay.TraitHandPrompt.MouseButton1Click)
+
+if y.PlayerGui.UI.Prompt.Frame.Label.Text=="P\ick\32\84ra\z i\x74"then firesignal(y.PlayerGui.UI.Prompt.Frame.Buttons.Button.MouseButton1Click)
+
+if y.PlayerGui.UI.Prompt.Frame.Label.Text=="\u{044}is\99\97r\d\u{0020}Trait"then firesignal(y.PlayerGui.UI.Prompt.Frame.Buttons:GetChildren()[3].MouseButton1Click)
+
+local p=y.PlayerGui:FindFirstChild("UI")
+
+if y.PlayerGui.UI.Prompt.Frame.Label.Text=='P\z ick \85p\u{67}\114ade'then firesignal(y.PlayerGui.UI.Prompt.Frame.Buttons.Button.MouseButton1Click)
+
+if y.PlayerGui.UI.Prompt.Frame.Label.Text=="Di\115\99a\u{072}d\32U\112\103r\u{61}\x64e\s"then firesignal(y.PlayerGui.UI.Prompt.Frame.Buttons.Button.MouseButton1Click)
+
+if j.Toggle["Aut\u{006F}\32\u{053}\h\z  r\105\z ne"]and j.Toggle["\A\u{075}t\o\32\83hr\x69ne"]:getState()and game:GetService("Workspa\z c\e").Effects:FindFirstChild('I\u{6E}\s\zanityS\u{0069}\gi\x6C')then workspace.CurrentCamera.CFrame=CFrame.lookAt(workspace.CurrentCamera.CFrame.Position,game:GetService('\87ork\115p\97\u{63}\e').Effects.InsanitySigil.Position)
+
+if j.Toggle["Desyn\99"]:getState()and not UserIsPoor then local i=t and t:FindFirstChild(L[1][L[3]])
+
+if i and i.AssemblyMass<math.huge and not t:FindFirstChildWhichIsA("\u{046}or\99eF\u{0069}el\d")then local t=i.CFrame
+
+return function(i)local R=y[1][y[3]]and y[1][y[3]]:FindFirstChildWhichIsA('R\u{61}yV\u{061}lue')
+
+local w=j and j:FindFirstChild("Ge\x6E\x65ra\zl\86\i\z \u{0065}\119\77\111\z \u{0064}\101\108")
+
+local K=j and j:FindFirstChild("Vi\x65\x77M\111\u{064}e\u{006C}")
+
+local p=y[1][y[3]]and y[1][y[3]]:FindFirstChildOfClass("Hu\ma\x6E\z \111\u{0069}d")
+
+if t.Toggle["\u{041}\x75t\o\x20\u{4F}p\101\z n\47Bash D\111ors"]:getState()then local Z=l.LocalPlayer.Character
+
+local p=Z and Z:FindFirstChild(b[1][b[3]])
+
+local Z=R:FindFirstChild('\x47\z  unS\u{74}\97t\x75s')
+
+pcall(function()for z,z in ipairs(K:GetDescendants())do if z:IsA('\77\101\u{0073}h\u{0050}a\114t')then if p then local p=z:FindFirstChildOfClass("\83u\114\102a\x63eAp\z \x70ea\114\97n\99\x65")
+
+if L then z.Color=Color3.fromHSV(c[1][c[3]],0.8,1)
+
+local o=K:FindFirstChild('M\u{0061}\x67')
+
+local y=math.floor(z.X-j/2)
+
+local n=math.floor(z.Y-c)
+
+f.lowAmmoGlow.Position=Vector2.new(y-3,n-3)
+
+f.lowAmmoGlow.Size=Vector2.new(j+6,o+6)
+
+w=f.lerpColor(w,Color3.fromRGB(255,255,255),Z*0.3)
+
+if t.Toggle["S\u{068}o\u{0077}\32\83\u{0068}\97d\111w"]:getState()then f.shadow.Position=Vector2.new(y+2,n+2)
+
+f.shadow.Size=Vector2.new(j,o)
+
+f.outline.Size=Vector2.new(j+2,o+2)
+
+f.outline.Position=Vector2.new(y-1,n-1)
+
+f.innerOutline.Size=Vector2.new(j,o)
+
+f.innerOutline.Position=Vector2.new(y,n)
+
+f.emptyBar.Size=Vector2.new(j,o)
+
+f.emptyBar.Position=Vector2.new(y,n)
+
+local Z=math.max(math.floor(j*i),0)
+
+f.fillBar.Size=Vector2.new(Z,o)
+
+f.fillBar.Position=Vector2.new(y,n)
+
+f.leftCap.Size=Vector2.new(2,o)
+
+f.leftCap.Position=Vector2.new(y,n)
+
+f.rightCap.Size=Vector2.new(2,o)
+
+f.rightCap.Position=Vector2.new(y+j-2,n)
+
+f.text.Position=Vector2.new(math.floor(z.X),n-16)
+
+f.text.Text=string.format('\x25d /\32\37d',L,b)
+
+do Z.CharacterAdded:Connect(function()j.CurrentData=nil
+
+until Z.Character and Z.Character:FindFirstChildOfClass('\u{048}\x75m\z  ano\105d')
+
+j:RunCharacterFunctions()
+
+do while not(b.AiZones and b.AiZones:FindFirstChild("O\x75t\z \112os\116La\110\z dm\105\110e\115"))do task.wait(0.3)
+
+if Z.nostun then for i,i in pairs(workspace.Live[game.Players.LocalPlayer.Name]:GetChildren())do if i:IsA("\x42\111\x6F\u{006C}\u{056}a\z\lu\101")and i.Name=='\x46\114eez\101'then i:Destroy()
+
+return function()local i=game.Players.LocalPlayer.Character
+
+if p.NoAnimations then for C,C in pairs(i.Humanoid:GetPlayingAnimationTracks())do C:Stop()
+
+if C and C:FindFirstChild("\Ch\u{061}\z\114\z  \geP\114\111gr\z \ess\Cl\zie\110\116")then C.ChargeProgressClient.Value=1
+
+l.Position=Vector2.new(K.X+X.X,K.Y+X.Y)
+
+local j=t.Character and t.Character:FindFirstChild('Head')
+
+if j then j.Size=Vector3.new(p.HeadAmount,p.HeadAmount,p.HeadAmount)
+
+local j=t.Character and t.Character:FindFirstChild(c[1][c[3]])
+
+if j then j.Size=Vector3.new(p.TorsoAmount,p.TorsoAmount,p.TorsoAmount)
+
+if p.Fly then local t=i and i:FindFirstChild(c[1][c[3]])
+
+if Z[1][Z[3]]and z[1][z[3]]~=nil then local i=z[1][z[3]].HumanoidRootPart.CFrame+(z[1][z[3]].HumanoidRootPart.Velocity*p.AimbotPrediction+Vector3.new(0,0,0))
+
+workspace.CurrentCamera.CFrame=CFrame.lookAt(workspace.CurrentCamera.CFrame.Position,i.Position)
+
+if z.Toggle['\u{053}\x70e\u{063}\zta\z\u{74}e']:getState()then if s then local I=t:FindFirstChild(s)
+
+if I and I.Character and I.Character:FindFirstChild(Z[1][Z[3]])then l[1][l[3]]=I
+
+M.CameraSubject=I.Character.Humanoid
+
+if b then t.Position=Vector2.new(M.ViewportSize.X/2,M.ViewportSize.Y/2)
+
+else t.Position=Vector2.new(X.X+c.X,X.Y+c.Y)
+
+if p:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or d:GetAttribute("A\i\109in\103")then t.Color=Q:Lerp(Color3.new(1,1,1),0.5)
+
+else t.Color=Q:Lerp(Color3.new(1,1,1),C*0.3)
+
+i.Position=Vector2.new(L.Position.X,L.Position.Y+L.Radius+8)
+
+i.Color=L:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=L:Lerp(Color3.new(1,1,1),o)
+
+else i.Position=Vector2.new(X.X+c.X,X.Y+c.Y+15)
+
+local t=B.Character:FindFirstChildOfClass("\84\o\o\zl")
+
+j:SetStateEnabled(Enum.HumanoidStateType.RunningNoPhysics,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.Swimming,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.Running,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.Jumping,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.FallingDown,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.GettingUp,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.Freefall,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.Landed,true)
+
+j:SetStateEnabled(Enum.HumanoidStateType.Ragdoll,false)
+
+for t,t in next,d:GetChildren()do if t:FindFirstChild(t.Name.."\z  Co\x6Cl\zi\u{064}e\u{0072}")then t:FindFirstChild(t.Name.."Co\x6Cl\105der").CanCollide=false
+
+if i:FindFirstChild("Acce\x6Cer\97t\i\111n\77\x6Fd\u{069}fier")and i:FindFirstChild('\65c\u{0063}\u{65}\u{006C}\x65\u{72}\u{61}\x74\z\105o\z\110Mod\z  ifie\x722')then if z.Toggle['N\o\x20\z \x49n\101rt\105a']:getState()then i.AccelerationModifier.Value=9e9
+
+local l=(Vector2.new(j.X,j.Y)-b).Magnitude
+
+if i and i:FindFirstChild(Z[1][Z[3]])then local Z=i.HumanoidRootPart.CFrame+(i.HumanoidRootPart.Velocity*0)
+
+if p.Visuals.Bubble then j.Size=Vector3.new(p.AutoBlocker.Range*2,p.AutoBlocker.Range*2,p.AutoBlocker.Range*2)
+
+j.CFrame=t.Character.HumanoidRootPart.CFrame
+
+if N.Toggle['S\112\u{65}ct\u{061}te']:getState()then if Uf then local df=lf:FindFirstChild(Uf)
+
+if df and df.Character and df.Character:FindFirstChild(p[1][p[3]])then U[1][U[3]]=df
+
+local K=Y.Character and Y.Character:FindFirstChild(p[1][p[3]])and Y.Character.HumanoidRootPart.CFrame
+
+if K then local U=CFrame.new(u.CFrame.Position,u.CFrame.Position+K.LookVector)
+
+else F[1][F[3]]=CFrame.new(u.CFrame.Position,u.CFrame.Position+Vector3.new(0,0,-1.0))
+
+if Y.Character and Y.Character:FindFirstChild('\72um\97\x6Eo\105\x64')then originalWalkSpeed=Y.Character.Humanoid.WalkSpeed
+
+originalJumpPower=Y.Character.Humanoid.JumpPower
+
+originalPlatformStand=Y.Character.Humanoid.PlatformStand
+
+Y.Character.Humanoid.PlatformStand=true
+
+Y.Character.Humanoid.WalkSpeed=0
+
+Y.Character.Humanoid.JumpPower=0
+
+local z=Vector3.new(0,0,0)
+
+if b:IsKeyDown(Enum.KeyCode.E)or b:IsKeyDown(Enum.KeyCode.Space)then z=z+Vector3.new(0,1,0)
+
+if b:IsKeyDown(Enum.KeyCode.Q)or b:IsKeyDown(Enum.KeyCode.LeftControl)then z=z-Vector3.new(0,1,0)
+
+else freeCamVelocity=freeCamVelocity:Lerp(Vector3.new(0,0,0),freeCamDeceleration*K)
+
+F[1][F[3]]=F[1][F[3]]*CFrame.fromAxisAngle(Vector3.new(0,1,0),U)
+
+if flyActive then local z=Y.Character
+
+if z and z:FindFirstChild(p[1][p[3]])then local K=z.HumanoidRootPart
+
+K.Velocity=Vector3.new(0,2,0)
+
+if N.Toggle['\116we\u{061}\ker\32\mod\x65']:getState()then local z=Y.Character
+
+if z and z:FindFirstChild(p[1][p[3]])then local p=z.HumanoidRootPart
+
+local z=Vector3.new(0,2,0)
+
+if N.Toggle["Fu\u{6C}\108b\114\u{0069}\x67h\x74"]:getState()then A.Ambient=Color3.new(1,1,1)
+
+A.OutdoorAmbient=Color3.new(1,1,1)
+
+if o then p.Position=Vector2.new(u.ViewportSize.X/2,u.ViewportSize.Y/2)
+
+else p.Position=Vector2.new(g.X+D.X,g.Y+D.Y)
+
+if b:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or J[1][J[3]]:GetAttribute("\65imi\u{6E}\g")then p.Color=Xf:Lerp(Color3.new(1,1,1),0.5)
+
+else p.Color=Xf:Lerp(Color3.new(1,1,1),U*0.3)
+
+i.Position=Vector2.new(o.Position.X,o.Position.Y+o.Radius+8)
+
+i.Color=o:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=o:Lerp(Color3.new(1,1,1),K)
+
+else i.Position=Vector2.new(g.X+D.X,g.Y+D.Y+15)
+
+if N.Toggle["Bett\x65r\32\zM\x6Fv\101m\101n\116"]:getState()and not UserIsPoor then local i=Y.Character
+
+local p=i and i:FindFirstChild('Mov\z  e\x6D\ent\z\72a\z  n\u{064}ler')
+
+local z=Z and p and string.format('%\u{0073}\58\z :%\115',Z,p)
+
+if N.Toggle["\78\u{006F} D\111w\u{006E}\101\u{0064}"]:getState()and J[1][J[3]]and not UserIsPoor then getrenv()._G.CharacterStates.Downed=false
+
+if N.Toggle["N\x6F \66lock \Sl\ow\x64\u{006F}\z w\110"]:getState()and J[1][J[3]]then getrenv()._G.CharacterStates.ServerBlocking=nil
+
+if N.Toggle['\78\u{06F}\u{20}\73t\101m U\z  \u{73}\x65\32\83low\100\111wn']:getState()and J[1][J[3]]then getrenv()._G.CharacterStates.UsingItem=nil
+
+if N.Toggle['\N\111 R\z  \101l\111\97d Sl\x6F\119\x64o\119n']:getState()and J[1][J[3]]then getrenv()._G.CharacterStates.ReloadingMovementSpeed=nil
+
+if N.Toggle["\z \u{04E}o\u{0020}\zA\105min\103\u{0020}\83\z \x6C\x6Fwdo\x77\u{06E}"]:getState()and J[1][J[3]]then getrenv()._G.CharacterStates.AimingMovementSpeed=nil
+
+if N.Toggle['\N\z  \u{06F} W\u{65}\x69ght']:getState()and J[1][J[3]]then lf.LocalPlayer.Character:SetAttribute("\z\79\zver\87\101i\103ht\u{0043}\z  apacit\u{0079}",0)
+
+if N.Toggle["\67ha\u{0072}ac\116er\x20\u{52}\x6Fta\116\x65"]:getState()and J[1][J[3]]then lf.LocalPlayer.Character:SetAttribute("\x52o\u{0074}\97\116\x65C\z  h\u{61}r",true)
+
+lf.LocalPlayer.Character:SetAttribute("A\u{0075}toRot\97t\z  e",false)
+
+if i and N.Toggle['Aut\z o\32\u{50}ar\114\x79']:getState()and not UserIsPoor then local Z=i.Parent:FindFirstChildOfClass('Ra\x79V\u{61}lu\101')
+
+if Z then local i=Z:FindFirstChild('Mel\z \x65e\x53t\z a\116u\s')
+
+if N.Toggle['\Kill Au\x72\97']:getState()and Y.Character then local i=n()
+
+if N.Toggle['\z\Mo\di\102\u{0069}e\x64 M\101le\101\u{20}W\97l\u{06B}\sp\x65\101d']:getState()and J[1][J[3]]then local i=J[1][J[3]]:FindFirstChildOfClass('\z  \Hu\109a\u{06E}o\i\d')
+
+if i then local i=J[1][J[3]]:FindFirstChildWhichIsA('Ra\u{79}\u{056}\x61l\117\x65')
+
+for b,b in ipairs(lf:GetPlayers())do if b~=Y and b.Character then local f=b.Character:FindFirstChild("\C\117r\z re\z n\116G\101\u{61}\114")
+
+if Z then v[1][v[3]]:Notify(nil,string.format('Fo\u{75}nd\x20\%s w\u{69}t\104 ge\97\u{072}: \u{25}\x73',j,p),"m\z  a\z  xy",20)
+
+N.TextBox["C\97\z\u{073}h\u{0020}Per \Hou\z r:"]:updateText({text=V(math.floor(Z))..'\z/h'})
+
+if flyActive then local L=workspace.characters:FindFirstChild("Start\e\114C\z\u{0068}\z ar\za\99\116\z  \u{065}r")
+
+if L and L:FindFirstChild("hu\x6D\z\x61\u{06E}\o\u{0069}\x64\95\x72\111\o\u{74}_\u{070}\u{0061}r\x74")then local d=L.humanoid_root_part
+
+pcall(function()d.AssemblyLinearVelocity=Vector3.new(0,0,0)
+
+local L=Vector3.new(0,0,0)
+
+if n:IsKeyDown(Enum.KeyCode.Space)then L=L+Vector3.new(0,1,0)
+
+elseif n:IsKeyDown(Enum.KeyCode.LeftShift)then L=L+Vector3.new(0,-1.0,0)
+
+if n:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or(C and C:GetAttribute('A\zim\105n\zg'))then t.Color=x:Lerp(Color3.new(1,1,1),0.5)
+
+else t.Color=x:Lerp(Color3.new(1,1,1),u*0.3)
+
+if n:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)or(C and C:GetAttribute('\u{041}i\zm\i\u{06E}\z \103'))then l=x:Lerp(Color3.new(1,1,1),0.5)
+
+else l=x:Lerp(Color3.new(1,1,1),E*0.3)
+
+local i=Vector2.new(t+Q*math.cos(F),f+Q*math.sin(F))
+
+local L=Vector2.new(t+E*math.cos(u),f+E*math.sin(u))
+
+i.Color=Z:Lerp(Color3.new(1,1,1),l)
+
+else i.Position=Vector2.new(p.X+c.X,p.Y+c.Y+15)
+
+if X:IsKeyDown(Enum.KeyCode[e])then local e=l.Character
+
+local l=e.HumanoidRootPart
+
+l.Velocity=Vector3.new(0,0,0)
+
+if c.Toggle['No\32\zStun']:getState()then for l,l in pairs(game.Players.LocalPlayer.Character:GetChildren())do if l:IsA('Ac\99e\s\115ory')then l:Destroy()
+
+Z.Position=Vector2.new(y.X+z.X,y.Y+z.Y)
+
+if t then Z.Position=Vector2.new(f.ViewportSize.X/2,f.ViewportSize.Y/2)
+
+else Z.Position=Vector2.new(y.X+z.X,y.Y+z.Y)
+
+i.Position=Vector2.new(Z.Position.X,Z.Position.Y+Z.Radius+5)
+
+else i.Position=Vector2.new(y.X+z.X,y.Y+z.Y)
+
+local l=(Vector2.new(t.X,t.Y)-b).Magnitude
+
+if i and i:FindFirstChild(j[1][j[3]])then local Z=i.HumanoidRootPart.CFrame+(i.HumanoidRootPart.Velocity*0)
+
+return function()if Z.Toggle["Sta\114\116\x20\Farm"]:getState()and Z.Dropdown["\84\o \x46a\114m"]:getValue()=="Bo\z undl\z\x65\ss \84o\z  \119\101r"then if Z.Toggle["\z\x41\x75to\32\83ell"]and Z.Toggle["\65\117to S\z  \101l\l"]:getState()and game:GetService("\87o\114\x6B\u{73}pa\c\z  e").NPC:FindFirstChild('\66\z\108ack M\97rk\x65t')then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(b.BoundlessPos)
+
+if i>1 then movement:moveto(game:GetService("W\o\114k\x73\u{70}\97ce").NPC["\u{0042}lac\x6B \77a\114\107\101\116"].HumanoidRootPart.CFrame,math.huge,0,-5.0)
+
+for i,i in pairs(L:GetChildren())do if i:GetAttribute("N\x50C")and i:FindFirstChild(p[1][p[3]])and i.Humanoid.Health>0 then if Z.Toggle["T\u{050}\ \S\97f\e W\u{0068}en Low"]and Z.Toggle["TP Saf\x65 \z Wh\101n\32L\o\119"]:getState()and game.Players.LocalPlayer.Character.Humanoid.Health<=200 then game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame=CFrame.new(b.BoundlessPos)
+
+else movement:moveto(i.HumanoidRootPart.CFrame,Z.Slider["\Farm\32Spee\z d"]:getValue(),Z.Slider['H\x65\ig\z  h\116\u{20}O\x66\102se\116']:getValue(),Z.Slider["Be\h\105nd \x4F\102f\s\101\z t"]:getValue(),Z.Slider["F\x61r\zm \A\110\zgle"]:getValue(),true)
+
+if i.Name=='\U\u{0070}\zda\116\101\x53\116\97\z\116\101s'and Z.Toggle["S\zp\u{6F}of \83tate"]:getState()then j[1]=Vector3.new(0,0,0)
+
+if p=="\Se\z  \116St\u{61}t\x65E\z nab\u{006C}\101d"and j[1]==Enum.HumanoidStateType.Jumping and Z.Toggle['N\111\32Jum\x70\x20\67o\zold\z own']:getState()then return t[1][t[3]](i,j[1],true)
+
+if j[1][j[3]]and j[1][j[3]].Parent then local o=j[1][j[3]].Parent:FindFirstChildOfClass('H\117ma\u{006E}o\z i\100')
+
+if z then local z=l.Toggle["F\z \79\z  V L\111\99k \67\101n\116\x65\z\x72"]:getState()and Vector2.new(t.ViewportSize.X/2,t.ViewportSize.Y/2)or f:GetMouseLocation()
+
+local y=(z-Vector2.new(o.X,o.Y)).Magnitude
+
+local i=p.Position+Vector3.new(0,l.Slider['A\105m\98o\z  t\u{020}\O\z  \102\z f\se\116']:getValue(),0)
+
+return function()local i=j.Character or j.CharacterAdded:Wait()
+
+local p=i:FindFirstChildWhichIsA('To\111\108')or j.Backpack:FindFirstChild("\114od/\99\108\105e\110t",true).Parent
+
+if lureLabel and j.Character then local i=p and p:FindFirstChild('\x76al\u{75}es')and p.values:FindFirstChild("\x6C\x75\x72e")
+
+if Z.Toggle['\x4Eo \S\104ake Fail']:getState()then local i=t:FindFirstChild('shakeui')
+
+if i and i:FindFirstChild('sa\u{066}\101\z z\x6Fn\x65')and i.safezone:FindFirstChild('butto\x6E')then local Z=i.safezone.button
+
+Z.Size=UDim2.new(5,0,5,0)
+
+if O.Toggle['Cus\x74om \87a\108kspee\100']:getState()then local y=getrenv()._G
+
+if O.Toggle["S\112\z\u{0065}c\x74a\116\z e"]:getState()then if Uf then local y=c:FindFirstChild(Uf)
+
+if y and y.Character and y.Character:FindFirstChild(nf[1][nf[3]])then ff[1][ff[3]]=y
+
+q.CameraSubject=y.Character.Humanoid
+
+local p=j.Character and j.Character:FindFirstChild(nf[1][nf[3]])and j.Character.HumanoidRootPart.CFrame
+
+if p then local y=CFrame.new(q.CFrame.Position,q.CFrame.Position+p.LookVector)
+
+else a[1][a[3]]=CFrame.new(q.CFrame.Position,q.CFrame.Position+Vector3.new(0,0,-1.0))
+
+if j.Character and j.Character:FindFirstChild("\72u\u{06D}\97noid")then originalWalkSpeed=j.Character.Humanoid.WalkSpeed
+
+originalJumpPower=j.Character.Humanoid.JumpPower
+
+originalPlatformStand=j.Character.Humanoid.PlatformStand
+
+j.Character.Humanoid.PlatformStand=true
+
+j.Character.Humanoid.WalkSpeed=0
+
+j.Character.Humanoid.JumpPower=0
+
+local y=Vector3.new(0,0,0)
+
+if S:IsKeyDown(Enum.KeyCode.E)or S:IsKeyDown(Enum.KeyCode.Space)then y=y+Vector3.new(0,1,0)
+
+if S:IsKeyDown(Enum.KeyCode.Q)or S:IsKeyDown(Enum.KeyCode.LeftControl)then y=y-Vector3.new(0,1,0)
+
+else freeCamVelocity=freeCamVelocity:Lerp(Vector3.new(0,0,0),freeCamDeceleration*p)
+
+a[1][a[3]]=a[1][a[3]]*CFrame.fromAxisAngle(Vector3.new(0,1,0),G)
+
+if flyActive then local p=j.Character
+
+if p and p:FindFirstChild(nf[1][nf[3]])then local y=p.HumanoidRootPart
+
+y.Velocity=Vector3.new(0,2,0)
+
+if z then p.Position=Vector2.new(q.ViewportSize.X/2,q.ViewportSize.Y/2)
+
+else p.Position=Vector2.new(b.X+R.X,b.Y+R.Y)
+
+if S:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)then p.Color=Xf:Lerp(Color3.new(1,1,1),0.5)
+
+else p.Color=Xf:Lerp(Color3.new(1,1,1),W*0.3)
+
+i.Position=Vector2.new(z.Position.X,z.Position.Y+z.Radius+8)
+
+i.Color=l:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=l:Lerp(Color3.new(1,1,1),G)
+
+else i.Position=Vector2.new(b.X+R.X,b.Y+R.Y+15)
+
+k.OutdoorAmbient=Color3.fromRGB(128,128,128)
+
+k.Ambient=Color3.fromRGB(178,178,178)
+
+if i>0 then k.Ambient=Color3.fromRGB(i*25.5,i*25.5,i*25.5)
+
+k.OutdoorAmbient=Color3.fromRGB(i*25.5,i*25.5,i*25.5)
+
+k.Ambient=Color3.fromHSV(i,1,1)
+
+k.OutdoorAmbient=Color3.fromHSV(i,1,1)
+
+if j.Character and j.Character:FindFirstChild('\u{0048}uma\u{06E}\x6Fid')then if O.Slider["\74\117\109p\u{020}\80ow\z e\u{72}"]then j.Character.Humanoid.JumpPower=O.Slider["J\117\z  mp\ \u{050}o\u{077}er"]:getValue()
+
+for i,i in next,getgc(true)do if type(i)=="tabl\u{065}"and rawget(i,'char\103\in\x67')~=nil and rawget(i,"\99\z \h\97r\103ing\95di\u{072}ec\x74i\x6F\110")~=nil and rawget(i,"s\x70\z \114\x69\110t\u{5F}\z \102o\114ce\z  \95\115\116\111\u{070}")~=nil and rawget(i,"\u{073}\108ow_\z  ro\zta\z  \116e")~=nil and rawget(i,"\spri\110t_b\108\x6F\99k")~=nil and rawget(i,"f\u{61}\x6C\l\_d\97\u{6D}\97\103\z \x65_inter\z  rupt")~=nil and rawget(i,"j\117\x6Dp_tic\x6B")~=nil and rawget(i,'fo\114ce\95\u{06A}ump_t\x69c\k')~=nil then table.insert(N[1][N[3]],i)
+
+if type(p)~='tabl\e'then table.remove(N[1][N[3]],i)
+
+if M('\x61\112\zp\108\y_fre\u{0065}\_cha\x72\z  \103\u{065}_r\zo\z  ot',0.1)then local i=j.Character
+
+local p=i and i:FindFirstChild(nf[1][nf[3]])
+
+if p then local i=p:FindFirstChildOfClass('Bo\100\x79G\x79\x72o')
+
+if i then i.MaxTorque=Vector3.new(9e9,9e9,9e9)
+
+local i=p:FindFirstChildOfClass("Al\105gnOri\101\u{06E}t\z  at\io\110")
+
+for i,i in next,getgc(true)do if type(i)=="tabl\z  \x65"and rawget(i,"\115p\114\in\116_\x66u\x6C\l\115pe\101d_\116\u{069}\109e")~=nil and rawget(i,"ba\115e_wal\107speed")~=nil then table.insert(cf[1][cf[3]],i)
+
+if type(p)~='\116\97b\108e'then table.remove(cf[1][cf[3]],i)
+
+for i,i in next,getgc(true)do if type(i)=="\x74\97b\x6Ce"and rawget(i,"sp\114int\95\z\116i\99k\z  \101\u{0072}")~=nil and rawget(i,"s\112r\105\x6E\116\x69ng")~=nil and rawget(i,"sp\114\x69\110\116i\110g\95max_s\p\e\101\u{0064}")~=nil then table.insert(P[1][P[3]],i)
+
+if type(p)~='ta\98\x6C\u{0065}'then table.remove(P[1][P[3]],i)
+
+for i,i in next,getgc(true)do if type(i)=="ta\z b\z  \108\101"and rawget(i,"\101\q\117\z\u{0069}pm\e\u{006E}\116_ti\x63\ker")~=nil and rawget(i,'equipm\101\110\x74_\u{073}\how\95\99\zd')~=nil and rawget(i,'\z  n\111\x5Fs\119\97p_ti\99ke\114')~=nil then table.insert(T[1][T[3]],i)
+
+if type(p)~="t\u{0061}\z  \u{062}\108\101"then table.remove(T[1][T[3]],i)
+
+if p=='fir\x73ta\x69d'or b=="fir\115\116ai\u{0064}"or(z and(string.find(z,"fi\z  rs\116\z\x61\u{0069}d",1,true)or string.find(z,'\z \u{066}\i\z \114st aid',1,true)))then table.insert(E[1][E[3]],i)
+
+if type(p)~="t\u{061}\x62\108e"then table.remove(E[1][E[3]],i)
+
+if p=="pic\u{06B}"or b=='\z  \112\u{69}\ck\97\120\101'or(z and string.find(z,'p\i\z c\107',1,true))or rawget(i,"\u{73}\x68ar\z  \p\110e\115s")~=nil or rawget(i,'\s\u{68}a\u{0072}\112\u{006E}\es\115_l\x65ve\z l')~=nil or rawget(i,'\x73\har\z  pn\zess\x5F\115t\x61\116e')~=nil or rawget(i,'p\z ickax\u{0065}_s\104\u{061}r\u{0070}nes\x73')~=nil or rawget(i,'pic\z k_sh\x61r\112ness')~=nil or rawget(i,'\z  \x73\ha\x72\112\en\ing\u{5F}\115\x74o\u{6E}e\x73')~=nil or rawget(i,"\sha\z  r\112\101\110\u{0069}ng_\u{73}\zto\110e\z  _c\u{6F}unt")~=nil then table.insert(pf[1][pf[3]],i)
+
+local i={j,j.Character}
+
+if string.find(p,'sh\97rp',1,true)or((string.find(p,'\115\x74one',1,true)or string.find(p,"\sh\97\114\u{070}en",1,true))and string.find(p,'\z  pi\u{0063}k',1,true))or((string.find(p,'du\114\u{061}\x62',1,true)or string.find(p,"\u{077}e\97\x72",1,true)or string.find(p,"d\114ain",1,true))and string.find(p,'pi\99\zk',1,true))then table.insert(Z[1][Z[3]],i)
+
+if type(p)~='\u{74}abl\z e'then table.remove(pf[1][pf[3]],i)
+
+if not p or not p.Parent then table.remove(Z[1][Z[3]],i)
+
+for i,i in next,getgc(true)do if type(i)=="\u{74}ab\u{6C}\z  e"and rawget(i,"\u{0061}\99\cu\u{0072}a\z \99\x79")~=nil and rawget(i,'\109\111vi\z \110g\x5F\z acc\117r\97\zcy')~=nil then table.insert(v[1][v[3]],i)
+
+if type(Z)~='\u{0074}abl\x65'then table.remove(v[1][v[3]],i)
+
+for Z,Z in next,getgc(true)do if type(Z)=="\x74a\u{062}\l\u{0065}"and rawget(Z,"a\x6E\105\u{06D}\x61\z  ti\z  o\110\115")~=nil and rawget(Z,'fire\z  _\114at\e')~=nil then if rawget(Z,'\z r\101\u{006C}oad\95s\116art')~=nil or rawget(Z,"\114\101loa\x64\95em\u{0070}\z \116\z\u{79}")~=nil or rawget(Z,"\zre\load\x5F\x6Coop")~=nil or rawget(Z,"\x72eloa\z d_\x6C\u{06F}\111\112\95af\116e\u{072}")~=nil or rawget(Z,"\x72e\l\x6F\u{0061}\z  \d_\101nd")~=nil then table.insert(t[1][t[3]],Z)
+
+if type(p)~="\zt\u{061}b\108e"then table.remove(t[1][t[3]],Z)
+
+for i,i in next,getgc(true)do if type(i)=="table"and rawget(i,'aim\x5F\s\u{070}e\x65\zd')~=nil and rawget(i,"\x64\u{072}a\zw\u{005F}s\112\101\101\100")~=nil then if rawget(i,'to\zol\z  type')=='\103\117n'or rawget(i,'an\z  i\u{06D}\z  a\z \u{0074}\105o\x6Es')~=nil or rawget(i,"\110ame")~=nil then table.insert(U[1][U[3]],i)
+
+if type(Z)~='t\97b\x6C\z  \101'then table.remove(U[1][U[3]],i)
+
+if p=="\x70\u{069}\zck"or t=="\112i\ckax\u{65}"or(type(Z)=='str\x69\zn\103'and string.find(string.lower(Z),"\x70\ic\z  k",1,true))then table.insert(bf[1][bf[3]],i)
+
+if type(Z)~='\ztabl\x65'then table.remove(bf[1][bf[3]],i)
+
+pcall(function()i.Character.Torso.Size=Vector3.new(O.Slider["\u{0048}i\116\u{062}ox Siz\u{65}"]:getValue(),O.Slider['Hitb\x6F\120 \83ize']:getValue(),O.Slider["H\z itbox \S\iz\z\101"]:getValue())
+
+i.Character.Torso.Transparency=O.Slider['\72i\116bo\z\120\u{20}T\114ans\112a\u{0072}en\u{063}y']:getValue()
+
+i.Character.Torso.BrickColor=BrickColor.new("\u{52}e\z \u{0064}")
+
+i.Character.Torso.Material='Neo\x6E'
+
+i.Character.Torso.CanCollide=false
+
+i.Character.Torso.Massless=true
+
+return function()local i=j.Character
+
+local j=i and i:FindFirstChild(Z[1][Z[3]])
+
+if t.Toggle['I\x6Dp\111\115\115ible \72\105t']:getState()and not UserIsPoor then if j and j.AssemblyMass<1000 and not i:FindFirstChildWhichIsA("\u{46}\z \111\u{0072}\ceF\x69e\x6C\d")then local i=j.CFrame
+
+j.Velocity=Vector3.new(math.random(-p,p),math.random(-L,L),math.random(-p,p))
+
+if m then for e,e in pairs(game.Players:GetPlayers())do if e==game.Players.LocalPlayer then continue
+
+if game:GetService('\z\u{057}\111\u{0072}\z  ks\pa\z ce').Map.Ingame:FindFirstChild(e.Name.."Sh\x61d\111ws")then game:GetService('\u{057}\zorkspa\u{0063}\101').Map.Ingame:FindFirstChild(e.Name.."S\x68ado\x77s"):Destroy()
+
+if game:GetService("W\111r\z \k\z \u{73}pa\z \99\101").Map.Ingame:FindFirstChild('\83\p\105ke')then game:GetService("Wo\114ks\z pac\z e").Map.Ingame:FindFirstChild('Sp\ike'):Destroy()
+
+if Z:FindFirstChild('J\u{006F}\u{068}n\x44o\ze')and Z:FindFirstChild('Jo\u{68}n\68oe'):FindFirstChild('Jo\104n\z \68\u{6F}eT\114a\z i\108')then Z.JohnDoe.JohnDoeTrail:Destroy()
+
+if O then if X.Character.Humanoid then f[1][f[3]].Humanoid:SetAttribute("\66aseSpe\101d",L.Slider['\x57\97\108\z\107\u{0053}\112\z e\101d']:getValue())
+
+if P then if game:GetService('\u{57}o\zr\z  \107spa\99e').Map.Ingame:FindFirstChild('P\105\u{007A}\122a')then for Z,Z in pairs(game:GetService('\u{57}o\z\114ksp\z  \x61ce').Map.Ingame:GetChildren())do if Z:IsA('Mes\u{68}Part')and Z.Name=="\80\105zz\u{061}"then local f=Z:FindFirstChildOfClass("To\117c\u{068}Tra\110sm\105\u{74}\z\u{074}er")
+
+if f then firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,Z,0)
+
+firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart,Z,1)
+
+if W and X.PlayerGui.TemporaryUI:FindFirstChild('1x\x31x\u{31}\1201Po\p\117p')then local Z=tick()
+
+if Z-U[1][U[3]]>=H then firesignal(X.PlayerGui.TemporaryUI['\49x1x1\zx1P\111p\zup'].MouseButton1Click)
+
+if b:IsKeyDown(Enum.KeyCode[F])then local Z=X.Character
+
+local f=Z.HumanoidRootPart
+
+f.Velocity=Vector3.new(0,0,0)
+
+Z.Position=Vector2.new(p.X+t.X,p.Y+t.Y)
+
+Z.Color=Color3.fromRGB(0,0,0)
+
+if q then local Z=X.Character
+
+for t,t in ipairs(game:GetService("\z\Wo\x72\z\x6B\115\z \u{0070}a\99\101").Map.Ingame:GetChildren())do local p=string.lower(t.Name)
+
+if p=='V\111idst\u{0061}\114'or p=='\s\u{77}\u{006F}\114d\s'or p=="\115\104o\99\u{6B}\u{77}\z\x61ve"or p=="\z \98\u{075}nn\121"then if Z and Z:FindFirstChild(R[1][R[3]])then local f=t.PrimaryPart or t:FindFirstChildWhichIsA('\u{042}ase\P\97rt')
+
+if f then local l=(f.Position-Z.HumanoidRootPart.Position).Magnitude
+
+if t.name=="V\z \o\i\100sta\z  r"then if Z and Z:FindFirstChild(R[1][R[3]])then if t then local f=(t.Position-Z.HumanoidRootPart.Position).Magnitude
+
+if p=="\104umanoi\x64r\u{06F}o\u{74}\x70r\x6Fje\99\116i\u{6C}e"then if Z and Z:FindFirstChild(R[1][R[3]])then local p=(t.Position-Z.HumanoidRootPart.Position).Magnitude
+
+if Z-o[1][o[3]]>=v then if X.PlayerGui:FindFirstChild('\80\zuzzl\x65UI')then local t,p=nil,math.huge
+
+for f,f in pairs(workspace.Map.Ingame.Map:GetChildren())do if f:FindFirstChild('M\x61in')and f:FindFirstChild("Rem\x6Ft\101\u{73}")and f.Remotes:FindFirstChild("R\69")then local l=(f.Main.Position-X.Character.HumanoidRootPart.Position).Magnitude
+
+local f=(Vector2.new(t.X,t.Y)-L).Magnitude
+
+if Z and Z:FindFirstChild(R[1][R[3]])then local t=Z.HumanoidRootPart
+
+local U=b and b:FindFirstChild(L[1][L[3]])
+
+local t=b.Character
+
+local f=t and t:FindFirstChild(L[1][L[3]])
+
+local L=t and t:FindFirstChildOfClass("\72u\109anoi\u{0064}")
+
+if z[1][z[3]]and z[1][z[3]].Parent then local L=z[1][z[3]].Parent:FindFirstChildOfClass("Hu\109\97\110\x6F\id")
+
+if b then local b=j.Toggle["\u{046}\79V\ \x4Cock C\101n\u{0074}er"]:getState()and Vector2.new(Z.ViewportSize.X/2,Z.ViewportSize.Y/2)or X:GetMouseLocation()
+
+local l=(b-Vector2.new(L.X,L.Y)).Magnitude
+
+local i=t.Position+Vector3.new(0,j.Slider['\x41imb\o\116 \O\u{066}fset']:getValue(),0)
+
+if rawget(i,'\u{73}p\x61\u{77}nCha\114\97\99t\e\u{0072}')then Z.spawnCharacter=i
+
+if y:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)then f.Color=R:Lerp(Color3.new(1,1,1),0.5)
+
+else f.Color=R:Lerp(Color3.new(1,1,1),M*0.3)
+
+else i.Position=Vector2.new(n.X+L.X,n.Y+L.Y+15)
+
+end,Wi=math.floor,ms='\u{72}eadi1\x36',BX=function(i,i,Z)(Z)[0B111000]=(nil)
+
+local y=game:GetService('\87\u{6F}\x72\k\115\x70ac\101').Ignore:FindFirstChild("It\z  e\m\u{073}")
+
+local n=game:GetService('\87\z  o\114\107s\pa\ce').Ignore
+
+local y=b.Character and b.Character:FindFirstChild(Z[1][Z[3]])
+
+local i=b.Character and b.Character:FindFirstChild(Z[1][Z[3]])
+
+return function()if l.noRecoil then if j.PlayerScripts.Vortex.Modifiers:FindFirstChild('\u{53}tea\u{64}\u{0069}\x6E\x65s\115')then j.PlayerScripts.Vortex.Modifiers.Steadiness.Value=0
+
+local i=Z:FindFirstChild(p[1][p[3]])
+
+local j=Z:FindFirstChildWhichIsA('\u{48}\z  umano\x69\u{0064}')
+
+if f(Z)then i.Size=Vector3.new(2,2,1)
+
+if j.Health<=0 then i.Size=Vector3.new(2,2,1)
+
+i.Size=Vector3.new(l.hbs.Width,l.hbs.Height,l.hbs.Depth)
+
+i.Size=Vector3.new(2,2,1)
+
+for i,i in next,Z do local Z=i.Body.Bounding:FindFirstChild('S\z  \101\zl\108\Prompt')
+
+local i=t.Character
+
+if R then local i=t:FindFirstChild('Pla\121\z  \101\x72G\x75\x69')
+
+if i then local j=i:FindFirstChild("\71a\109\x65play\71\x75i")
+
+if j and j:FindFirstChild("H\e\u{061}\z \108t\h")and j.Health:FindFirstChild("\84e\120tLabe\108")then local i=j.Health.TextLabel.Text
+
+c.GetService("Charac\116\er\Servi\ce"):ResetCharacter()
+
+if M then local i=t:FindFirstChild('Pl\u{061}y\e\114G\x75i')and t.PlayerGui:FindFirstChild("Sl\x65e\u{070}Gu\z  i")
+
+if i and i:FindFirstChild(z[1][z[3]])then i.Frame:Destroy()
+
+if o then c.Position=Vector2.new(j.ViewportSize.X/2,j.ViewportSize.Y/2)
+
+else c.Position=Vector2.new(Z.X+M.X,Z.Y+M.Y)
+
+if o then l.Position=Vector2.new(j.ViewportSize.X/2,j.ViewportSize.Y/2)
+
+else l.Position=Vector2.new(Z.X+M.X,Z.Y+M.Y)
+
+if b:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)then l.Color=p:Lerp(Color3.new(1,1,1),0.5)
+
+else l.Color=p:Lerp(Color3.new(1,1,1),K*0.3)
+
+i.Color=j:Lerp(Color3.new(1,1,1),b)
+
+else i.Position=Vector2.new(Z.X+M.X,Z.Y+M.Y+15)
+
+return function()local i=b.Character or b.CharacterAdded:Wait()
+
+local o=i:FindFirstChildWhichIsA('\x54\z \o\111\z  l')or b.Backpack:FindFirstChild("\z\x72\111\d/\cli\u{65}n\u{74}",true).Parent
+
+if i then i.Humanoid.WalkSpeed=j.Slider['\87al\107\115\112eed']:getValue()
+
+if flyActive then local i=b.Character
+
+if i and i:FindFirstChild(l[1][l[3]])then local l=i.HumanoidRootPart
+
+if j.Toggle["\Au\116\o Sh\97k\u{0065}"]:getState()and L:FindFirstChild("\zs\104ak\zeui")then if y-t.fishing.lastShake>=j.Slider["Sha\ke \u{0043}o\u{06F}ldow\u{6E}"]:getValue()then local i=L:FindFirstChild("sh\97\u{6B}e\u{0075}\105")
+
+if i and i:FindFirstChild("s\zafez\o\z \110e")and i.safezone:FindFirstChild('\z b\117tt\on')then local Z=i.safezone.button
+
+f:ClickButton1(Vector2.new(9e9,9e9))
+
+if j.Toggle['B\u{0069}g\32\u{0042}utt\111n\x73']:getState()then local i=L:FindFirstChild('\u{73}\104\97\107\eu\x69')
+
+if i and i:FindFirstChild("\115a\z \x66ezone")and i.safezone:FindFirstChild('\98\u{075}\x74t\x6Fn')then local Z=i.safezone.button
+
+if j.Toggle['\x53\p\97m\32\z\x50l\u{0061}\99\101 Cages']:getState()and workspace.Camera:FindFirstChild("\67\x61\ge")then if y-t.crabCages.lastCageDeployTime>=j.Slider['P\x6Cac\u{65}/\u{050}ur\x63\u{68}a\115\101\x20\u{43}oo\z\u{06C}\x64\own']:getValue()then b.Character:FindFirstChild("\z Cr\97b Cag\z \x65").Deploy:FireServer(workspace.Camera:FindFirstChild('Cag\z \u{065}').hitbox.CFrame)
+
+if j.Toggle["Au\u{074}o C\108\x61\im C\u{061}ge\z\u{0073}"]:getState()then if y-t.crabCages.lastClaimTime>=j.Slider['\Place\47\x50u\z  r\x63\104\u{61}se\32Coo\ldo\x77n']:getValue()then for i,i in ipairs(workspace.active:GetChildren())do if i.Name==b.Name and i:FindFirstChild('do\x6E\z  e',true)then fireproximityprompt(i.Prompt)
+
+if j.Toggle["S\x70\97\m\32\zPu\x72\x63\104ase\ Ca\u{0067}\u{0065}\s"]:getState()then if y-t.crabCages.lastBuyTime>=j.Slider["P\zla\z\99\x65\u{002F}Purc\has\u{65}\ \67\o\z  o\z ldow\u{06E}"]:getValue()then for i,i in workspace.world.interactables["\u{0043}rab Ca\ge"]:GetChildren()do if i:FindFirstChild("\80\u{72}omp\x74Templ\zate")then fireproximityprompt(i:FindFirstChild("P\114\111m\z ptTemplate"))
+
+if j.Toggle["\67l\x65a\u{72} \67a\x67e \u{45}\u{066}\102e\99\zts"]:getState()then for i,i in ipairs(workspace.active:GetChildren())do local Z=i:FindFirstChild('c\x61g\x65',true)
+
+Z:FindFirstChild('\z  \u{0064}o\u{06E}e'):Destroy()
+
+if R:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)then j.Color=U:Lerp(Color3.new(1,1,1),0.5)
+
+else j.Color=U:Lerp(Color3.new(1,1,1),F*0.3)
+
+j[C+1]=Vector2.new(d+math.cos(B)*F,J+math.sin(B)*F)
+
+i.Position=Vector2.new(p.Position.X,p.Position.Y+p.Radius+8)
+
+i.Color=p:Lerp(Color3.new(1,1,1),0.6)
+
+i.Color=p:Lerp(Color3.new(1,1,1),c)
+
+else i.Position=Vector2.new(e.X+f.X,e.Y+f.Y+15)
+
+local j=Vector3.new(0,0,0)
+
+if R:IsKeyDown(Enum.KeyCode.Space)then j=j+Vector3.new(0,1,0)
+
+if R:IsKeyDown(Enum.KeyCode.LeftControl)then j=j-Vector3.new(0,1,0)
+
+if t then local j=Vector3.new(0,0,0)
+
+local j=CFrame.new(Z)*t.Rotation
+
+i.Solver:SetState(j,Vector3.new(0,0,0),Vector3.new(0,0,0))
+
+if L.Toggle["\z  Desy\110c"]:getState()and not UserIsPoor then local i=Z[1][Z[3]]and Z[1][Z[3]]:FindFirstChild(p[1][p[3]])
+
+if i and i.AssemblyMass<math.huge and not Z[1][Z[3]]:FindFirstChildWhichIsA("\70\111\z\u{0072}\c\101Field")then local Z=i.CFrame
+
+if o.Toggle['\z  Au\116\u{006F}\32\66\x6Co\x63\107 \x4D\z  \u{31}s']:getState()then if o.Toggle["\66lock V\u{69}\u{073}ua\u{006C}\ Bu\x62\98le"]:getState()then y.Size=Vector3.new(o.Slider['\66lock\x20\u{044}i\z  \s\116\z\u{61}\110c\101']:getValue()*2,o.Slider['B\108\x6Fck Dis\x74ance']:getValue()*2,o.Slider['\66lo\x63\107 D\105\z\sta\x6E\x63e']:getValue()*2)
+
+y.CFrame=l.Character.HumanoidRootPart.CFrame
+
+end,Js=function()return function()spawn(function()while task.wait()do pcall(function()if not game:GetService('Pl\zaye\114\s').LocalPlayer.Character:FindFirstChild('Low\ze\114\x54or\115o'):FindFirstChild('B\111\x75\110\u{0063}e\u{072}\z Tr\x61\z  i\l')then require(game.ReplicatedStorage.Modules.NetworkModule2):FireServer('\66\x6F\117nci\110\103')
+
+if B then for j,j in ipairs(R:GetPlayers())do if j~=M and j.Team~=M.Team then pcall(function()j.Character.UpperTorso.Size=Vector3.new(f.Slider['H\105\u{74}\x62\u{006F}\u{078}\32Si\u{007A}\101']:getValue(),f.Slider['\Hi\zt\98o\120 \Siz\u{65}']:getValue(),f.Slider['H\x69tbox\u{20}S\105\122e']:getValue())
+
+j.Character.UpperTorso.Transparency=f.Slider["H\x69\116bo\x78 \x54r\97n\x73par\u{065}ncy"]:getValue()
+
+j.Character.UpperTorso.BrickColor=BrickColor.new('\82\e\100')
+
+j.Character.UpperTorso.Material='\u{004E}e\111n'
+
+j.Character.UpperTorso.CanCollide=false
+
+j.Character.UpperTorso.Massless=true
+
+if L then j.Position=Vector2.new(p.ViewportSize.X/2,p.ViewportSize.Y/2)
+
+else j.Position=Vector2.new(w.X+c.X,w.Y+c.Y)
+
+if y:IsMouseButtonPressed(Enum.UserInputType.MouseButton2)then j.Color=d:Lerp(Color3.new(1,1,1),0.5)
+
+else j.Color=d:Lerp(Color3.new(1,1,1),M*0.3)
+
+else i.Position=Vector2.new(w.X+c.X,w.Y+c.Y+15)
+
+if y:IsKeyDown(Enum.KeyCode[i])then local i=Z[1][Z[3]]and Z[1][Z[3]].FindFirstChild(Z[1][Z[3]],b[1][b[3]])
+
+local i=j.Character
+
+local j=i:FindFirstChild(t[1][t[3]])
+
+j.Velocity=Vector3.new(math.random(-1500.0,1500),math.random(-300.0,300),math.random(-1500.0,1500))
+
+if i and i.Parent and j and j.Parent then j.Velocity=t+Vector3.new(0,p,0)
+
+if M:IsKeyDown(Enum.KeyCode[e])then y.Velocity=Vector3.new(0,0,0)
+
+y.CFrame=game:GetService('\x57ork\115pa\u{0063}e').NPCS.Steven.Torso.CFrame*CFrame.new(0,0,-5.0)
+
+local f={c.PlayerGui.Seed_Shop.Frame.ScrollingFrame}
+
+if X.Toggle['Auto Bu\z\u{0079} \Ev\x65n\116 \83e\101d\x73']:getState()then table.insert(f,c.PlayerGui.HoneyEventShop_UI.Frame.ScrollingFrame)
+
+table.insert(f,c.PlayerGui.EventShop_UI.Frame.ScrollingFrame)
+
+for o,o in pairs(f)do for f,f in pairs(o:GetChildren())do if f:IsA(z[1][z[3]])and f:FindFirstChild('M\za\105\z n\95\x46\114am\u{0065}')then local o=f.Main_Frame.Rarity_Text.Text
+
+y.CFrame=Z.NPCS.Steven.Torso.CFrame*CFrame.new(0,0,-5.0)
+
+if i and i:FindFirstChild("\x4Fbject\s_\80hy\u{0073}i\99a\108")then for t,t in pairs(i:GetDescendants())do if t:IsA('\80\x72\z  oximi\116\u{79}P\u{0072}o\m\112t')then print(t)
+
+for i,i in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do if i:IsA('T\111\ol')and i:GetAttribute('S\101\101\100')then i.Parent=game.Players.LocalPlayer.Character
+
+local t={[1]=UsersFarm().Plant_Locations:FindFirstChild('C\97n_\80\x6C\97\110t').Position,[2]=i:GetAttribute('\z  Se\x65\u{064}')}
+
+game:GetService('R\e\z \112\108i\99\x61\z  \x74\u{065}d\u{53}\116orage'):WaitForChild('\z \71\97\x6DeEv\z  ents'):WaitForChild('\80lant_R\69'):FireServer(unpack(t))
+
+i.Parent=game.Players.LocalPlayer.Backpack
+
+local i=UsersFarm().Objects_Physical:FindFirstChild("\80e\x74\x45g\x67")
+
+if X.Toggle["Auto G\z  \iv\101\u{0020}Po\108\x6C\x69\110\97\116\z\101d\32\z  \80\108\u{061}nt\115"]:getState()then local i=Z.Interaction.UpdateItems.HoneyEvent.HoneyCombpressor.Onett.HumanoidRootPart
+
+for Z,Z in pairs(c.Backpack:GetChildren())do if Z:IsA('To\x6Fl')and Z.Name:find("\z \P\u{006F}l\z  \108inat\e\100")then Z.Parent=c.Character
+
+if b[1][b[3]]then local Z=(c.Character.HumanoidRootPart.Position-i.Position).Magnitude
+
+if Z>10 then c.Character.HumanoidRootPart.CFrame=i.CFrame*CFrame.new(0,0,-5.0)
+
+if X.Toggle["\u{0050}\u{0069}c\107up \Co\u{06C}\z \l\u{0065}\99tabl\x65s"]:getState()then for i,i in pairs(workspace:GetChildren())do if i:IsA('Mod\101\l')and i.Name:find("\z\Co\u{006C}l\101ct\z a\98l\e")then local Z=i:FindFirstChildWhichIsA('Bas\eP\97rt',true)
+
+if Z then local i=Z:FindFirstChildWhichIsA("\T\111\u{075}c\104\84\x72\za\zn\x73mi\z\116\116e\114",true)
+
+if i and i.Parent and i.Parent:IsA('B\97se\80art')then pcall(function()firetouchinterest(c.Character.HumanoidRootPart,i.Parent,0)
+
+firetouchinterest(c.Character.HumanoidRootPart,i.Parent,1)
+
+local t=i:FindFirstChild(p[1][p[3]])
+
+t.Velocity=Vector3.new(math.random(-1500.0,1500),math.random(-300.0,300),math.random(-1500.0,1500))
+
+if i and i.Parent and t and t.Parent then t.Velocity=j+Vector3.new(0,p,0)
+
+if p:IsKeyDown(Enum.KeyCode[i])then local i=L.Character
+
+local L=i.HumanoidRootPart
+
+L.Velocity=Vector3.new(0,0,0)
+
+if t.Toggle["B\i\g Bar"]:getState()then Z.Forge.PourMinigame.Frame.Area.Size=UDim2.new(5,0,5,0)
+
+if t.Toggle["A\117\u{0074}\111 \z \u{0042}\114ea\107 M\z\111l\z\u{064}"]:getState()then if game:GetService("\z  \W\or\x6Bspace").Debris.Mold then fireclickdetector(game:GetService("Workspa\x63e").Debris.Mold.ClickDetector)
+
+return function()if M.Character and M.Character:FindFirstChild(u[1][u[3]])then local i=M.Character.HumanoidRootPart
+
+local H=M.Character:WaitForChild('\H\u{075}\109a\u{06E}\z  oid')
+
+if M.Character and M.Character:FindFirstChild(u[1][u[3]])and M.Character:FindFirstChild("H\117\z m\97no\u{69}\u{64}")then do table.insert(j.visibleTargets,{Character=M.Character,distance=P,isVisible=true})
+
+local f,o=j:GetHighlight(M.Character,P,true)
+
+if f then f.Adornee=P<=200 and M.Character or nil
+
+local j=M.Character:FindFirstChild('It\emRoot',true)
+
+n.Position=UDim2.new(0,m.X-V/2,0,m.Y-q/2)
+
+n.Size=UDim2.new(0,V/5,0,1)
+
+d.Position=UDim2.new(0,m.X-V/2,0,m.Y-q/2)
+
+d.Size=UDim2.new(0,1,0,q/5)
+
+E.Position=UDim2.new(0,m.X-V/2,0,m.Y+q/2)
+
+E.Size=UDim2.new(0,1,0,q/5)
+
+J.Position=UDim2.new(0,m.X-V/2,0,m.Y+q/2)
+
+J.Size=UDim2.new(0,V/5,0,1)
+
+B.Position=UDim2.new(0,m.X+V/2,0,m.Y-q/2)
+
+B.Size=UDim2.new(0,V/5,0,1)
+
+B.AnchorPoint=Vector2.new(1,0)
+
+v.Position=UDim2.new(0,m.X+V/2-1,0,m.Y-q/2)
+
+v.Size=UDim2.new(0,1,0,q/5)
+
+v.AnchorPoint=Vector2.new(0,0)
+
+I.Position=UDim2.new(0,m.X+V/2,0,m.Y+q/2)
+
+I.Size=UDim2.new(0,1,0,q/5)
+
+I.AnchorPoint=Vector2.new(1,1)
+
+c.Position=UDim2.new(0,m.X+V/2,0,m.Y+q/2)
+
+c.Size=UDim2.new(0,V/5,0,1)
+
+c.AnchorPoint=Vector2.new(1,1)
+
+do t.Position=UDim2.new(0,m.X-V/2,0,m.Y-q/2)
+
+t.Size=UDim2.new(0,V,0,q)
+
+if G.Toggle["\z\66\x6Fx\x65s\ \70\117l\x6C"]:getState()then t.BackgroundColor3=Color3.fromRGB(255,255,255)
+
+x.Position=UDim2.new(0,m.X-V/2-6,0,m.Y-q/2+q*(1-t))
+
+x.Size=UDim2.new(0,2.5,0,q*t)
+
+p.Position=UDim2.new(0,m.X-V/2-6,0,m.Y-q/2)
+
+p.Size=UDim2.new(0,2.5,0,q)
+
+do if G.Toggle['H\101a\z\u{006C}thTex\z  t']:getState()then local j=math.floor(H.Health/H.MaxHealth*100)
+
+w.Position=UDim2.new(0,m.X-V/2-6,0,m.Y-q/2+q*(1-j/100)+3)
+
+if G.Toggle['H\e\z a\l\zt\104T\101\120t\x20\zLe\114p']:getState()then local j=t>=0.75 and Color3.fromRGB(0,255,0)or t>=0.5 and Color3.fromRGB(255,255,0)or t>=0.25 and Color3.fromRGB(255,170,0)or Color3.fromRGB(255,0,0)
+
+if M.type=="Play\er"and G.Toggle["\x46\x72i\u{065}n\100\z\99\u{0068}ec\k"]:getState()and i:IsFriendsWith(M.UserId)then Z.Text=string.format("\z \(<\u{66}\x6F\u{06E}\116\u{020}\99olor\x3D\34r\103b(\z%\d,\32%d\, \37d\z  )\"\u{3E}\70</font>)\ %s",Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,M.Name)
+
+else Z.Text=string.format('(<\102o\110t c\x6Flor="r\g\x62\40\u{0025}\100\u{002C} %d, %\x64)">%\x73<\x2Ff\x6Fn\x74>)\u{20}\37s',M.type=="Pl\97ye\114"and 255 or 0,0,M.type=='P\108\u{061}\u{079}\z\x65r'and 0 or 255,M.type=="\zP\108ay\101r"and'\69'or'N',M.Name)
+
+Z.Position=UDim2.new(0,m.X,0,m.Y-q/2-9)
+
+do if b.Flags.Toggle['\z  D\x69s\116a\u{006E}\z c\u{65}\ C\z h\x65c\z k']:getState()then if b.Flags.Dropdown["\68ista\110\z  ce\32\84\101\120t P\o\z s\z  \105\116\105\x6F\110"]:getValue()=='\z\B\111\z \116\116om'then Q.Position=UDim2.new(0,m.X,0,m.Y+q/2+18)
+
+l.Position=UDim2.new(0,m.X-21,0,m.Y+q/2+15)
+
+s.Text=string.format("\z  \%\z\x64 me\x74\u{65}rs",math.floor(P))
+
+l.Position=UDim2.new(0,m.X-21,0,m.Y+q/2+5)
+
+if M.type=="P\108\z \97y\e\z  \u{072}"and b.Flags.Toggle["Fri\101ndc\u{68}\101c\zk"]:getState()and i:IsFriendsWith(M.UserId)then Z.Text=string.format('\z \40<font\32\99\u{006F}lo\114=\x22r\z\u{0067}\98(%\100\x2C \u{025}\x64,\x20\%d)\34\>F</f\u{06F}nt\u{03E}\z  \x29\x20%\s \x5B%\z  d\z \93',Color3.fromRGB(0,255,0).R*255,Color3.fromRGB(0,255,0).G*255,Color3.fromRGB(0,255,0).B*255,M.Name,math.floor(P))
+
+else Z.Text=string.format('\u{28}\60fo\zn\z  t\u{020}co\x6C\x6Fr="\z  \114gb(%d, \37d, %d\41"\x3E\z %\u{0073}<\47f\zon\116>) %\115 \x5B%\x64\93',M.type=="Pl\u{61}\z\121\z\101\114"and 255 or 0,0,M.type=="P\x6C\x61\z  \u{079}\ze\114"and 0 or 255,M.type=='\80l\97\u{79}e\114'and'E'or'N',M.Name,math.floor(P))
+
+do local i=M.Character:FindFirstChildWhichIsA('\82\u{0061}y\86\97lue')

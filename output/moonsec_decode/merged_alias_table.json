@@ -1,0 +1,140 @@
+{
+  "rvwScOhk": {
+    "opcode": 4,
+    "parent_or_value": "tonumber",
+    "field": null,
+    "meaning": "_ENV['tonumber']"
+  },
+  "GtHyR_mw": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "char",
+    "meaning": "_ENV['string']['char']"
+  },
+  "dSrDYsTB": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "sub",
+    "meaning": "_ENV['string']['sub']"
+  },
+  "gjeX_bzq": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "byte",
+    "meaning": "_ENV['string']['byte']"
+  },
+  "rZFaKTvv": {
+    "opcode": 0,
+    "parent_or_value": "table",
+    "field": "concat",
+    "meaning": "_ENV['table']['concat']"
+  },
+  "ZKyD_Bgp": {
+    "opcode": 0,
+    "parent_or_value": "table",
+    "field": "insert",
+    "meaning": "_ENV['table']['insert']"
+  },
+  "igeSxLoX": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "dump",
+    "meaning": "_ENV['string']['dump']"
+  },
+  "yxGuFFVq": {
+    "opcode": 4,
+    "parent_or_value": "pcall",
+    "field": null,
+    "meaning": "_ENV['pcall']"
+  },
+  "dTLnQGzl": {
+    "opcode": 1,
+    "parent_or_value": "print",
+    "field": null,
+    "meaning": "literal 'print'"
+  },
+  "wvQHXIjx": {
+    "opcode": 0,
+    "parent_or_value": "string",
+    "field": "match",
+    "meaning": "_ENV['string']['match']"
+  },
+  "vjpMQaCP": {
+    "opcode": 0,
+    "parent_or_value": "math",
+    "field": "ldexp",
+    "meaning": "_ENV['math']['ldexp']"
+  },
+  "sFkFtTFe": {
+    "opcode": 4,
+    "parent_or_value": "setmetatable",
+    "field": null,
+    "meaning": "_ENV['setmetatable']"
+  },
+  "MpigoyyM": {
+    "opcode": 4,
+    "parent_or_value": "Vector3",
+    "field": null,
+    "meaning": "_ENV['Vector3']"
+  },
+  "pWwjyFaE": {
+    "opcode": 4,
+    "parent_or_value": "wait",
+    "field": null,
+    "meaning": "_ENV['wait']"
+  },
+  "SWGWuEpv": {
+    "opcode": 2,
+    "parent_or_value": "9",
+    "field": null,
+    "meaning": "tonumber('9')"
+  },
+  "Hx_mYSzf": {
+    "opcode": 4,
+    "parent_or_value": "tostring",
+    "field": null,
+    "meaning": "_ENV['tostring']"
+  },
+  "hiyaeZuR": {
+    "opcode": 0,
+    "parent_or_value": "table",
+    "field": "unpack",
+    "meaning": "_ENV['table']['unpack']"
+  },
+  "OJmphWrn": {
+    "opcode": 4,
+    "parent_or_value": "unpack",
+    "field": null,
+    "meaning": "_ENV['unpack']"
+  },
+  "EiqfqVrY": {
+    "opcode": 4,
+    "parent_or_value": "print",
+    "field": null,
+    "meaning": "_ENV['print']"
+  },
+  "BMCQisQT": {
+    "opcode": 6,
+    "parent_or_value": "tostring",
+    "field": null,
+    "meaning": "closure in _ENV['tostring'] (== literal 'tostring' for s[])"
+  },
+  "donkeyLO": {
+    "opcode": 6,
+    "parent_or_value": "print",
+    "field": null,
+    "meaning": "closure in _ENV['print'] (== literal 'print' for s[])"
+  },
+  "rUurIQyh": {
+    "opcode": 4,
+    "parent_or_value": "select",
+    "field": null,
+    "meaning": "_ENV['select']"
+  },
+  "WnEwQZ_Q": {
+    "opcode": 0,
+    "parent_or_value": "math",
+    "field": "floor",
+    "meaning": "_ENV['math']['floor']"
+  }
+}

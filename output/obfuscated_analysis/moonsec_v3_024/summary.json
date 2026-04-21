@@ -1,0 +1,70 @@
+{
+  "chunk": 24,
+  "flavor": "moonsec_v3",
+  "body_bytes": 76158,
+  "string_literals": 35,
+  "decoded_unique": 17,
+  "total_tokens_hit": 4,
+  "unique_tokens_hit": 2,
+  "top_api_pairs": [
+    [
+      [
+        "Ajz",
+        "OUzi"
+      ],
+      1
+    ],
+    [
+      [
+        "SBG",
+        "SiD"
+      ],
+      1
+    ],
+    [
+      [
+        "Sz",
+        "fozz0"
+      ],
+      1
+    ],
+    [
+      [
+        "OUzi",
+        "GzSJ"
+      ],
+      1
+    ],
+    [
+      [
+        "K0UU2i0GZizD",
+        "Hzlz"
+      ],
+      1
+    ],
+    [
+      [
+        "DlzH07zjS8XzB",
+        "z"
+      ],
+      1
+    ],
+    [
+      [
+        "Gii8GzS",
+        "Dz"
+      ],
+      1
+    ]
+  ],
+  "top_tokens": [
+    [
+      "getfenv",
+      3
+    ],
+    [
+      "setmetatable",
+      1
+    ]
+  ]
+}

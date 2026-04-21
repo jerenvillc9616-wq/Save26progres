@@ -1,0 +1,6 @@
+s['rvwScOhk'] = _ENV['tonumber']
+s['GtHyR_mw'] = _ENV['string']['char']
+s['dSrDYsTB'] = _ENV['string']['sub']
+s['gjeX_bzq'] = _ENV['string']['byte']
+s['rZFaKTvv'] = _ENV['table']['concat']
+s['ZKyD_Bgp'] = _ENV['table']['insert']
